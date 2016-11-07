@@ -5,4 +5,8 @@ CONFIG -= qt
 
 LIBS += -llapack -lblas -larmadillo
 
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    ising.cpp
+
+HEADERS += \
+    ising.h
