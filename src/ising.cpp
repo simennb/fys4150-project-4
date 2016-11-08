@@ -1,4 +1,5 @@
 #include "ising.h"
+#include "functions.h"
 #include <iostream>
 #include <iomanip>
 #include <string>
@@ -16,15 +17,49 @@ void Ising(int L, int MC_cycles)
     return;
 }
 
-void InitializeLattice(int L, mat &SpinMatrix, double &E, double &M)
+void InitializeLattice(int L, mat &SpinMatrix, double &E, double &M, string direction, double &RD)
 {
     // Initialize spin matrix and magnetic moment
-    for (int i=0; i<L; i++){
-        for (int j=0; j<L; j++){
-            SpinMatrix(i,j) = 1;
-            M += (double) SpinMatrix(i,j);
+    if (direction == "up")
+    {
+        for (int i=0; i<L; i++){
+            for (int j=0; j<L; j++){
+                SpinMatrix(i,j) = 1;
+                M += (double) SpinMatrix(i,j);
+            }
         }
     }
+    else if (direction == "rand")
+    {
+        for (int i=0; i<L; i++){
+            for (int j=0; j<L; j++){
+                if (RD >= 0.5)
+                {
+                    SpinMatrix(i,j) = 1;
+                }
+                else
+                {
+                    SpinMatrix(i,j) = -1;
+                }
+                M += (double) SpinMatrix(i,j);
+            }
+        }
+    }
+    else if (direction == "down")
+    {
+        for (int i=0; i<L; i++){
+            for (int j=0; j<L; j++){
+                SpinMatrix(i,j) = -1;
+                M += (double) SpinMatrix(i,j);
+            }
+        }
+    }
+    else
+    {
+       cout << "Direction must be set to either up, down or rand." << endl;
+       return;
+    }
+
     // Initialize E
     for (int i=0; i<L; i++){
         for (int j=0; j<L; j++){
@@ -36,7 +71,7 @@ void InitializeLattice(int L, mat &SpinMatrix, double &E, double &M)
     return;
 }
 
-void Metropolis(int L, int MCcycles, double T, vec &ExpectationValues)
+void Metropolis(int L, int MCcycles, double T, vec &ExpectationValues, char const *dir)
 {
     // Initialize random number generator
     std::random_device rd;  // rd() returns a number, so for parallelization add or subtract rank
@@ -46,7 +81,9 @@ void Metropolis(int L, int MCcycles, double T, vec &ExpectationValues)
     // initializing stuff
     mat SpinMatrix = zeros<mat>(L,L);
     double E = 0.0; double M = 0.0;
-    InitializeLattice(L,SpinMatrix,E,M);
+    double RD = RandomNumberGenerator(gen); //should we put this inside the loop? Look at time usage
+
+    InitializeLattice(L,SpinMatrix,E,M, dir, RD);
 
     vec EnergyDifference = zeros<mat>(17);
 
@@ -81,9 +118,9 @@ void Metropolis(int L, int MCcycles, double T, vec &ExpectationValues)
     return;
 }
 
-void WriteToFile(int L, int MCcycles, double T, vec &ExpectationValues)
-{
-    // Currently only prints out
+void WriteToFile(int L, int MCcycles, double T, vec &ExpectationValues, string filename)
+{   
+    // Currently print outs and write to file
     double norm = 1.0/((double)MCcycles);
     double E_exp    = ExpectationValues(0)*norm;
     double E2_exp   = ExpectationValues(1)*norm;
@@ -94,11 +131,23 @@ void WriteToFile(int L, int MCcycles, double T, vec &ExpectationValues)
     double E_variance = (E2_exp - E_exp*E_exp)/L/L;
     double M_variance = (M2_exp - Mabs_exp*Mabs_exp)/L/L;
 
+    cout<<"MCcycles = "<<setprecision(8)<<MCcycles<<endl;
     cout<<"T = "<<setprecision(8)<<T<<endl;
     cout<<"< E >   = "<<setprecision(8)<<E_exp<<endl;
     cout<<"<|M|>   = "<<setprecision(8)<<Mabs_exp<<endl;
     cout<<"sigma_E = "<<setprecision(8)<<E_variance<<endl;
     cout<<"sigma_M = "<<setprecision(8)<<M_variance<<endl;
 
+    cout << filename.c_str() << endl;
+    ofstream ofile;
+    ofile.open(filename.c_str());
+    ofile<<setiosflags(ios::showpoint | ios::uppercase);
+    ofile<<"MCcycles = "<<setprecision(8)<<MCcycles<<endl;
+    ofile<<"T = "<<setprecision(8)<<T<<endl;
+    ofile<<"< E >   = "<<setprecision(8)<<E_exp<<endl;
+    ofile<<"<|M|>   = "<<setprecision(8)<<Mabs_exp<<endl;
+    ofile<<"sigma_E = "<<setprecision(8)<<E_variance<<endl;
+    ofile<<"sigma_M = "<<setprecision(8)<<M_variance<<endl;
+    ofile.close();
     return;
 }
