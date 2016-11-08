@@ -86,12 +86,12 @@ int main(int argc, char *argv[])
     if (strcmp(argv[1], "b") == 0)
     {
     // Task b)
-        string filename = "../benchmarks/task_b/eigenvalues_MC"+to_scieni(MC_cycles, 1) + "_dim"+to_string(L)+"_dir" + stringdir + "_T" + to_string(T) +".xyz";
+        string filename = "../benchmarks/task_b/eigenvalues_MC"+to_scieni(MC_cycles, 1) + "_dim"+to_string(L)+"_dir" + stringdir + "_T" + to_fixf(T, 1) +".xyz";
         vec ExpectationValues = zeros<mat>(5);
 
-        Metropolis(L, MC_cycles, T, ExpectationValues, stringdir);
+        Metropolis(L, MC_cycles, T, ExpectationValues, stringdir, filename);
 
-        WriteToFile(L, MC_cycles, T, ExpectationValues, filename);
+        //WriteToFile(L, MC_cycles, T, ExpectationValues, filename);
 
         return 0;
     }
@@ -99,13 +99,17 @@ int main(int argc, char *argv[])
     else if (strcmp(argv[1], "c") == 0)
     {
         //Creating filename
-        string filename = "../benchmarks/task_c/eigenvalues_MC"+to_scieni(MC_cycles, 1) + "_dim"+to_string(L)+"_dir" + stringdir + "_T" + to_string(T) +".xyz";
+        string filename = "../benchmarks/task_c/eigenvalues_MC"+to_scieni(MC_cycles, 1) + "_dim"+to_string(L)+"_dir" + stringdir + "_T" + to_fixf(T, 1) +".xyz";
         vec ExpectationValues = zeros<mat>(5);
 
-        Metropolis(L, MC_cycles, T, ExpectationValues, stringdir);
+        ofstream m_file;
+        m_file.open(filename);
 
-        WriteToFile(L, MC_cycles, T, ExpectationValues, filename);
+        Metropolis(L, MC_cycles, T, ExpectationValues, stringdir, filename);
 
+        //WriteToFile(L, MC_cycles, T, ExpectationValues, filename);
+
+        m_file.close();
         return 0;
     }
 
