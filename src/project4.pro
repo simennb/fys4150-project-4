@@ -6,7 +6,9 @@ CONFIG -= qt
 LIBS += -llapack -lblas -larmadillo
 
 SOURCES += main.cpp \
-    ising.cpp
+    ising.cpp \
+    functions.cpp
 
 HEADERS += \
-    ising.h
+    ising.h \
+    functions.h
