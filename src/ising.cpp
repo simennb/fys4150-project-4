@@ -17,8 +17,13 @@ void Ising(int L, int MC_cycles)
     return;
 }
 
-void InitializeLattice(int L, mat &SpinMatrix, double &E, double &M, string direction, double &RD)
+void InitializeLattice(int L, mat &SpinMatrix, double &E, double &M, string direction)
 {
+    // Initialize random number generator
+    std::random_device rd;  // rd() returns a number, so for parallelization add or subtract rank
+    std::mt19937_64 gen(rd());
+    std::uniform_real_distribution<double> RandomNumberGenerator(0.0,1.0);
+
     // Initialize spin matrix and magnetic moment
     if (direction == "up")
     {
@@ -32,6 +37,7 @@ void InitializeLattice(int L, mat &SpinMatrix, double &E, double &M, string dire
     else if (direction == "rand")
     {
         for (int i=0; i<L; i++){
+            double RD = RandomNumberGenerator(gen);
             for (int j=0; j<L; j++){
                 if (RD >= 0.5)
                 {
@@ -71,7 +77,7 @@ void InitializeLattice(int L, mat &SpinMatrix, double &E, double &M, string dire
     return;
 }
 
-void Metropolis(int L, int MCcycles, double T, vec &ExpectationValues, char const *dir)
+void Metropolis(int L, int MCcycles, double T, vec &ExpectationValues, char const *dir, string filename)
 {
     // Initialize random number generator
     std::random_device rd;  // rd() returns a number, so for parallelization add or subtract rank
@@ -81,13 +87,16 @@ void Metropolis(int L, int MCcycles, double T, vec &ExpectationValues, char cons
     // initializing stuff
     mat SpinMatrix = zeros<mat>(L,L);
     double E = 0.0; double M = 0.0;
-    double RD = RandomNumberGenerator(gen); //should we put this inside the loop? Look at time usage
 
-    InitializeLattice(L,SpinMatrix,E,M, dir, RD);
+    InitializeLattice(L,SpinMatrix,E,M, dir);
 
     vec EnergyDifference = zeros<mat>(17);
 
+    int r_counter = 0;
+    int N_counter = 1000;
+
     for( int de =-8; de <= 8; de+=4) EnergyDifference(de+8) = exp(-de/T);
+
     // Start Monte Carlo cycles
     for (int cycles = 1; cycles <= MCcycles; cycles++){
         // The sweep over the lattice, looping over all spin sites
@@ -100,10 +109,12 @@ void Metropolis(int L, int MCcycles, double T, vec &ExpectationValues, char cons
                                  SpinMatrix( periodic(ix,L,-1), iy )+
                                  SpinMatrix( ix, periodic(iy,L, 1) )+
                                  SpinMatrix( periodic(ix,L,1), iy) );
-                if ( RandomNumberGenerator(gen) <= EnergyDifference(deltaE+8) ) {
+                if ( RandomNumberGenerator(gen) <= EnergyDifference(deltaE+8) )
+                {
                     SpinMatrix(ix,iy) *= -1.0;  // flip one spin and accept new spin config
                     M += (double) 2*SpinMatrix(ix,iy);
                     E += (double) deltaE;
+                    r_counter += 1;
                 }
             }
         }
@@ -113,12 +124,18 @@ void Metropolis(int L, int MCcycles, double T, vec &ExpectationValues, char cons
         ExpectationValues(2) += M;
         ExpectationValues(3) += M*M;
         ExpectationValues(4) += fabs(M);
+
+        if (cycles == N_counter)
+        {
+         WriteToFile(L, cycles, T, r_counter, ExpectationValues, filename);
+         N_counter += MCcycles/1000;
+        }
     }
 
     return;
 }
 
-void WriteToFile(int L, int MCcycles, double T, vec &ExpectationValues, string filename)
+void WriteToFile(int L, int MCcycles, double T, int r_counter, vec &ExpectationValues, string filename)
 {   
     // Currently print outs and write to file
     double norm = 1.0/((double)MCcycles);
@@ -131,23 +148,33 @@ void WriteToFile(int L, int MCcycles, double T, vec &ExpectationValues, string f
     double E_variance = (E2_exp - E_exp*E_exp)/L/L;
     double M_variance = (M2_exp - Mabs_exp*Mabs_exp)/L/L;
 
-    cout<<"MCcycles = "<<setprecision(8)<<MCcycles<<endl;
+    /*cout<<"MCcycles = "<<setprecision(8)<<MCcycles<<endl;
     cout<<"T = "<<setprecision(8)<<T<<endl;
     cout<<"< E >   = "<<setprecision(8)<<E_exp<<endl;
     cout<<"<|M|>   = "<<setprecision(8)<<Mabs_exp<<endl;
     cout<<"sigma_E = "<<setprecision(8)<<E_variance<<endl;
     cout<<"sigma_M = "<<setprecision(8)<<M_variance<<endl;
+    cout<<"r_counter = "<<setprecision(8)<<r_counter<<endl;
 
-    cout << filename.c_str() << endl;
-    ofstream ofile;
-    ofile.open(filename.c_str());
-    ofile<<setiosflags(ios::showpoint | ios::uppercase);
-    ofile<<"MCcycles = "<<setprecision(8)<<MCcycles<<endl;
-    ofile<<"T = "<<setprecision(8)<<T<<endl;
-    ofile<<"< E >   = "<<setprecision(8)<<E_exp<<endl;
-    ofile<<"<|M|>   = "<<setprecision(8)<<Mabs_exp<<endl;
-    ofile<<"sigma_E = "<<setprecision(8)<<E_variance<<endl;
-    ofile<<"sigma_M = "<<setprecision(8)<<M_variance<<endl;
-    ofile.close();
+    ofstream m_file;
+    if(!m_file.good()) {
+        m_file.open(filename.c_str(), ofstream::out);
+        if(!m_file.good()) {
+            cout << "Error opening file " << filename << ". Aborting!" << endl;
+            terminate();
+        }
+    }
+    */
+    ofstream m_file;
+    m_file.open(filename, ios::app);
+    //ofile<<setiosflags(ios::showpoint | ios::uppercase);
+    m_file<<"MCcycles = "<<setprecision(8)<<MCcycles<<endl;
+    m_file<<"T = "<<setprecision(8)<<T<<endl;
+    m_file<<"<E> = "<<setprecision(8)<<E_exp<<endl;
+    m_file<<"<|M|> = "<<setprecision(8)<<Mabs_exp<<endl;
+    m_file<<"sigma_E = "<<setprecision(8)<<E_variance<<endl;
+    m_file<<"sigma_M = "<<setprecision(8)<<M_variance<<endl;
+    m_file<<"r_counter = "<<setprecision(8)<<r_counter<<endl;
+    m_file << "  " << endl;
     return;
 }
