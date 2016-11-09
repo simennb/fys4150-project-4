@@ -13,7 +13,7 @@ void Metropolis(int L, int MCcycles, double T, arma::vec &ExpectationValues, con
 
 void WriteToFile(int L, int MCcycles, double T, int r_counter, arma::vec E_out, arma::vec &ExpectationValues, std::__cxx11::string filename);
 
-void E_handler(arma::vec E_out, std::__cxx11::string filename, int length, double T, int L);
+void E_handler(arma::vec E_out, std::__cxx11::string filename, int length, double T, int L, std::__cxx11::string stringdir);
 
 // Function for periodic boundary conditions
 inline int periodic(int i, int limit, int add){
