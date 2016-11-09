@@ -1,0 +1,9000 @@
+MCcycles = 1000
+T = 2.4
+<E> = -6.32
+<|M|> = 3.44
+sigma_E = 2.7184
+sigma_M = 0.3456
+r_counter = 850
+E_out = 0
+  
+MCcycles = 2000
+T = 2.4
+<E> = -6.424
+<|M|> = 3.473
+sigma_E = 2.563056
+sigma_M = 0.32906775
+r_counter = 1568
+E_out = 0
+  
+MCcycles = 3000
+T = 2.4
+<E> = -6.472
+<|M|> = 3.4966667
+sigma_E = 2.4936373
+sigma_M = 0.31099722
+r_counter = 2270
+E_out = 0
+  
+MCcycles = 4000
+T = 2.4
+<E> = -6.52
+<|M|> = 3.51
+sigma_E = 2.4364
+sigma_M = 0.306475
+r_counter = 2974
+E_out = 0
+  
+MCcycles = 5000
+T = 2.4
+<E> = -6.4656
+<|M|> = 3.488
+sigma_E = 2.5122042
+sigma_M = 0.320864
+r_counter = 3858
+E_out = 0
+  
+MCcycles = 6000
+T = 2.4
+<E> = -6.4773333
+<|M|> = 3.492
+sigma_E = 2.5030382
+sigma_M = 0.31915067
+r_counter = 4601
+E_out = 0
+  
+MCcycles = 7000
+T = 2.4
+<E> = -6.488
+<|M|> = 3.4925714
+sigma_E = 2.4936069
+sigma_M = 0.32134335
+r_counter = 5332
+E_out = 0
+  
+MCcycles = 8000
+T = 2.4
+<E> = -6.484
+<|M|> = 3.49425
+sigma_E = 2.493436
+sigma_M = 0.31792923
+r_counter = 6078
+E_out = 0
+  
+MCcycles = 9000
+T = 2.4
+<E> = -6.4675556
+<|M|> = 3.4882222
+sigma_E = 2.5204591
+sigma_M = 0.3217431
+r_counter = 6896
+E_out = 0
+  
+MCcycles = 10000
+T = 2.4
+<E> = -6.4832
+<|M|> = 3.4936
+sigma_E = 2.5000294
+sigma_M = 0.31888976
+r_counter = 7576
+E_out = 0
+  
+MCcycles = 11000
+T = 2.4
+<E> = -6.5076364
+<|M|> = 3.5005455
+sigma_E = 2.4715763
+sigma_M = 0.31645447
+r_counter = 8210
+E_out = 0
+  
+MCcycles = 12000
+T = 2.4
+<E> = -6.5133333
+<|M|> = 3.5035
+sigma_E = 2.4661222
+sigma_M = 0.3142886
+r_counter = 8934
+E_out = 0
+  
+MCcycles = 13000
+T = 2.4
+<E> = -6.5156923
+<|M|> = 3.5067692
+sigma_E = 2.4596692
+sigma_M = 0.31056547
+r_counter = 9632
+E_out = 0
+  
+MCcycles = 14000
+T = 2.4
+<E> = -6.5182857
+<|M|> = 3.508
+sigma_E = 2.4579878
+sigma_M = 0.30976971
+r_counter = 10376
+E_out = 0
+  
+MCcycles = 15000
+T = 2.4
+<E> = -6.5146667
+<|M|> = 3.5078667
+sigma_E = 2.4617796
+sigma_M = 0.30898453
+r_counter = 11111
+E_out = 0
+  
+MCcycles = 16000
+T = 2.4
+<E> = -6.505
+<|M|> = 3.5045
+sigma_E = 2.4732437
+sigma_M = 0.31074494
+r_counter = 11870
+E_out = 0
+  
+MCcycles = 17000
+T = 2.4
+<E> = -6.5115294
+<|M|> = 3.5058824
+sigma_E = 2.4644668
+sigma_M = 0.310609
+r_counter = 12559
+E_out = 0
+  
+MCcycles = 18000
+T = 2.4
+<E> = -6.5097778
+<|M|> = 3.5055556
+sigma_E = 2.4661428
+sigma_M = 0.31054784
+r_counter = 13304
+E_out = 0
+  
+MCcycles = 19000
+T = 2.4
+<E> = -6.5136842
+<|M|> = 3.5064211
+sigma_E = 2.460769
+sigma_M = 0.31041075
+r_counter = 14006
+E_out = 0
+  
+MCcycles = 20000
+T = 2.4
+<E> = -6.5096
+<|M|> = 3.5022
+sigma_E = 2.463877
+sigma_M = 0.31454879
+r_counter = 14788
+E_out = 0
+  
+MCcycles = 21000
+T = 2.4
+<E> = -6.5062857
+<|M|> = 3.5018095
+sigma_E = 2.469252
+sigma_M = 0.3142849
+r_counter = 15556
+E_out = 0
+  
+MCcycles = 22000
+T = 2.4
+<E> = -6.5058182
+<|M|> = 3.5027273
+sigma_E = 2.4694915
+sigma_M = 0.31299814
+r_counter = 16304
+E_out = 0
+  
+MCcycles = 23000
+T = 2.4
+<E> = -6.5092174
+<|M|> = 3.5052174
+sigma_E = 2.4635222
+sigma_M = 0.31062363
+r_counter = 17030
+E_out = 0
+  
+MCcycles = 24000
+T = 2.4
+<E> = -6.518
+<|M|> = 3.5089167
+sigma_E = 2.4522523
+sigma_M = 0.30816762
+r_counter = 17664
+E_out = 0
+  
+MCcycles = 25000
+T = 2.4
+<E> = -6.53696
+<|M|> = 3.5148
+sigma_E = 2.4280785
+sigma_M = 0.30550524
+r_counter = 18189
+E_out = 0
+  
+MCcycles = 26000
+T = 2.4
+<E> = -6.5326154
+<|M|> = 3.5122308
+sigma_E = 2.4333879
+sigma_M = 0.30763568
+r_counter = 18969
+E_out = 0
+  
+MCcycles = 27000
+T = 2.4
+<E> = -6.5294815
+<|M|> = 3.51
+sigma_E = 2.4383568
+sigma_M = 0.30971574
+r_counter = 19742
+E_out = 0
+  
+MCcycles = 28000
+T = 2.4
+<E> = -6.5225714
+<|M|> = 3.5081429
+sigma_E = 2.4457298
+sigma_M = 0.31023342
+r_counter = 20540
+E_out = 0
+  
+MCcycles = 29000
+T = 2.4
+<E> = -6.5266207
+<|M|> = 3.5093793
+sigma_E = 2.4404608
+sigma_M = 0.3096849
+r_counter = 21210
+E_out = 0
+  
+MCcycles = 30000
+T = 2.4
+<E> = -6.5288
+<|M|> = 3.5102667
+sigma_E = 2.4375593
+sigma_M = 0.30910698
+r_counter = 21904
+E_out = 0
+  
+MCcycles = 31000
+T = 2.4
+<E> = -6.5259355
+<|M|> = 3.5095484
+sigma_E = 2.4441383
+sigma_M = 0.30947721
+r_counter = 22649
+E_out = 0
+  
+MCcycles = 32000
+T = 2.4
+<E> = -6.52625
+<|M|> = 3.5094375
+sigma_E = 2.4425152
+sigma_M = 0.30961836
+r_counter = 23370
+E_out = 0
+  
+MCcycles = 33000
+T = 2.4
+<E> = -6.5318788
+<|M|> = 3.5112727
+sigma_E = 2.4361853
+sigma_M = 0.30877126
+r_counter = 23992
+E_out = 0
+  
+MCcycles = 34000
+T = 2.4
+<E> = -6.5374118
+<|M|> = 3.5132941
+sigma_E = 2.4289736
+sigma_M = 0.30760288
+r_counter = 24634
+E_out = 0
+  
+MCcycles = 35000
+T = 2.4
+<E> = -6.536
+<|M|> = 3.5129143
+sigma_E = 2.4314903
+sigma_M = 0.30777259
+r_counter = 25374
+E_out = 0
+  
+MCcycles = 36000
+T = 2.4
+<E> = -6.5313333
+<|M|> = 3.5108333
+sigma_E = 2.4389768
+sigma_M = 0.30931788
+r_counter = 26186
+E_out = 0
+  
+MCcycles = 37000
+T = 2.4
+<E> = -6.5271351
+<|M|> = 3.5090811
+sigma_E = 2.4440457
+sigma_M = 0.31045236
+r_counter = 26984
+E_out = 0
+  
+MCcycles = 38000
+T = 2.4
+<E> = -6.5277895
+<|M|> = 3.5091579
+sigma_E = 2.4429911
+sigma_M = 0.31050535
+r_counter = 27688
+E_out = 0
+  
+MCcycles = 39000
+T = 2.4
+<E> = -6.5306667
+<|M|> = 3.509641
+sigma_E = 2.4383162
+sigma_M = 0.31055369
+r_counter = 28389
+E_out = 0
+  
+MCcycles = 40000
+T = 2.4
+<E> = -6.5234
+<|M|> = 3.5072
+sigma_E = 2.4497131
+sigma_M = 0.31193704
+r_counter = 29204
+E_out = 0
+  
+MCcycles = 41000
+T = 2.4
+<E> = -6.5239024
+<|M|> = 3.5076098
+sigma_E = 2.448845
+sigma_M = 0.3115343
+r_counter = 29914
+E_out = 0
+  
+MCcycles = 42000
+T = 2.4
+<E> = -6.5260952
+<|M|> = 3.5078571
+sigma_E = 2.4458536
+sigma_M = 0.31175838
+r_counter = 30621
+E_out = 0
+  
+MCcycles = 43000
+T = 2.4
+<E> = -6.5343256
+<|M|> = 3.5106047
+sigma_E = 2.4344845
+sigma_M = 0.31030909
+r_counter = 31199
+E_out = 0
+  
+MCcycles = 44000
+T = 2.4
+<E> = -6.5316364
+<|M|> = 3.5095909
+sigma_E = 2.4369771
+sigma_M = 0.310852
+r_counter = 31984
+E_out = 0
+  
+MCcycles = 45000
+T = 2.4
+<E> = -6.5292444
+<|M|> = 3.5089333
+sigma_E = 2.4405529
+sigma_M = 0.31111338
+r_counter = 32760
+E_out = 0
+  
+MCcycles = 46000
+T = 2.4
+<E> = -6.5262609
+<|M|> = 3.5075652
+sigma_E = 2.4448493
+sigma_M = 0.31211613
+r_counter = 33538
+E_out = 0
+  
+MCcycles = 47000
+T = 2.4
+<E> = -6.5235745
+<|M|> = 3.5071064
+sigma_E = 2.4501057
+sigma_M = 0.31213631
+r_counter = 34294
+E_out = 0
+  
+MCcycles = 48000
+T = 2.4
+<E> = -6.5243333
+<|M|> = 3.50775
+sigma_E = 2.449602
+sigma_M = 0.31154748
+r_counter = 34998
+E_out = 0
+  
+MCcycles = 49000
+T = 2.4
+<E> = -6.5206531
+<|M|> = 3.506898
+sigma_E = 2.4546791
+sigma_M = 0.3117228
+r_counter = 35778
+E_out = 0
+  
+MCcycles = 50000
+T = 2.4
+<E> = -6.51936
+<|M|> = 3.50664
+sigma_E = 2.4567263
+sigma_M = 0.31174898
+r_counter = 36516
+E_out = 0
+  
+MCcycles = 51000
+T = 2.4
+<E> = -6.5209412
+<|M|> = 3.5071373
+sigma_E = 2.4538806
+sigma_M = 0.31146766
+r_counter = 37196
+E_out = 0
+  
+MCcycles = 52000
+T = 2.4
+<E> = -6.5190769
+<|M|> = 3.5070769
+sigma_E = 2.4572552
+sigma_M = 0.31114133
+r_counter = 37950
+E_out = 0
+  
+MCcycles = 53000
+T = 2.4
+<E> = -6.5218113
+<|M|> = 3.5080755
+sigma_E = 2.4541924
+sigma_M = 0.3105969
+r_counter = 38634
+E_out = 0
+  
+MCcycles = 54000
+T = 2.4
+<E> = -6.526963
+<|M|> = 3.5097407
+sigma_E = 2.4468738
+sigma_M = 0.3097448
+r_counter = 39236
+E_out = 0
+  
+MCcycles = 55000
+T = 2.4
+<E> = -6.5239273
+<|M|> = 3.5083636
+sigma_E = 2.4499205
+sigma_M = 0.31066433
+r_counter = 40033
+E_out = 0
+  
+MCcycles = 56000
+T = 2.4
+<E> = -6.5245714
+<|M|> = 3.5090357
+sigma_E = 2.4483491
+sigma_M = 0.30993495
+r_counter = 40770
+E_out = 0
+  
+MCcycles = 57000
+T = 2.4
+<E> = -6.5301053
+<|M|> = 3.5107719
+sigma_E = 2.4406243
+sigma_M = 0.3090938
+r_counter = 41352
+E_out = 0
+  
+MCcycles = 58000
+T = 2.4
+<E> = -6.5342069
+<|M|> = 3.511931
+sigma_E = 2.4347247
+sigma_M = 0.30861959
+r_counter = 42024
+E_out = 0
+  
+MCcycles = 59000
+T = 2.4
+<E> = -6.5374915
+<|M|> = 3.5127119
+sigma_E = 2.4298774
+sigma_M = 0.30841723
+r_counter = 42670
+E_out = 0
+  
+MCcycles = 60000
+T = 2.4
+<E> = -6.54
+<|M|> = 3.5137333
+sigma_E = 2.4265667
+sigma_M = 0.30775285
+r_counter = 43356
+E_out = 0
+  
+MCcycles = 61000
+T = 2.4
+<E> = -6.5392787
+<|M|> = 3.513082
+sigma_E = 2.4273602
+sigma_M = 0.30838345
+r_counter = 44083
+E_out = 0
+  
+MCcycles = 62000
+T = 2.4
+<E> = -6.5423226
+<|M|> = 3.514
+sigma_E = 2.4228587
+sigma_M = 0.307951
+r_counter = 44716
+E_out = 0
+  
+MCcycles = 63000
+T = 2.4
+<E> = -6.5418413
+<|M|> = 3.5142222
+sigma_E = 2.422856
+sigma_M = 0.30751292
+r_counter = 45440
+E_out = 0
+  
+MCcycles = 64000
+T = 2.4
+<E> = -6.54525
+<|M|> = 3.51575
+sigma_E = 2.4179256
+sigma_M = 0.30640673
+r_counter = 46072
+E_out = 0
+  
+MCcycles = 65000
+T = 2.4
+<E> = -6.5484308
+<|M|> = 3.5170462
+sigma_E = 2.4132982
+sigma_M = 0.30553505
+r_counter = 46706
+E_out = 0
+  
+MCcycles = 66000
+T = 2.4
+<E> = -6.5489697
+<|M|> = 3.5173939
+sigma_E = 2.4135066
+sigma_M = 0.305288
+r_counter = 47388
+E_out = 0
+  
+MCcycles = 67000
+T = 2.4
+<E> = -6.5506866
+<|M|> = 3.5179403
+sigma_E = 2.4112309
+sigma_M = 0.30502401
+r_counter = 48080
+E_out = 0
+  
+MCcycles = 68000
+T = 2.4
+<E> = -6.5470588
+<|M|> = 3.5166176
+sigma_E = 2.4157699
+sigma_M = 0.30577655
+r_counter = 48896
+E_out = 0
+  
+MCcycles = 69000
+T = 2.4
+<E> = -6.5451594
+<|M|> = 3.5157971
+sigma_E = 2.4181061
+sigma_M = 0.30632892
+r_counter = 49692
+E_out = 0
+  
+MCcycles = 70000
+T = 2.4
+<E> = -6.5456
+<|M|> = 3.5158
+sigma_E = 2.4174659
+sigma_M = 0.30643045
+r_counter = 50394
+E_out = 0
+  
+MCcycles = 71000
+T = 2.4
+<E> = -6.5434366
+<|M|> = 3.5147606
+sigma_E = 2.4196903
+sigma_M = 0.30716384
+r_counter = 51180
+E_out = 0
+  
+MCcycles = 72000
+T = 2.4
+<E> = -6.5424444
+<|M|> = 3.5144722
+sigma_E = 2.4213274
+sigma_M = 0.30730181
+r_counter = 51918
+E_out = 0
+  
+MCcycles = 73000
+T = 2.4
+<E> = -6.5423562
+<|M|> = 3.5145205
+sigma_E = 2.4218049
+sigma_M = 0.30724181
+r_counter = 52630
+E_out = 0
+  
+MCcycles = 74000
+T = 2.4
+<E> = -6.5432432
+<|M|> = 3.5147568
+sigma_E = 2.4201676
+sigma_M = 0.30713475
+r_counter = 53336
+E_out = 0
+  
+MCcycles = 75000
+T = 2.4
+<E> = -6.54368
+<|M|> = 3.51504
+sigma_E = 2.4203963
+sigma_M = 0.30693678
+r_counter = 54028
+E_out = 0
+  
+MCcycles = 76000
+T = 2.4
+<E> = -6.5424211
+<|M|> = 3.5146579
+sigma_E = 2.4219185
+sigma_M = 0.3070976
+r_counter = 54820
+E_out = 0
+  
+MCcycles = 77000
+T = 2.4
+<E> = -6.5435844
+<|M|> = 3.5153506
+sigma_E = 2.4199472
+sigma_M = 0.30648654
+r_counter = 55528
+E_out = 0
+  
+MCcycles = 78000
+T = 2.4
+<E> = -6.5445128
+<|M|> = 3.5158205
+sigma_E = 2.4182867
+sigma_M = 0.30609768
+r_counter = 56252
+E_out = 0
+  
+MCcycles = 79000
+T = 2.4
+<E> = -6.5446076
+<|M|> = 3.5159747
+sigma_E = 2.4176987
+sigma_M = 0.30589823
+r_counter = 56996
+E_out = 0
+  
+MCcycles = 80000
+T = 2.4
+<E> = -6.5451
+<|M|> = 3.51605
+sigma_E = 2.4174165
+sigma_M = 0.3059481
+r_counter = 57670
+E_out = 0
+  
+MCcycles = 81000
+T = 2.4
+<E> = -6.5505185
+<|M|> = 3.5181235
+sigma_E = 2.4108496
+sigma_M = 0.30471418
+r_counter = 58220
+E_out = 0
+  
+MCcycles = 82000
+T = 2.4
+<E> = -6.5508293
+<|M|> = 3.5183902
+sigma_E = 2.4100004
+sigma_M = 0.30442764
+r_counter = 58952
+E_out = 0
+  
+MCcycles = 83000
+T = 2.4
+<E> = -6.5540241
+<|M|> = 3.5195663
+sigma_E = 2.4054812
+sigma_M = 0.30371754
+r_counter = 59556
+E_out = 0
+  
+MCcycles = 84000
+T = 2.4
+<E> = -6.556381
+<|M|> = 3.5204524
+sigma_E = 2.4028005
+sigma_M = 0.3032109
+r_counter = 60192
+E_out = 0
+  
+MCcycles = 85000
+T = 2.4
+<E> = -6.5588706
+<|M|> = 3.5211294
+sigma_E = 2.399563
+sigma_M = 0.30297662
+r_counter = 60824
+E_out = 0
+  
+MCcycles = 86000
+T = 2.4
+<E> = -6.5555349
+<|M|> = 3.5197442
+sigma_E = 2.4041476
+sigma_M = 0.30390836
+r_counter = 61650
+E_out = 0
+  
+MCcycles = 87000
+T = 2.4
+<E> = -6.558069
+<|M|> = 3.5208506
+sigma_E = 2.4004846
+sigma_M = 0.3031212
+r_counter = 62268
+E_out = 0
+  
+MCcycles = 88000
+T = 2.4
+<E> = -6.5577273
+<|M|> = 3.5207045
+sigma_E = 2.4005078
+sigma_M = 0.30319397
+r_counter = 63011
+E_out = 0
+  
+MCcycles = 89000
+T = 2.4
+<E> = -6.5590112
+<|M|> = 3.5208764
+sigma_E = 2.3998991
+sigma_M = 0.30336295
+r_counter = 63706
+E_out = 0
+  
+MCcycles = 90000
+T = 2.4
+<E> = -6.5582222
+<|M|> = 3.5207333
+sigma_E = 2.4012081
+sigma_M = 0.30336475
+r_counter = 64490
+E_out = 0
+  
+MCcycles = 91000
+T = 2.4
+<E> = -6.5574505
+<|M|> = 3.5205055
+sigma_E = 2.4021364
+sigma_M = 0.30345532
+r_counter = 65228
+E_out = 0
+  
+MCcycles = 92000
+T = 2.4
+<E> = -6.5566087
+<|M|> = 3.5203696
+sigma_E = 2.4035032
+sigma_M = 0.30343431
+r_counter = 65954
+E_out = 0
+  
+MCcycles = 93000
+T = 2.4
+<E> = -6.5552688
+<|M|> = 3.5198925
+sigma_E = 2.4048116
+sigma_M = 0.30367527
+r_counter = 66728
+E_out = 0
+  
+MCcycles = 94000
+T = 2.4
+<E> = -6.5548085
+<|M|> = 3.5200213
+sigma_E = 2.4053448
+sigma_M = 0.30339447
+r_counter = 67445
+E_out = 0
+  
+MCcycles = 95000
+T = 2.4
+<E> = -6.5549474
+<|M|> = 3.5201684
+sigma_E = 2.4051136
+sigma_M = 0.30324041
+r_counter = 68180
+E_out = 0
+  
+MCcycles = 96000
+T = 2.4
+<E> = -6.5531667
+<|M|> = 3.5195625
+sigma_E = 2.4070017
+sigma_M = 0.30353454
+r_counter = 68986
+E_out = 0
+  
+MCcycles = 97000
+T = 2.4
+<E> = -6.5532371
+<|M|> = 3.5198144
+sigma_E = 2.4071935
+sigma_M = 0.30325236
+r_counter = 69694
+E_out = 0
+  
+MCcycles = 98000
+T = 2.4
+<E> = -6.5554286
+<|M|> = 3.5206122
+sigma_E = 2.4043442
+sigma_M = 0.30279174
+r_counter = 70328
+E_out = 0
+  
+MCcycles = 99000
+T = 2.4
+<E> = -6.5569293
+<|M|> = 3.5212929
+sigma_E = 2.4023766
+sigma_M = 0.30230584
+r_counter = 70978
+E_out = 0
+  
+MCcycles = 100000
+T = 2.4
+<E> = -6.55904
+<|M|> = 3.52212
+sigma_E = 2.3993086
+sigma_M = 0.30176768
+r_counter = 71572
+E_out = 0
+  
+MCcycles = 101000
+T = 2.4
+<E> = -6.5608713
+<|M|> = 3.5228317
+sigma_E = 2.3969202
+sigma_M = 0.30132512
+r_counter = 72207
+E_out = 0
+  
+MCcycles = 102000
+T = 2.4
+<E> = -6.5572549
+<|M|> = 3.5214118
+sigma_E = 2.4018177
+sigma_M = 0.30222852
+r_counter = 73066
+E_out = 0
+  
+MCcycles = 103000
+T = 2.4
+<E> = -6.560699
+<|M|> = 3.5226602
+sigma_E = 2.3970546
+sigma_M = 0.30149299
+r_counter = 73682
+E_out = 0
+  
+MCcycles = 104000
+T = 2.4
+<E> = -6.5610769
+<|M|> = 3.52275
+sigma_E = 2.3965289
+sigma_M = 0.30147157
+r_counter = 74366
+E_out = 0
+  
+MCcycles = 105000
+T = 2.4
+<E> = -6.5612952
+<|M|> = 3.523181
+sigma_E = 2.3959036
+sigma_M = 0.3009609
+r_counter = 75078
+E_out = 0
+  
+MCcycles = 106000
+T = 2.4
+<E> = -6.561434
+<|M|> = 3.5230566
+sigma_E = 2.3953867
+sigma_M = 0.30113125
+r_counter = 75781
+E_out = 0
+  
+MCcycles = 107000
+T = 2.4
+<E> = -6.5617944
+<|M|> = 3.5232336
+sigma_E = 2.3945921
+sigma_M = 0.3009772
+r_counter = 76488
+E_out = 0
+  
+MCcycles = 108000
+T = 2.4
+<E> = -6.5615556
+<|M|> = 3.5233333
+sigma_E = 2.3948675
+sigma_M = 0.30078981
+r_counter = 77242
+E_out = 0
+  
+MCcycles = 109000
+T = 2.4
+<E> = -6.5608807
+<|M|> = 3.5230459
+sigma_E = 2.3957018
+sigma_M = 0.3009819
+r_counter = 77992
+E_out = 0
+  
+MCcycles = 110000
+T = 2.4
+<E> = -6.5601455
+<|M|> = 3.5225636
+sigma_E = 2.3966138
+sigma_M = 0.30140454
+r_counter = 78730
+E_out = 0
+  
+MCcycles = 111000
+T = 2.4
+<E> = -6.5625946
+<|M|> = 3.5231171
+sigma_E = 2.3931601
+sigma_M = 0.30129883
+r_counter = 79360
+E_out = 0
+  
+MCcycles = 112000
+T = 2.4
+<E> = -6.5635
+<|M|> = 3.5233214
+sigma_E = 2.3925455
+sigma_M = 0.30130153
+r_counter = 80042
+E_out = 0
+  
+MCcycles = 113000
+T = 2.4
+<E> = -6.5616991
+<|M|> = 3.5226903
+sigma_E = 2.3945395
+sigma_M = 0.30162793
+r_counter = 80838
+E_out = 0
+  
+MCcycles = 114000
+T = 2.4
+<E> = -6.5613333
+<|M|> = 3.522807
+sigma_E = 2.3946999
+sigma_M = 0.30136996
+r_counter = 81558
+E_out = 0
+  
+MCcycles = 115000
+T = 2.4
+<E> = -6.5603478
+<|M|> = 3.5223826
+sigma_E = 2.3956591
+sigma_M = 0.30163997
+r_counter = 82334
+E_out = 0
+  
+MCcycles = 116000
+T = 2.4
+<E> = -6.5611724
+<|M|> = 3.5227069
+sigma_E = 2.3945817
+sigma_M = 0.30143575
+r_counter = 83022
+E_out = 0
+  
+MCcycles = 117000
+T = 2.4
+<E> = -6.5619145
+<|M|> = 3.5228205
+sigma_E = 2.3933365
+sigma_M = 0.30145955
+r_counter = 83710
+E_out = 0
+  
+MCcycles = 118000
+T = 2.4
+<E> = -6.5614237
+<|M|> = 3.5225593
+sigma_E = 2.3936754
+sigma_M = 0.30164819
+r_counter = 84462
+E_out = 0
+  
+MCcycles = 119000
+T = 2.4
+<E> = -6.5604034
+<|M|> = 3.5222353
+sigma_E = 2.3946971
+sigma_M = 0.30178396
+r_counter = 85232
+E_out = 0
+  
+MCcycles = 120000
+T = 2.4
+<E> = -6.5605333
+<|M|> = 3.5223
+sigma_E = 2.3942506
+sigma_M = 0.30171734
+r_counter = 85964
+E_out = 0
+  
+MCcycles = 121000
+T = 2.4
+<E> = -6.5635702
+<|M|> = 3.5233388
+sigma_E = 2.3903492
+sigma_M = 0.30116548
+r_counter = 86524
+E_out = 0
+  
+MCcycles = 122000
+T = 2.4
+<E> = -6.5627541
+<|M|> = 3.5230656
+sigma_E = 2.3916466
+sigma_M = 0.30132191
+r_counter = 87290
+E_out = 0
+  
+MCcycles = 123000
+T = 2.4
+<E> = -6.5613008
+<|M|> = 3.5222927
+sigma_E = 2.3934955
+sigma_M = 0.30193267
+r_counter = 88124
+E_out = 0
+  
+MCcycles = 124000
+T = 2.4
+<E> = -6.5609032
+<|M|> = 3.5221452
+sigma_E = 2.3942501
+sigma_M = 0.30203466
+r_counter = 88870
+E_out = 0
+  
+MCcycles = 125000
+T = 2.4
+<E> = -6.563008
+<|M|> = 3.523024
+sigma_E = 2.3915395
+sigma_M = 0.30145147
+r_counter = 89480
+E_out = 0
+  
+MCcycles = 126000
+T = 2.4
+<E> = -6.5641905
+<|M|> = 3.5233492
+sigma_E = 2.3897556
+sigma_M = 0.30132005
+r_counter = 90146
+E_out = 0
+  
+MCcycles = 127000
+T = 2.4
+<E> = -6.5645984
+<|M|> = 3.5235118
+sigma_E = 2.3894725
+sigma_M = 0.30123188
+r_counter = 90830
+E_out = 0
+  
+MCcycles = 128000
+T = 2.4
+<E> = -6.5670625
+<|M|> = 3.5244375
+sigma_E = 2.3862975
+sigma_M = 0.30067883
+r_counter = 91412
+E_out = 0
+  
+MCcycles = 129000
+T = 2.4
+<E> = -6.5670698
+<|M|> = 3.5243566
+sigma_E = 2.3860266
+sigma_M = 0.30076642
+r_counter = 92132
+E_out = 0
+  
+MCcycles = 130000
+T = 2.4
+<E> = -6.5689231
+<|M|> = 3.5247692
+sigma_E = 2.3833893
+sigma_M = 0.30069278
+r_counter = 92782
+E_out = 0
+  
+MCcycles = 131000
+T = 2.4
+<E> = -6.5678779
+<|M|> = 3.5245496
+sigma_E = 2.3849665
+sigma_M = 0.30072337
+r_counter = 93516
+E_out = 0
+  
+MCcycles = 132000
+T = 2.4
+<E> = -6.5665455
+<|M|> = 3.5241667
+sigma_E = 2.3871505
+sigma_M = 0.30090324
+r_counter = 94280
+E_out = 0
+  
+MCcycles = 133000
+T = 2.4
+<E> = -6.5673985
+<|M|> = 3.5244962
+sigma_E = 2.3862817
+sigma_M = 0.30071465
+r_counter = 94944
+E_out = 0
+  
+MCcycles = 134000
+T = 2.4
+<E> = -6.5685373
+<|M|> = 3.5248806
+sigma_E = 2.3845645
+sigma_M = 0.30049822
+r_counter = 95576
+E_out = 0
+  
+MCcycles = 135000
+T = 2.4
+<E> = -6.5698963
+<|M|> = 3.5253778
+sigma_E = 2.3828046
+sigma_M = 0.30020936
+r_counter = 96220
+E_out = 0
+  
+MCcycles = 136000
+T = 2.4
+<E> = -6.5711176
+<|M|> = 3.5257206
+sigma_E = 2.3809856
+sigma_M = 0.30006623
+r_counter = 96874
+E_out = 0
+  
+MCcycles = 137000
+T = 2.4
+<E> = -6.5697518
+<|M|> = 3.5253285
+sigma_E = 2.3829625
+sigma_M = 0.30023378
+r_counter = 97655
+E_out = 0
+  
+MCcycles = 138000
+T = 2.4
+<E> = -6.5707826
+<|M|> = 3.5257101
+sigma_E = 2.3816243
+sigma_M = 0.30000866
+r_counter = 98306
+E_out = 0
+  
+MCcycles = 139000
+T = 2.4
+<E> = -6.5708201
+<|M|> = 3.5258129
+sigma_E = 2.3813325
+sigma_M = 0.29987299
+r_counter = 99040
+E_out = 0
+  
+MCcycles = 140000
+T = 2.4
+<E> = -6.5704
+<|M|> = 3.5257714
+sigma_E = 2.381861
+sigma_M = 0.29981967
+r_counter = 99779
+E_out = 0
+  
+MCcycles = 141000
+T = 2.4
+<E> = -6.570383
+<|M|> = 3.5258014
+sigma_E = 2.3816445
+sigma_M = 0.29976265
+r_counter = 100485
+E_out = 0
+  
+MCcycles = 142000
+T = 2.4
+<E> = -6.5719437
+<|M|> = 3.5262958
+sigma_E = 2.3796286
+sigma_M = 0.29952784
+r_counter = 101108
+E_out = 0
+  
+MCcycles = 143000
+T = 2.4
+<E> = -6.5724196
+<|M|> = 3.5265175
+sigma_E = 2.3787833
+sigma_M = 0.29935218
+r_counter = 101818
+E_out = 0
+  
+MCcycles = 144000
+T = 2.4
+<E> = -6.5732778
+<|M|> = 3.5268194
+sigma_E = 2.3778937
+sigma_M = 0.29919865
+r_counter = 102432
+E_out = 0
+  
+MCcycles = 145000
+T = 2.4
+<E> = -6.5724138
+<|M|> = 3.5266069
+sigma_E = 2.3787753
+sigma_M = 0.29923681
+r_counter = 103206
+E_out = 0
+  
+MCcycles = 146000
+T = 2.4
+<E> = -6.5716712
+<|M|> = 3.5263425
+sigma_E = 2.3797227
+sigma_M = 0.29938474
+r_counter = 103942
+E_out = 0
+  
+MCcycles = 147000
+T = 2.4
+<E> = -6.5719728
+<|M|> = 3.5264762
+sigma_E = 2.3791097
+sigma_M = 0.29927713
+r_counter = 104650
+E_out = 0
+  
+MCcycles = 148000
+T = 2.4
+<E> = -6.5732432
+<|M|> = 3.5268919
+sigma_E = 2.3772535
+sigma_M = 0.29905569
+r_counter = 105316
+E_out = 0
+  
+MCcycles = 149000
+T = 2.4
+<E> = -6.5754094
+<|M|> = 3.5276644
+sigma_E = 2.3742461
+sigma_M = 0.29860733
+r_counter = 105901
+E_out = 0
+  
+MCcycles = 150000
+T = 2.4
+<E> = -6.57504
+<|M|> = 3.52768
+sigma_E = 2.3751456
+sigma_M = 0.29852179
+r_counter = 106644
+E_out = 0
+  
+MCcycles = 151000
+T = 2.4
+<E> = -6.5752053
+<|M|> = 3.5277219
+sigma_E = 2.3747152
+sigma_M = 0.29849662
+r_counter = 107365
+E_out = 0
+  
+MCcycles = 152000
+T = 2.4
+<E> = -6.5754737
+<|M|> = 3.5276447
+sigma_E = 2.3743654
+sigma_M = 0.29866092
+r_counter = 108056
+E_out = 0
+  
+MCcycles = 153000
+T = 2.4
+<E> = -6.5745882
+<|M|> = 3.5271895
+sigma_E = 2.3755013
+sigma_M = 0.29901453
+r_counter = 108842
+E_out = 0
+  
+MCcycles = 154000
+T = 2.4
+<E> = -6.5734545
+<|M|> = 3.5267792
+sigma_E = 2.3767485
+sigma_M = 0.2992363
+r_counter = 109642
+E_out = 0
+  
+MCcycles = 155000
+T = 2.4
+<E> = -6.5739355
+<|M|> = 3.5268129
+sigma_E = 2.3761269
+sigma_M = 0.29931382
+r_counter = 110344
+E_out = 0
+  
+MCcycles = 156000
+T = 2.4
+<E> = -6.5742564
+<|M|> = 3.5268077
+sigma_E = 2.3755061
+sigma_M = 0.29938764
+r_counter = 111048
+E_out = 0
+  
+MCcycles = 157000
+T = 2.4
+<E> = -6.573707
+<|M|> = 3.5265732
+sigma_E = 2.3760081
+sigma_M = 0.29953366
+r_counter = 111801
+E_out = 0
+  
+MCcycles = 158000
+T = 2.4
+<E> = -6.5746835
+<|M|> = 3.527038
+sigma_E = 2.3747512
+sigma_M = 0.29919065
+r_counter = 112462
+E_out = 0
+  
+MCcycles = 159000
+T = 2.4
+<E> = -6.5748428
+<|M|> = 3.5270566
+sigma_E = 2.3747474
+sigma_M = 0.2992195
+r_counter = 113150
+E_out = 0
+  
+MCcycles = 160000
+T = 2.4
+<E> = -6.57585
+<|M|> = 3.527225
+sigma_E = 2.3736492
+sigma_M = 0.29927095
+r_counter = 113820
+E_out = 0
+  
+MCcycles = 161000
+T = 2.4
+<E> = -6.5758012
+<|M|> = 3.5271801
+sigma_E = 2.374107
+sigma_M = 0.29934015
+r_counter = 114526
+E_out = 0
+  
+MCcycles = 162000
+T = 2.4
+<E> = -6.5762469
+<|M|> = 3.527284
+sigma_E = 2.3735281
+sigma_M = 0.29932007
+r_counter = 115218
+E_out = 0
+  
+MCcycles = 163000
+T = 2.4
+<E> = -6.576589
+<|M|> = 3.527362
+sigma_E = 2.3730826
+sigma_M = 0.2993067
+r_counter = 115934
+E_out = 0
+  
+MCcycles = 164000
+T = 2.4
+<E> = -6.5774146
+<|M|> = 3.5276463
+sigma_E = 2.3722091
+sigma_M = 0.29916563
+r_counter = 116570
+E_out = 0
+  
+MCcycles = 165000
+T = 2.4
+<E> = -6.5778424
+<|M|> = 3.5278061
+sigma_E = 2.3714579
+sigma_M = 0.29905822
+r_counter = 117266
+E_out = 0
+  
+MCcycles = 166000
+T = 2.4
+<E> = -6.5777349
+<|M|> = 3.5277711
+sigma_E = 2.3715917
+sigma_M = 0.29907526
+r_counter = 117984
+E_out = 0
+  
+MCcycles = 167000
+T = 2.4
+<E> = -6.5771976
+<|M|> = 3.5276647
+sigma_E = 2.3722796
+sigma_M = 0.29907513
+r_counter = 118702
+E_out = 0
+  
+MCcycles = 168000
+T = 2.4
+<E> = -6.578381
+<|M|> = 3.5282024
+sigma_E = 2.3707498
+sigma_M = 0.29869104
+r_counter = 119313
+E_out = 0
+  
+MCcycles = 169000
+T = 2.4
+<E> = -6.5779408
+<|M|> = 3.5279882
+sigma_E = 2.3711233
+sigma_M = 0.29883967
+r_counter = 120076
+E_out = 0
+  
+MCcycles = 170000
+T = 2.4
+<E> = -6.5772235
+<|M|> = 3.5278941
+sigma_E = 2.3722327
+sigma_M = 0.29879077
+r_counter = 120840
+E_out = 0
+  
+MCcycles = 171000
+T = 2.4
+<E> = -6.5757661
+<|M|> = 3.5275789
+sigma_E = 2.3741058
+sigma_M = 0.29882447
+r_counter = 121656
+E_out = 0
+  
+MCcycles = 172000
+T = 2.4
+<E> = -6.5765581
+<|M|> = 3.5277442
+sigma_E = 2.3728952
+sigma_M = 0.29880175
+r_counter = 122306
+E_out = 0
+  
+MCcycles = 173000
+T = 2.4
+<E> = -6.5769249
+<|M|> = 3.5276994
+sigma_E = 2.3724195
+sigma_M = 0.2989498
+r_counter = 122988
+E_out = 0
+  
+MCcycles = 174000
+T = 2.4
+<E> = -6.5773333
+<|M|> = 3.527977
+sigma_E = 2.371706
+sigma_M = 0.29868938
+r_counter = 123662
+E_out = 0
+  
+MCcycles = 175000
+T = 2.4
+<E> = -6.5789714
+<|M|> = 3.5285029
+sigma_E = 2.3695923
+sigma_M = 0.29843404
+r_counter = 124300
+E_out = 0
+  
+MCcycles = 176000
+T = 2.4
+<E> = -6.5790909
+<|M|> = 3.5285455
+sigma_E = 2.3694362
+sigma_M = 0.29840993
+r_counter = 125005
+E_out = 0
+  
+MCcycles = 177000
+T = 2.4
+<E> = -6.5796158
+<|M|> = 3.5287345
+sigma_E = 2.3685763
+sigma_M = 0.29829076
+r_counter = 125668
+E_out = 0
+  
+MCcycles = 178000
+T = 2.4
+<E> = -6.5780225
+<|M|> = 3.5283146
+sigma_E = 2.3709894
+sigma_M = 0.29844564
+r_counter = 126505
+E_out = 0
+  
+MCcycles = 179000
+T = 2.4
+<E> = -6.5777877
+<|M|> = 3.5282235
+sigma_E = 2.3714677
+sigma_M = 0.29851315
+r_counter = 127214
+E_out = 0
+  
+MCcycles = 180000
+T = 2.4
+<E> = -6.5776444
+<|M|> = 3.5282222
+sigma_E = 2.3714706
+sigma_M = 0.29846754
+r_counter = 127916
+E_out = 0
+  
+MCcycles = 181000
+T = 2.4
+<E> = -6.5747624
+<|M|> = 3.5271934
+sigma_E = 2.3750032
+sigma_M = 0.29903612
+r_counter = 128834
+E_out = 0
+  
+MCcycles = 182000
+T = 2.4
+<E> = -6.574022
+<|M|> = 3.5267143
+sigma_E = 2.3757785
+sigma_M = 0.29944521
+r_counter = 129626
+E_out = 0
+  
+MCcycles = 183000
+T = 2.4
+<E> = -6.5736393
+<|M|> = 3.5263934
+sigma_E = 2.37627
+sigma_M = 0.29975481
+r_counter = 130402
+E_out = 0
+  
+MCcycles = 184000
+T = 2.4
+<E> = -6.5742174
+<|M|> = 3.5265652
+sigma_E = 2.3755251
+sigma_M = 0.29968227
+r_counter = 131096
+E_out = 0
+  
+MCcycles = 185000
+T = 2.4
+<E> = -6.5754811
+<|M|> = 3.527027
+sigma_E = 2.3737243
+sigma_M = 0.29940387
+r_counter = 131702
+E_out = 0
+  
+MCcycles = 186000
+T = 2.4
+<E> = -6.5748387
+<|M|> = 3.5267849
+sigma_E = 2.3743794
+sigma_M = 0.29953838
+r_counter = 132464
+E_out = 0
+  
+MCcycles = 187000
+T = 2.4
+<E> = -6.5745882
+<|M|> = 3.5267166
+sigma_E = 2.3748739
+sigma_M = 0.29957289
+r_counter = 133190
+E_out = 0
+  
+MCcycles = 188000
+T = 2.4
+<E> = -6.5748511
+<|M|> = 3.526734
+sigma_E = 2.3745355
+sigma_M = 0.29961654
+r_counter = 133866
+E_out = 0
+  
+MCcycles = 189000
+T = 2.4
+<E> = -6.5732487
+<|M|> = 3.5262222
+sigma_E = 2.3764285
+sigma_M = 0.29985191
+r_counter = 134686
+E_out = 0
+  
+MCcycles = 190000
+T = 2.4
+<E> = -6.5737263
+<|M|> = 3.5263789
+sigma_E = 2.3756464
+sigma_M = 0.29976288
+r_counter = 135358
+E_out = 0
+  
+MCcycles = 191000
+T = 2.4
+<E> = -6.5731518
+<|M|> = 3.526199
+sigma_E = 2.3762198
+sigma_M = 0.29983626
+r_counter = 136106
+E_out = 0
+  
+MCcycles = 192000
+T = 2.4
+<E> = -6.5731667
+<|M|> = 3.52625
+sigma_E = 2.3762033
+sigma_M = 0.29977565
+r_counter = 136854
+E_out = 0
+  
+MCcycles = 193000
+T = 2.4
+<E> = -6.5743005
+<|M|> = 3.5267358
+sigma_E = 2.374581
+sigma_M = 0.29943529
+r_counter = 137453
+E_out = 0
+  
+MCcycles = 194000
+T = 2.4
+<E> = -6.5738557
+<|M|> = 3.5265876
+sigma_E = 2.374992
+sigma_M = 0.29950111
+r_counter = 138218
+E_out = 0
+  
+MCcycles = 195000
+T = 2.4
+<E> = -6.5736205
+<|M|> = 3.5265026
+sigma_E = 2.375463
+sigma_M = 0.2995603
+r_counter = 138917
+E_out = 0
+  
+MCcycles = 196000
+T = 2.4
+<E> = -6.5731837
+<|M|> = 3.5262755
+sigma_E = 2.3758651
+sigma_M = 0.29972791
+r_counter = 139658
+E_out = 0
+  
+MCcycles = 197000
+T = 2.4
+<E> = -6.5726701
+<|M|> = 3.5260609
+sigma_E = 2.37653
+sigma_M = 0.29987082
+r_counter = 140424
+E_out = 0
+  
+MCcycles = 198000
+T = 2.4
+<E> = -6.5711515
+<|M|> = 3.5255051
+sigma_E = 2.3788101
+sigma_M = 0.30021364
+r_counter = 141250
+E_out = 0
+  
+MCcycles = 199000
+T = 2.4
+<E> = -6.5727437
+<|M|> = 3.5259095
+sigma_E = 2.376765
+sigma_M = 0.30010102
+r_counter = 141808
+E_out = 0
+  
+MCcycles = 200000
+T = 2.4
+<E> = -6.57308
+<|M|> = 3.52594
+sigma_E = 2.3761748
+sigma_M = 0.30013678
+r_counter = 142540
+E_out = -8
+  
+MCcycles = 201000
+T = 2.4
+<E> = -6.5720597
+<|M|> = 3.525602
+sigma_E = 2.3776496
+sigma_M = 0.30031872
+r_counter = 143332
+E_out = -8
+  
+MCcycles = 202000
+T = 2.4
+<E> = -6.5714851
+<|M|> = 3.5254158
+sigma_E = 2.3783908
+sigma_M = 0.30041029
+r_counter = 144106
+E_out = -8
+  
+MCcycles = 203000
+T = 2.4
+<E> = -6.5698128
+<|M|> = 3.5247685
+sigma_E = 2.3807003
+sigma_M = 0.30081954
+r_counter = 144964
+E_out = -8
+  
+MCcycles = 204000
+T = 2.4
+<E> = -6.569098
+<|M|> = 3.5245196
+sigma_E = 2.3816201
+sigma_M = 0.30095509
+r_counter = 145727
+E_out = 0
+  
+MCcycles = 205000
+T = 2.4
+<E> = -6.5683122
+<|M|> = 3.5241756
+sigma_E = 2.382787
+sigma_M = 0.30120267
+r_counter = 146506
+E_out = -8
+  
+MCcycles = 206000
+T = 2.4
+<E> = -6.5681942
+<|M|> = 3.5241748
+sigma_E = 2.382784
+sigma_M = 0.30116457
+r_counter = 147212
+E_out = -8
+  
+MCcycles = 207000
+T = 2.4
+<E> = -6.5681159
+<|M|> = 3.5242222
+sigma_E = 2.3828859
+sigma_M = 0.30108521
+r_counter = 147922
+E_out = -8
+  
+MCcycles = 208000
+T = 2.4
+<E> = -6.5685
+<|M|> = 3.5242788
+sigma_E = 2.3822404
+sigma_M = 0.30110023
+r_counter = 148594
+E_out = -8
+  
+MCcycles = 209000
+T = 2.4
+<E> = -6.5671579
+<|M|> = 3.5238565
+sigma_E = 2.3839658
+sigma_M = 0.30129791
+r_counter = 149438
+E_out = -8
+  
+MCcycles = 210000
+T = 2.4
+<E> = -6.5673905
+<|M|> = 3.5239429
+sigma_E = 2.3836694
+sigma_M = 0.30124716
+r_counter = 150156
+E_out = -8
+  
+MCcycles = 211000
+T = 2.4
+<E> = -6.5675829
+<|M|> = 3.5240095
+sigma_E = 2.3834245
+sigma_M = 0.30121134
+r_counter = 150838
+E_out = -8
+  
+MCcycles = 212000
+T = 2.4
+<E> = -6.5680377
+<|M|> = 3.5242358
+sigma_E = 2.3829937
+sigma_M = 0.30104891
+r_counter = 151487
+E_out = 0
+  
+MCcycles = 213000
+T = 2.4
+<E> = -6.5685258
+<|M|> = 3.5243756
+sigma_E = 2.3825185
+sigma_M = 0.30100404
+r_counter = 152134
+E_out = -8
+  
+MCcycles = 214000
+T = 2.4
+<E> = -6.5679626
+<|M|> = 3.5242804
+sigma_E = 2.3835415
+sigma_M = 0.30100215
+r_counter = 152880
+E_out = -8
+  
+MCcycles = 215000
+T = 2.4
+<E> = -6.5670698
+<|M|> = 3.5239535
+sigma_E = 2.384687
+sigma_M = 0.30119144
+r_counter = 153678
+E_out = -8
+  
+MCcycles = 216000
+T = 2.4
+<E> = -6.5677037
+<|M|> = 3.5241574
+sigma_E = 2.3838726
+sigma_M = 0.30109253
+r_counter = 154344
+E_out = -8
+  
+MCcycles = 217000
+T = 2.4
+<E> = -6.5681475
+<|M|> = 3.5242949
+sigma_E = 2.3831546
+sigma_M = 0.30102064
+r_counter = 155005
+E_out = 0
+  
+MCcycles = 218000
+T = 2.4
+<E> = -6.5675963
+<|M|> = 3.5239541
+sigma_E = 2.3837155
+sigma_M = 0.3013038
+r_counter = 155800
+E_out = -8
+  
+MCcycles = 219000
+T = 2.4
+<E> = -6.5680731
+<|M|> = 3.5241735
+sigma_E = 2.3832502
+sigma_M = 0.30115528
+r_counter = 156466
+E_out = -8
+  
+MCcycles = 220000
+T = 2.4
+<E> = -6.5671636
+<|M|> = 3.5238909
+sigma_E = 2.3844177
+sigma_M = 0.30128458
+r_counter = 157272
+E_out = -8
+  
+MCcycles = 221000
+T = 2.4
+<E> = -6.5665882
+<|M|> = 3.5237104
+sigma_E = 2.3850114
+sigma_M = 0.30135945
+r_counter = 158011
+E_out = 0
+  
+MCcycles = 222000
+T = 2.4
+<E> = -6.5664144
+<|M|> = 3.5236667
+sigma_E = 2.3852351
+sigma_M = 0.30137123
+r_counter = 158778
+E_out = -8
+  
+MCcycles = 223000
+T = 2.4
+<E> = -6.5670314
+<|M|> = 3.5238924
+sigma_E = 2.3843005
+sigma_M = 0.30123173
+r_counter = 159458
+E_out = -8
+  
+MCcycles = 224000
+T = 2.4
+<E> = -6.5664643
+<|M|> = 3.5236786
+sigma_E = 2.3850296
+sigma_M = 0.30135983
+r_counter = 160216
+E_out = -8
+  
+MCcycles = 225000
+T = 2.4
+<E> = -6.5656533
+<|M|> = 3.5235111
+sigma_E = 2.3862135
+sigma_M = 0.30137736
+r_counter = 160954
+E_out = -8
+  
+MCcycles = 226000
+T = 2.4
+<E> = -6.5663009
+<|M|> = 3.5237168
+sigma_E = 2.3852418
+sigma_M = 0.30127088
+r_counter = 161600
+E_out = -8
+  
+MCcycles = 227000
+T = 2.4
+<E> = -6.566978
+<|M|> = 3.5239295
+sigma_E = 2.3842331
+sigma_M = 0.30116301
+r_counter = 162254
+E_out = 0
+  
+MCcycles = 228000
+T = 2.4
+<E> = -6.5666316
+<|M|> = 3.5237895
+sigma_E = 2.3849602
+sigma_M = 0.3012708
+r_counter = 163032
+E_out = -8
+  
+MCcycles = 229000
+T = 2.4
+<E> = -6.5675459
+<|M|> = 3.5241135
+sigma_E = 2.3836476
+sigma_M = 0.30108171
+r_counter = 163682
+E_out = -8
+  
+MCcycles = 230000
+T = 2.4
+<E> = -6.5680348
+<|M|> = 3.5242087
+sigma_E = 2.3828819
+sigma_M = 0.30107522
+r_counter = 164350
+E_out = -8
+  
+MCcycles = 231000
+T = 2.4
+<E> = -6.5683117
+<|M|> = 3.5242338
+sigma_E = 2.3823897
+sigma_M = 0.30110426
+r_counter = 165048
+E_out = -8
+  
+MCcycles = 232000
+T = 2.4
+<E> = -6.5685862
+<|M|> = 3.5244397
+sigma_E = 2.3820395
+sigma_M = 0.30091318
+r_counter = 165738
+E_out = -8
+  
+MCcycles = 233000
+T = 2.4
+<E> = -6.5674163
+<|M|> = 3.5239227
+sigma_E = 2.3836814
+sigma_M = 0.30128182
+r_counter = 166606
+E_out = -8
+  
+MCcycles = 234000
+T = 2.4
+<E> = -6.5675897
+<|M|> = 3.5240513
+sigma_E = 2.3833237
+sigma_M = 0.30115453
+r_counter = 167292
+E_out = -8
+  
+MCcycles = 235000
+T = 2.4
+<E> = -6.5682383
+<|M|> = 3.5242383
+sigma_E = 2.3823572
+sigma_M = 0.30107228
+r_counter = 167902
+E_out = -8
+  
+MCcycles = 236000
+T = 2.4
+<E> = -6.5677966
+<|M|> = 3.5241356
+sigma_E = 2.3829272
+sigma_M = 0.30109166
+r_counter = 168664
+E_out = -8
+  
+MCcycles = 237000
+T = 2.4
+<E> = -6.56827
+<|M|> = 3.524346
+sigma_E = 2.3823221
+sigma_M = 0.30094465
+r_counter = 169340
+E_out = -8
+  
+MCcycles = 238000
+T = 2.4
+<E> = -6.5693109
+<|M|> = 3.5247059
+sigma_E = 2.3811225
+sigma_M = 0.30075917
+r_counter = 169926
+E_out = -8
+  
+MCcycles = 239000
+T = 2.4
+<E> = -6.569272
+<|M|> = 3.524728
+sigma_E = 2.3815765
+sigma_M = 0.30074671
+r_counter = 170636
+E_out = -8
+  
+MCcycles = 240000
+T = 2.4
+<E> = -6.5692
+<|M|> = 3.524675
+sigma_E = 2.3818028
+sigma_M = 0.30080404
+r_counter = 171340
+E_out = -8
+  
+MCcycles = 241000
+T = 2.4
+<E> = -6.5697593
+<|M|> = 3.5248797
+sigma_E = 2.3810842
+sigma_M = 0.3006855
+r_counter = 171993
+E_out = 0
+  
+MCcycles = 242000
+T = 2.4
+<E> = -6.5700496
+<|M|> = 3.5248843
+sigma_E = 2.380579
+sigma_M = 0.30074395
+r_counter = 172686
+E_out = -8
+  
+MCcycles = 243000
+T = 2.4
+<E> = -6.5700082
+<|M|> = 3.5248971
+sigma_E = 2.3807644
+sigma_M = 0.30072569
+r_counter = 173420
+E_out = -8
+  
+MCcycles = 244000
+T = 2.4
+<E> = -6.5697377
+<|M|> = 3.5246311
+sigma_E = 2.381112
+sigma_M = 0.30099382
+r_counter = 174208
+E_out = -8
+  
+MCcycles = 245000
+T = 2.4
+<E> = -6.5698286
+<|M|> = 3.5246776
+sigma_E = 2.3809953
+sigma_M = 0.30095796
+r_counter = 174912
+E_out = -8
+  
+MCcycles = 246000
+T = 2.4
+<E> = -6.5690407
+<|M|> = 3.524439
+sigma_E = 2.3820075
+sigma_M = 0.30106207
+r_counter = 175696
+E_out = -8
+  
+MCcycles = 247000
+T = 2.4
+<E> = -6.5698462
+<|M|> = 3.5247692
+sigma_E = 2.3808431
+sigma_M = 0.30083852
+r_counter = 176308
+E_out = -8
+  
+MCcycles = 248000
+T = 2.4
+<E> = -6.5696774
+<|M|> = 3.5246532
+sigma_E = 2.3809314
+sigma_M = 0.30093475
+r_counter = 177046
+E_out = -8
+  
+MCcycles = 249000
+T = 2.4
+<E> = -6.5693173
+<|M|> = 3.5246024
+sigma_E = 2.3813952
+sigma_M = 0.30090892
+r_counter = 177788
+E_out = -8
+  
+MCcycles = 250000
+T = 2.4
+<E> = -6.569568
+<|M|> = 3.524768
+sigma_E = 2.3810741
+sigma_M = 0.30076264
+r_counter = 178468
+E_out = -8
+  
+MCcycles = 251000
+T = 2.4
+<E> = -6.5692112
+<|M|> = 3.5246853
+sigma_E = 2.3817885
+sigma_M = 0.30079387
+r_counter = 179243
+E_out = 0
+  
+MCcycles = 252000
+T = 2.4
+<E> = -6.5693333
+<|M|> = 3.5247063
+sigma_E = 2.3816316
+sigma_M = 0.3007978
+r_counter = 179970
+E_out = -8
+  
+MCcycles = 253000
+T = 2.4
+<E> = -6.568917
+<|M|> = 3.5246087
+sigma_E = 2.3822928
+sigma_M = 0.30082489
+r_counter = 180730
+E_out = -8
+  
+MCcycles = 254000
+T = 2.4
+<E> = -6.5685669
+<|M|> = 3.5244488
+sigma_E = 2.382742
+sigma_M = 0.30093915
+r_counter = 181474
+E_out = -8
+  
+MCcycles = 255000
+T = 2.4
+<E> = -6.5673098
+<|M|> = 3.5240314
+sigma_E = 2.3843556
+sigma_M = 0.3011517
+r_counter = 182344
+E_out = -8
+  
+MCcycles = 256000
+T = 2.4
+<E> = -6.5673125
+<|M|> = 3.5239297
+sigma_E = 2.3842266
+sigma_M = 0.30127286
+r_counter = 183084
+E_out = -8
+  
+MCcycles = 257000
+T = 2.4
+<E> = -6.5668794
+<|M|> = 3.5237977
+sigma_E = 2.3847826
+sigma_M = 0.30133118
+r_counter = 183866
+E_out = -8
+  
+MCcycles = 258000
+T = 2.4
+<E> = -6.5673488
+<|M|> = 3.5239845
+sigma_E = 2.384428
+sigma_M = 0.30122828
+r_counter = 184508
+E_out = -8
+  
+MCcycles = 259000
+T = 2.4
+<E> = -6.5675058
+<|M|> = 3.5240154
+sigma_E = 2.3843492
+sigma_M = 0.30123612
+r_counter = 185201
+E_out = 0
+  
+MCcycles = 260000
+T = 2.4
+<E> = -6.5671385
+<|M|> = 3.5239385
+sigma_E = 2.3849423
+sigma_M = 0.30124905
+r_counter = 185966
+E_out = -8
+  
+MCcycles = 261000
+T = 2.4
+<E> = -6.567295
+<|M|> = 3.5241149
+sigma_E = 2.3846169
+sigma_M = 0.30105768
+r_counter = 186668
+E_out = -8
+  
+MCcycles = 262000
+T = 2.4
+<E> = -6.5677863
+<|M|> = 3.5242824
+sigma_E = 2.384107
+sigma_M = 0.30097664
+r_counter = 187344
+E_out = -8
+  
+MCcycles = 263000
+T = 2.4
+<E> = -6.567635
+<|M|> = 3.5243194
+sigma_E = 2.384421
+sigma_M = 0.30089967
+r_counter = 188056
+E_out = -8
+  
+MCcycles = 264000
+T = 2.4
+<E> = -6.567
+<|M|> = 3.5241061
+sigma_E = 2.3852338
+sigma_M = 0.30101003
+r_counter = 188850
+E_out = -8
+  
+MCcycles = 265000
+T = 2.4
+<E> = -6.5675774
+<|M|> = 3.5242566
+sigma_E = 2.3843696
+sigma_M = 0.30095668
+r_counter = 189522
+E_out = -8
+  
+MCcycles = 266000
+T = 2.4
+<E> = -6.5677594
+<|M|> = 3.5242632
+sigma_E = 2.3841341
+sigma_M = 0.3009938
+r_counter = 190262
+E_out = -8
+  
+MCcycles = 267000
+T = 2.4
+<E> = -6.5674007
+<|M|> = 3.5242097
+sigma_E = 2.3845927
+sigma_M = 0.30097145
+r_counter = 191006
+E_out = -8
+  
+MCcycles = 268000
+T = 2.4
+<E> = -6.5677612
+<|M|> = 3.5243582
+sigma_E = 2.3840088
+sigma_M = 0.30086659
+r_counter = 191654
+E_out = -8
+  
+MCcycles = 269000
+T = 2.4
+<E> = -6.567881
+<|M|> = 3.5242825
+sigma_E = 2.3839726
+sigma_M = 0.30099943
+r_counter = 192394
+E_out = -8
+  
+MCcycles = 270000
+T = 2.4
+<E> = -6.5681481
+<|M|> = 3.5243926
+sigma_E = 2.3835093
+sigma_M = 0.30091977
+r_counter = 193096
+E_out = -8
+  
+MCcycles = 271000
+T = 2.4
+<E> = -6.5686494
+<|M|> = 3.5244871
+sigma_E = 2.3827462
+sigma_M = 0.30091836
+r_counter = 193804
+E_out = -8
+  
+MCcycles = 272000
+T = 2.4
+<E> = -6.5681765
+<|M|> = 3.5243971
+sigma_E = 2.3834703
+sigma_M = 0.30092105
+r_counter = 194572
+E_out = -8
+  
+MCcycles = 273000
+T = 2.4
+<E> = -6.5683516
+<|M|> = 3.5245275
+sigma_E = 2.3831269
+sigma_M = 0.30079282
+r_counter = 195298
+E_out = -8
+  
+MCcycles = 274000
+T = 2.4
+<E> = -6.568292
+<|M|> = 3.524562
+sigma_E = 2.3832027
+sigma_M = 0.30073421
+r_counter = 195994
+E_out = -8
+  
+MCcycles = 275000
+T = 2.4
+<E> = -6.5688727
+<|M|> = 3.5247127
+sigma_E = 2.382456
+sigma_M = 0.30068914
+r_counter = 196690
+E_out = -8
+  
+MCcycles = 276000
+T = 2.4
+<E> = -6.5689855
+<|M|> = 3.5247536
+sigma_E = 2.3823102
+sigma_M = 0.30066566
+r_counter = 197377
+E_out = 0
+  
+MCcycles = 277000
+T = 2.4
+<E> = -6.5682888
+<|M|> = 3.5245415
+sigma_E = 2.3832042
+sigma_M = 0.30075918
+r_counter = 198170
+E_out = -8
+  
+MCcycles = 278000
+T = 2.4
+<E> = -6.5679137
+<|M|> = 3.5244173
+sigma_E = 2.3836851
+sigma_M = 0.30082217
+r_counter = 198952
+E_out = -8
+  
+MCcycles = 279000
+T = 2.4
+<E> = -6.5672545
+<|M|> = 3.5241505
+sigma_E = 2.3846452
+sigma_M = 0.30100114
+r_counter = 199718
+E_out = -8
+  
+MCcycles = 280000
+T = 2.4
+<E> = -6.5672571
+<|M|> = 3.5242071
+sigma_E = 2.3845263
+sigma_M = 0.30092315
+r_counter = 200425
+E_out = 0
+  
+MCcycles = 281000
+T = 2.4
+<E> = -6.5672028
+<|M|> = 3.5241566
+sigma_E = 2.3844813
+sigma_M = 0.30096621
+r_counter = 201140
+E_out = -8
+  
+MCcycles = 282000
+T = 2.4
+<E> = -6.5673475
+<|M|> = 3.5242553
+sigma_E = 2.3842952
+sigma_M = 0.30087774
+r_counter = 201862
+E_out = -8
+  
+MCcycles = 283000
+T = 2.4
+<E> = -6.5670389
+<|M|> = 3.5241625
+sigma_E = 2.3845779
+sigma_M = 0.30091058
+r_counter = 202592
+E_out = -8
+  
+MCcycles = 284000
+T = 2.4
+<E> = -6.5678873
+<|M|> = 3.5244366
+sigma_E = 2.3834887
+sigma_M = 0.30077677
+r_counter = 203197
+E_out = 0
+  
+MCcycles = 285000
+T = 2.4
+<E> = -6.5676632
+<|M|> = 3.5243509
+sigma_E = 2.3837765
+sigma_M = 0.30082895
+r_counter = 203926
+E_out = -8
+  
+MCcycles = 286000
+T = 2.4
+<E> = -6.5678042
+<|M|> = 3.5244336
+sigma_E = 2.3837073
+sigma_M = 0.30076683
+r_counter = 204630
+E_out = -8
+  
+MCcycles = 287000
+T = 2.4
+<E> = -6.5683345
+<|M|> = 3.5245575
+sigma_E = 2.3829145
+sigma_M = 0.30073599
+r_counter = 205322
+E_out = -8
+  
+MCcycles = 288000
+T = 2.4
+<E> = -6.5680556
+<|M|> = 3.524625
+sigma_E = 2.3833838
+sigma_M = 0.30058799
+r_counter = 206024
+E_out = -8
+  
+MCcycles = 289000
+T = 2.4
+<E> = -6.5682215
+<|M|> = 3.5246228
+sigma_E = 2.3831704
+sigma_M = 0.30063217
+r_counter = 206708
+E_out = -8
+  
+MCcycles = 290000
+T = 2.4
+<E> = -6.5683862
+<|M|> = 3.5246897
+sigma_E = 2.3829584
+sigma_M = 0.30058898
+r_counter = 207413
+E_out = 0
+  
+MCcycles = 291000
+T = 2.4
+<E> = -6.5689347
+<|M|> = 3.5249691
+sigma_E = 2.3823635
+sigma_M = 0.30038022
+r_counter = 208064
+E_out = -8
+  
+MCcycles = 292000
+T = 2.4
+<E> = -6.5686027
+<|M|> = 3.5248973
+sigma_E = 2.3827892
+sigma_M = 0.30038784
+r_counter = 208798
+E_out = -8
+  
+MCcycles = 293000
+T = 2.4
+<E> = -6.5680546
+<|M|> = 3.5247235
+sigma_E = 2.3834923
+sigma_M = 0.30047005
+r_counter = 209586
+E_out = 0
+  
+MCcycles = 294000
+T = 2.4
+<E> = -6.5678367
+<|M|> = 3.5247075
+sigma_E = 2.3837713
+sigma_M = 0.30043582
+r_counter = 210318
+E_out = -8
+  
+MCcycles = 295000
+T = 2.4
+<E> = -6.5688407
+<|M|> = 3.5250102
+sigma_E = 2.3823729
+sigma_M = 0.30029786
+r_counter = 210930
+E_out = -8
+  
+MCcycles = 296000
+T = 2.4
+<E> = -6.5696486
+<|M|> = 3.5252838
+sigma_E = 2.3813346
+sigma_M = 0.30015437
+r_counter = 211572
+E_out = -8
+  
+MCcycles = 297000
+T = 2.4
+<E> = -6.5699394
+<|M|> = 3.5253333
+sigma_E = 2.3808529
+sigma_M = 0.30015774
+r_counter = 212290
+E_out = -8
+  
+MCcycles = 298000
+T = 2.4
+<E> = -6.5709799
+<|M|> = 3.5256443
+sigma_E = 2.3795156
+sigma_M = 0.30002519
+r_counter = 212878
+E_out = -8
+  
+MCcycles = 299000
+T = 2.4
+<E> = -6.5720401
+<|M|> = 3.5260067
+sigma_E = 2.3780454
+sigma_M = 0.2998259
+r_counter = 213480
+E_out = -8
+  
+MCcycles = 300000
+T = 2.4
+<E> = -6.5710933
+<|M|> = 3.5257333
+sigma_E = 2.3794764
+sigma_M = 0.29994778
+r_counter = 214280
+E_out = -8
+  
+MCcycles = 301000
+T = 2.4
+<E> = -6.5709502
+<|M|> = 3.5256944
+sigma_E = 2.3796601
+sigma_M = 0.2999612
+r_counter = 214976
+E_out = -8
+  
+MCcycles = 302000
+T = 2.4
+<E> = -6.5699073
+<|M|> = 3.5253179
+sigma_E = 2.3808941
+sigma_M = 0.30016922
+r_counter = 215852
+E_out = -8
+  
+MCcycles = 303000
+T = 2.4
+<E> = -6.5711947
+<|M|> = 3.525802
+sigma_E = 2.3792394
+sigma_M = 0.29987977
+r_counter = 216379
+E_out = 0
+  
+MCcycles = 304000
+T = 2.4
+<E> = -6.5718421
+<|M|> = 3.5260132
+sigma_E = 2.378407
+sigma_M = 0.29977491
+r_counter = 217012
+E_out = -8
+  
+MCcycles = 305000
+T = 2.4
+<E> = -6.5710951
+<|M|> = 3.5257574
+sigma_E = 2.3792626
+sigma_M = 0.29990463
+r_counter = 217826
+E_out = -8
+  
+MCcycles = 306000
+T = 2.4
+<E> = -6.5713987
+<|M|> = 3.5258105
+sigma_E = 2.378768
+sigma_M = 0.29990698
+r_counter = 218502
+E_out = -8
+  
+MCcycles = 307000
+T = 2.4
+<E> = -6.571987
+<|M|> = 3.5259414
+sigma_E = 2.3779081
+sigma_M = 0.29988225
+r_counter = 219172
+E_out = -8
+  
+MCcycles = 308000
+T = 2.4
+<E> = -6.5727013
+<|M|> = 3.5261299
+sigma_E = 2.3771981
+sigma_M = 0.2998358
+r_counter = 219800
+E_out = -8
+  
+MCcycles = 309000
+T = 2.4
+<E> = -6.5725566
+<|M|> = 3.5260453
+sigma_E = 2.377281
+sigma_M = 0.29989999
+r_counter = 220528
+E_out = -8
+  
+MCcycles = 310000
+T = 2.4
+<E> = -6.5728258
+<|M|> = 3.5261032
+sigma_E = 2.3769354
+sigma_M = 0.29989417
+r_counter = 221202
+E_out = -8
+  
+MCcycles = 311000
+T = 2.4
+<E> = -6.5725016
+<|M|> = 3.5258971
+sigma_E = 2.377456
+sigma_M = 0.30007992
+r_counter = 221994
+E_out = -8
+  
+MCcycles = 312000
+T = 2.4
+<E> = -6.5718718
+<|M|> = 3.525609
+sigma_E = 2.3782663
+sigma_M = 0.30028637
+r_counter = 222789
+E_out = 0
+  
+MCcycles = 313000
+T = 2.4
+<E> = -6.5721917
+<|M|> = 3.5258019
+sigma_E = 2.3778552
+sigma_M = 0.3001227
+r_counter = 223458
+E_out = -8
+  
+MCcycles = 314000
+T = 2.4
+<E> = -6.5719745
+<|M|> = 3.5256815
+sigma_E = 2.3781349
+sigma_M = 0.30022047
+r_counter = 224222
+E_out = -8
+  
+MCcycles = 315000
+T = 2.4
+<E> = -6.5722413
+<|M|> = 3.5257206
+sigma_E = 2.3777921
+sigma_M = 0.30023779
+r_counter = 224918
+E_out = -8
+  
+MCcycles = 316000
+T = 2.4
+<E> = -6.5727089
+<|M|> = 3.5258544
+sigma_E = 2.377191
+sigma_M = 0.30018574
+r_counter = 225560
+E_out = -8
+  
+MCcycles = 317000
+T = 2.4
+<E> = -6.572265
+<|M|> = 3.5256782
+sigma_E = 2.3778632
+sigma_M = 0.30030361
+r_counter = 226359
+E_out = 0
+  
+MCcycles = 318000
+T = 2.4
+<E> = -6.5717736
+<|M|> = 3.5254403
+sigma_E = 2.3783945
+sigma_M = 0.30047499
+r_counter = 227136
+E_out = -8
+  
+MCcycles = 319000
+T = 2.4
+<E> = -6.5713103
+<|M|> = 3.5252351
+sigma_E = 2.3788902
+sigma_M = 0.30061196
+r_counter = 227934
+E_out = 0
+  
+MCcycles = 320000
+T = 2.4
+<E> = -6.571225
+<|M|> = 3.525225
+sigma_E = 2.3790005
+sigma_M = 0.30060342
+r_counter = 228662
+E_out = -8
+  
+MCcycles = 321000
+T = 2.4
+<E> = -6.5720623
+<|M|> = 3.5255327
+sigma_E = 2.3778248
+sigma_M = 0.30041802
+r_counter = 229226
+E_out = -8
+  
+MCcycles = 322000
+T = 2.4
+<E> = -6.5717267
+<|M|> = 3.5254286
+sigma_E = 2.3782573
+sigma_M = 0.30046568
+r_counter = 229975
+E_out = 0
+  
+MCcycles = 323000
+T = 2.4
+<E> = -6.5725077
+<|M|> = 3.5256718
+sigma_E = 2.3771547
+sigma_M = 0.30034762
+r_counter = 230594
+E_out = -8
+  
+MCcycles = 324000
+T = 2.4
+<E> = -6.5732346
+<|M|> = 3.5259321
+sigma_E = 2.3763197
+sigma_M = 0.30020688
+r_counter = 231234
+E_out = -8
+  
+MCcycles = 325000
+T = 2.4
+<E> = -6.5736862
+<|M|> = 3.52608
+sigma_E = 2.375641
+sigma_M = 0.30012688
+r_counter = 231908
+E_out = -8
+  
+MCcycles = 326000
+T = 2.4
+<E> = -6.5737669
+<|M|> = 3.5261043
+sigma_E = 2.3756365
+sigma_M = 0.30012259
+r_counter = 232589
+E_out = 0
+  
+MCcycles = 327000
+T = 2.4
+<E> = -6.5730153
+<|M|> = 3.5258104
+sigma_E = 2.3768002
+sigma_M = 0.30031817
+r_counter = 233390
+E_out = -8
+  
+MCcycles = 328000
+T = 2.4
+<E> = -6.5729268
+<|M|> = 3.5258049
+sigma_E = 2.3769143
+sigma_M = 0.30030304
+r_counter = 234098
+E_out = -8
+  
+MCcycles = 329000
+T = 2.4
+<E> = -6.5732523
+<|M|> = 3.5258845
+sigma_E = 2.3764959
+sigma_M = 0.30028387
+r_counter = 234795
+E_out = 0
+  
+MCcycles = 330000
+T = 2.4
+<E> = -6.5735515
+<|M|> = 3.5260121
+sigma_E = 2.3761112
+sigma_M = 0.30019751
+r_counter = 235451
+E_out = 0
+  
+MCcycles = 331000
+T = 2.4
+<E> = -6.5738973
+<|M|> = 3.5261511
+sigma_E = 2.3756665
+sigma_M = 0.30010849
+r_counter = 236106
+E_out = 0
+  
+MCcycles = 332000
+T = 2.4
+<E> = -6.5736145
+<|M|> = 3.526
+sigma_E = 2.3761272
+sigma_M = 0.30023461
+r_counter = 236836
+E_out = -8
+  
+MCcycles = 333000
+T = 2.4
+<E> = -6.5745826
+<|M|> = 3.5263544
+sigma_E = 2.374785
+sigma_M = 0.30002306
+r_counter = 237430
+E_out = -8
+  
+MCcycles = 334000
+T = 2.4
+<E> = -6.5746347
+<|M|> = 3.5264132
+sigma_E = 2.3747182
+sigma_M = 0.29996181
+r_counter = 238136
+E_out = -8
+  
+MCcycles = 335000
+T = 2.4
+<E> = -6.5743045
+<|M|> = 3.5263343
+sigma_E = 2.3752391
+sigma_M = 0.29998483
+r_counter = 238903
+E_out = 0
+  
+MCcycles = 336000
+T = 2.4
+<E> = -6.5751905
+<|M|> = 3.5266429
+sigma_E = 2.3741937
+sigma_M = 0.29982254
+r_counter = 239434
+E_out = -8
+  
+MCcycles = 337000
+T = 2.4
+<E> = -6.5752641
+<|M|> = 3.5267003
+sigma_E = 2.3740987
+sigma_M = 0.29976836
+r_counter = 240126
+E_out = -8
+  
+MCcycles = 338000
+T = 2.4
+<E> = -6.5753609
+<|M|> = 3.5267574
+sigma_E = 2.373879
+sigma_M = 0.2997145
+r_counter = 240806
+E_out = -8
+  
+MCcycles = 339000
+T = 2.4
+<E> = -6.5763304
+<|M|> = 3.5271032
+sigma_E = 2.3726304
+sigma_M = 0.29951989
+r_counter = 241414
+E_out = -8
+  
+MCcycles = 340000
+T = 2.4
+<E> = -6.5763294
+<|M|> = 3.5270471
+sigma_E = 2.3727258
+sigma_M = 0.29959653
+r_counter = 242090
+E_out = -8
+  
+MCcycles = 341000
+T = 2.4
+<E> = -6.5762346
+<|M|> = 3.5269501
+sigma_E = 2.3728477
+sigma_M = 0.29969526
+r_counter = 242832
+E_out = -8
+  
+MCcycles = 342000
+T = 2.4
+<E> = -6.576538
+<|M|> = 3.5270058
+sigma_E = 2.372363
+sigma_M = 0.29969486
+r_counter = 243512
+E_out = -8
+  
+MCcycles = 343000
+T = 2.4
+<E> = -6.5773294
+<|M|> = 3.527242
+sigma_E = 2.3714365
+sigma_M = 0.29960018
+r_counter = 244132
+E_out = -8
+  
+MCcycles = 344000
+T = 2.4
+<E> = -6.5766977
+<|M|> = 3.5269651
+sigma_E = 2.3721573
+sigma_M = 0.29978624
+r_counter = 244938
+E_out = 0
+  
+MCcycles = 345000
+T = 2.4
+<E> = -6.5763478
+<|M|> = 3.5268348
+sigma_E = 2.372608
+sigma_M = 0.29986345
+r_counter = 245722
+E_out = -8
+  
+MCcycles = 346000
+T = 2.4
+<E> = -6.576185
+<|M|> = 3.5267688
+sigma_E = 2.3729102
+sigma_M = 0.2999119
+r_counter = 246448
+E_out = -8
+  
+MCcycles = 347000
+T = 2.4
+<E> = -6.5763458
+<|M|> = 3.5268357
+sigma_E = 2.3727028
+sigma_M = 0.29986751
+r_counter = 247190
+E_out = -8
+  
+MCcycles = 348000
+T = 2.4
+<E> = -6.5769885
+<|M|> = 3.527046
+sigma_E = 2.3717826
+sigma_M = 0.29975678
+r_counter = 247776
+E_out = -8
+  
+MCcycles = 349000
+T = 2.4
+<E> = -6.5772837
+<|M|> = 3.5271289
+sigma_E = 2.3713105
+sigma_M = 0.29972002
+r_counter = 248440
+E_out = -8
+  
+MCcycles = 350000
+T = 2.4
+<E> = -6.5772114
+<|M|> = 3.52708
+sigma_E = 2.3714953
+sigma_M = 0.29976953
+r_counter = 249182
+E_out = -8
+  
+MCcycles = 351000
+T = 2.4
+<E> = -6.5768205
+<|M|> = 3.5268718
+sigma_E = 2.3720902
+sigma_M = 0.29994056
+r_counter = 249998
+E_out = -8
+  
+MCcycles = 352000
+T = 2.4
+<E> = -6.5768409
+<|M|> = 3.5269034
+sigma_E = 2.3721546
+sigma_M = 0.29991138
+r_counter = 250676
+E_out = -8
+  
+MCcycles = 353000
+T = 2.4
+<E> = -6.5775411
+<|M|> = 3.5271218
+sigma_E = 2.3711612
+sigma_M = 0.29980477
+r_counter = 251286
+E_out = -8
+  
+MCcycles = 354000
+T = 2.4
+<E> = -6.5773559
+<|M|> = 3.5271525
+sigma_E = 2.3713995
+sigma_M = 0.29971964
+r_counter = 252044
+E_out = -8
+  
+MCcycles = 355000
+T = 2.4
+<E> = -6.5771042
+<|M|> = 3.5270592
+sigma_E = 2.3716335
+sigma_M = 0.29976906
+r_counter = 252800
+E_out = -8
+  
+MCcycles = 356000
+T = 2.4
+<E> = -6.5774382
+<|M|> = 3.5271966
+sigma_E = 2.3712031
+sigma_M = 0.29967885
+r_counter = 253486
+E_out = -8
+  
+MCcycles = 357000
+T = 2.4
+<E> = -6.576605
+<|M|> = 3.527014
+sigma_E = 2.3728144
+sigma_M = 0.29973493
+r_counter = 254268
+E_out = -8
+  
+MCcycles = 358000
+T = 2.4
+<E> = -6.5766704
+<|M|> = 3.5269497
+sigma_E = 2.3727287
+sigma_M = 0.29983239
+r_counter = 254970
+E_out = -8
+  
+MCcycles = 359000
+T = 2.4
+<E> = -6.5760223
+<|M|> = 3.5266184
+sigma_E = 2.3735621
+sigma_M = 0.30008888
+r_counter = 255776
+E_out = -8
+  
+MCcycles = 360000
+T = 2.4
+<E> = -6.5759111
+<|M|> = 3.5266056
+sigma_E = 2.3736149
+sigma_M = 0.30007165
+r_counter = 256512
+E_out = -8
+  
+MCcycles = 361000
+T = 2.4
+<E> = -6.5750693
+<|M|> = 3.5262659
+sigma_E = 2.3747864
+sigma_M = 0.30029567
+r_counter = 257360
+E_out = -8
+  
+MCcycles = 362000
+T = 2.4
+<E> = -6.5755138
+<|M|> = 3.5264199
+sigma_E = 2.3742125
+sigma_M = 0.30021224
+r_counter = 257996
+E_out = -8
+  
+MCcycles = 363000
+T = 2.4
+<E> = -6.5759559
+<|M|> = 3.5265234
+sigma_E = 2.3735535
+sigma_M = 0.30018639
+r_counter = 258634
+E_out = -8
+  
+MCcycles = 364000
+T = 2.4
+<E> = -6.5764176
+<|M|> = 3.5267143
+sigma_E = 2.3730456
+sigma_M = 0.30006609
+r_counter = 259298
+E_out = -8
+  
+MCcycles = 365000
+T = 2.4
+<E> = -6.5763288
+<|M|> = 3.5267068
+sigma_E = 2.3730709
+sigma_M = 0.30004771
+r_counter = 260032
+E_out = -8
+  
+MCcycles = 366000
+T = 2.4
+<E> = -6.5763716
+<|M|> = 3.5267377
+sigma_E = 2.373102
+sigma_M = 0.30002483
+r_counter = 260726
+E_out = -8
+  
+MCcycles = 367000
+T = 2.4
+<E> = -6.5763052
+<|M|> = 3.5266866
+sigma_E = 2.3732733
+sigma_M = 0.30007809
+r_counter = 261460
+E_out = -8
+  
+MCcycles = 368000
+T = 2.4
+<E> = -6.5768696
+<|M|> = 3.5269402
+sigma_E = 2.3725445
+sigma_M = 0.29989872
+r_counter = 262088
+E_out = -8
+  
+MCcycles = 369000
+T = 2.4
+<E> = -6.5768889
+<|M|> = 3.5268672
+sigma_E = 2.3724312
+sigma_M = 0.29999027
+r_counter = 262838
+E_out = 0
+  
+MCcycles = 370000
+T = 2.4
+<E> = -6.5769081
+<|M|> = 3.5268703
+sigma_E = 2.3724051
+sigma_M = 0.29999112
+r_counter = 263558
+E_out = -8
+  
+MCcycles = 371000
+T = 2.4
+<E> = -6.5770997
+<|M|> = 3.5269973
+sigma_E = 2.3723293
+sigma_M = 0.29988921
+r_counter = 264251
+E_out = 0
+  
+MCcycles = 372000
+T = 2.4
+<E> = -6.5765591
+<|M|> = 3.5268011
+sigma_E = 2.3730239
+sigma_M = 0.30000188
+r_counter = 265069
+E_out = 0
+  
+MCcycles = 373000
+T = 2.4
+<E> = -6.5764504
+<|M|> = 3.5267614
+sigma_E = 2.3731622
+sigma_M = 0.30002471
+r_counter = 265782
+E_out = -8
+  
+MCcycles = 374000
+T = 2.4
+<E> = -6.5764492
+<|M|> = 3.5268342
+sigma_E = 2.3732474
+sigma_M = 0.29993763
+r_counter = 266423
+E_out = 0
+  
+MCcycles = 375000
+T = 2.4
+<E> = -6.576256
+<|M|> = 3.5267947
+sigma_E = 2.3734943
+sigma_M = 0.29993918
+r_counter = 267194
+E_out = -8
+  
+MCcycles = 376000
+T = 2.4
+<E> = -6.5764043
+<|M|> = 3.5268404
+sigma_E = 2.3732161
+sigma_M = 0.29991298
+r_counter = 267884
+E_out = -8
+  
+MCcycles = 377000
+T = 2.4
+<E> = -6.5765942
+<|M|> = 3.5269337
+sigma_E = 2.3729697
+sigma_M = 0.29984252
+r_counter = 268544
+E_out = -8
+  
+MCcycles = 378000
+T = 2.4
+<E> = -6.5760847
+<|M|> = 3.526746
+sigma_E = 2.3736242
+sigma_M = 0.29995211
+r_counter = 269360
+E_out = -8
+  
+MCcycles = 379000
+T = 2.4
+<E> = -6.5766544
+<|M|> = 3.5269077
+sigma_E = 2.3728041
+sigma_M = 0.29988496
+r_counter = 270012
+E_out = -8
+  
+MCcycles = 380000
+T = 2.4
+<E> = -6.5769263
+<|M|> = 3.5270053
+sigma_E = 2.372368
+sigma_M = 0.29982426
+r_counter = 270706
+E_out = -8
+  
+MCcycles = 381000
+T = 2.4
+<E> = -6.576357
+<|M|> = 3.5268136
+sigma_E = 2.3731001
+sigma_M = 0.29992393
+r_counter = 271534
+E_out = -8
+  
+MCcycles = 382000
+T = 2.4
+<E> = -6.5766073
+<|M|> = 3.5268743
+sigma_E = 2.3726925
+sigma_M = 0.29990452
+r_counter = 272208
+E_out = -8
+  
+MCcycles = 383000
+T = 2.4
+<E> = -6.5767102
+<|M|> = 3.5269399
+sigma_E = 2.3724754
+sigma_M = 0.29984206
+r_counter = 272906
+E_out = -8
+  
+MCcycles = 384000
+T = 2.4
+<E> = -6.5769583
+<|M|> = 3.5270104
+sigma_E = 2.3721548
+sigma_M = 0.29981501
+r_counter = 273590
+E_out = -8
+  
+MCcycles = 385000
+T = 2.4
+<E> = -6.5769143
+<|M|> = 3.5269662
+sigma_E = 2.3722107
+sigma_M = 0.29985976
+r_counter = 274294
+E_out = -8
+  
+MCcycles = 386000
+T = 2.4
+<E> = -6.5770363
+<|M|> = 3.5269896
+sigma_E = 2.3722184
+sigma_M = 0.299871
+r_counter = 274974
+E_out = -8
+  
+MCcycles = 387000
+T = 2.4
+<E> = -6.5766408
+<|M|> = 3.5267804
+sigma_E = 2.3728093
+sigma_M = 0.30004163
+r_counter = 275755
+E_out = 0
+  
+MCcycles = 388000
+T = 2.4
+<E> = -6.5769072
+<|M|> = 3.5268402
+sigma_E = 2.3724646
+sigma_M = 0.30003253
+r_counter = 276416
+E_out = 0
+  
+MCcycles = 389000
+T = 2.4
+<E> = -6.5762468
+<|M|> = 3.5266272
+sigma_E = 2.3732317
+sigma_M = 0.30013123
+r_counter = 277238
+E_out = -8
+  
+MCcycles = 390000
+T = 2.4
+<E> = -6.5775179
+<|M|> = 3.5270103
+sigma_E = 2.3715106
+sigma_M = 0.29995992
+r_counter = 277758
+E_out = 0
+  
+MCcycles = 391000
+T = 2.4
+<E> = -6.5776777
+<|M|> = 3.5270895
+sigma_E = 2.3712217
+sigma_M = 0.29989454
+r_counter = 278452
+E_out = -8
+  
+MCcycles = 392000
+T = 2.4
+<E> = -6.5780204
+<|M|> = 3.5272092
+sigma_E = 2.3706976
+sigma_M = 0.29982384
+r_counter = 279118
+E_out = -8
+  
+MCcycles = 393000
+T = 2.4
+<E> = -6.5782188
+<|M|> = 3.5272417
+sigma_E = 2.3704412
+sigma_M = 0.29983228
+r_counter = 279776
+E_out = -8
+  
+MCcycles = 394000
+T = 2.4
+<E> = -6.5785584
+<|M|> = 3.5273909
+sigma_E = 2.3700028
+sigma_M = 0.29972868
+r_counter = 280392
+E_out = -8
+  
+MCcycles = 395000
+T = 2.4
+<E> = -6.5788152
+<|M|> = 3.5274785
+sigma_E = 2.3696711
+sigma_M = 0.29968212
+r_counter = 281079
+E_out = 0
+  
+MCcycles = 396000
+T = 2.4
+<E> = -6.5788283
+<|M|> = 3.5274747
+sigma_E = 2.3697344
+sigma_M = 0.29969512
+r_counter = 281802
+E_out = -8
+  
+MCcycles = 397000
+T = 2.4
+<E> = -6.5791033
+<|M|> = 3.5276121
+sigma_E = 2.369379
+sigma_M = 0.29959025
+r_counter = 282452
+E_out = -8
+  
+MCcycles = 398000
+T = 2.4
+<E> = -6.5793568
+<|M|> = 3.5277286
+sigma_E = 2.3690513
+sigma_M = 0.29950627
+r_counter = 283096
+E_out = -8
+  
+MCcycles = 399000
+T = 2.4
+<E> = -6.5790075
+<|M|> = 3.5275739
+sigma_E = 2.3696613
+sigma_M = 0.29962446
+r_counter = 283826
+E_out = -8
+  
+MCcycles = 400000
+T = 2.4
+<E> = -6.5787
+<|M|> = 3.527455
+sigma_E = 2.3701366
+sigma_M = 0.29970281
+r_counter = 284626
+E_out = -8
+  
+MCcycles = 401000
+T = 2.4
+<E> = -6.5791122
+<|M|> = 3.527616
+sigma_E = 2.3695238
+sigma_M = 0.29959737
+r_counter = 285248
+E_out = -8
+  
+MCcycles = 402000
+T = 2.4
+<E> = -6.5796816
+<|M|> = 3.527806
+sigma_E = 2.3687087
+sigma_M = 0.29949452
+r_counter = 285900
+E_out = -8
+  
+MCcycles = 403000
+T = 2.4
+<E> = -6.5802084
+<|M|> = 3.5280149
+sigma_E = 2.3679487
+sigma_M = 0.29935714
+r_counter = 286508
+E_out = -8
+  
+MCcycles = 404000
+T = 2.4
+<E> = -6.580297
+<|M|> = 3.5280198
+sigma_E = 2.3677544
+sigma_M = 0.29936808
+r_counter = 287222
+E_out = -8
+  
+MCcycles = 405000
+T = 2.4
+<E> = -6.5793975
+<|M|> = 3.527684
+sigma_E = 2.3689141
+sigma_M = 0.29956766
+r_counter = 288082
+E_out = -8
+  
+MCcycles = 406000
+T = 2.4
+<E> = -6.5790345
+<|M|> = 3.5276158
+sigma_E = 2.3693817
+sigma_M = 0.29956304
+r_counter = 288824
+E_out = -8
+  
+MCcycles = 407000
+T = 2.4
+<E> = -6.5791843
+<|M|> = 3.5276806
+sigma_E = 2.3691094
+sigma_M = 0.29951361
+r_counter = 289508
+E_out = -8
+  
+MCcycles = 408000
+T = 2.4
+<E> = -6.5789412
+<|M|> = 3.5276225
+sigma_E = 2.3694225
+sigma_M = 0.29952616
+r_counter = 290254
+E_out = -8
+  
+MCcycles = 409000
+T = 2.4
+<E> = -6.578934
+<|M|> = 3.5275795
+sigma_E = 2.3694314
+sigma_M = 0.29957879
+r_counter = 290956
+E_out = -8
+  
+MCcycles = 410000
+T = 2.4
+<E> = -6.579161
+<|M|> = 3.5276585
+sigma_E = 2.3691383
+sigma_M = 0.29953558
+r_counter = 291617
+E_out = 0
+  
+MCcycles = 411000
+T = 2.4
+<E> = -6.5795231
+<|M|> = 3.5277956
+sigma_E = 2.3686708
+sigma_M = 0.29945284
+r_counter = 292238
+E_out = -8
+  
+MCcycles = 412000
+T = 2.4
+<E> = -6.5793592
+<|M|> = 3.527767
+sigma_E = 2.3688818
+sigma_M = 0.29944803
+r_counter = 292962
+E_out = -8
+  
+MCcycles = 413000
+T = 2.4
+<E> = -6.5793123
+<|M|> = 3.5277869
+sigma_E = 2.3689419
+sigma_M = 0.29941109
+r_counter = 293654
+E_out = -8
+  
+MCcycles = 414000
+T = 2.4
+<E> = -6.5798841
+<|M|> = 3.5279614
+sigma_E = 2.3682042
+sigma_M = 0.29933353
+r_counter = 294246
+E_out = -8
+  
+MCcycles = 415000
+T = 2.4
+<E> = -6.5799133
+<|M|> = 3.5280193
+sigma_E = 2.3681661
+sigma_M = 0.29926759
+r_counter = 294915
+E_out = 0
+  
+MCcycles = 416000
+T = 2.4
+<E> = -6.5794423
+<|M|> = 3.5277981
+sigma_E = 2.3686963
+sigma_M = 0.29942461
+r_counter = 295730
+E_out = -8
+  
+MCcycles = 417000
+T = 2.4
+<E> = -6.5798753
+<|M|> = 3.5279185
+sigma_E = 2.3682143
+sigma_M = 0.29938548
+r_counter = 296393
+E_out = 0
+  
+MCcycles = 418000
+T = 2.4
+<E> = -6.5795407
+<|M|> = 3.5278182
+sigma_E = 2.368569
+sigma_M = 0.29942376
+r_counter = 297184
+E_out = -8
+  
+MCcycles = 419000
+T = 2.4
+<E> = -6.5791885
+<|M|> = 3.5276468
+sigma_E = 2.3689466
+sigma_M = 0.29954758
+r_counter = 297992
+E_out = -8
+  
+MCcycles = 420000
+T = 2.4
+<E> = -6.5791048
+<|M|> = 3.5276143
+sigma_E = 2.3691308
+sigma_M = 0.29957246
+r_counter = 298784
+E_out = -8
+  
+MCcycles = 421000
+T = 2.4
+<E> = -6.5793444
+<|M|> = 3.5276627
+sigma_E = 2.3688976
+sigma_M = 0.29957591
+r_counter = 299484
+E_out = -8
+  
+MCcycles = 422000
+T = 2.4
+<E> = -6.5791659
+<|M|> = 3.5275782
+sigma_E = 2.3691275
+sigma_M = 0.29963806
+r_counter = 300228
+E_out = -8
+  
+MCcycles = 423000
+T = 2.4
+<E> = -6.5791017
+<|M|> = 3.5275461
+sigma_E = 2.36921
+sigma_M = 0.29966255
+r_counter = 300966
+E_out = -8
+  
+MCcycles = 424000
+T = 2.4
+<E> = -6.5788491
+<|M|> = 3.5274811
+sigma_E = 2.3695353
+sigma_M = 0.29968148
+r_counter = 301702
+E_out = 0
+  
+MCcycles = 425000
+T = 2.4
+<E> = -6.5788988
+<|M|> = 3.5275106
+sigma_E = 2.3696214
+sigma_M = 0.29966609
+r_counter = 302392
+E_out = -8
+  
+MCcycles = 426000
+T = 2.4
+<E> = -6.5788357
+<|M|> = 3.5274507
+sigma_E = 2.369627
+sigma_M = 0.29972124
+r_counter = 303108
+E_out = -8
+  
+MCcycles = 427000
+T = 2.4
+<E> = -6.5785293
+<|M|> = 3.5273489
+sigma_E = 2.3700965
+sigma_M = 0.29977788
+r_counter = 303838
+E_out = -8
+  
+MCcycles = 428000
+T = 2.4
+<E> = -6.5780187
+<|M|> = 3.5271589
+sigma_E = 2.3708287
+sigma_M = 0.29989504
+r_counter = 304650
+E_out = -8
+  
+MCcycles = 429000
+T = 2.4
+<E> = -6.5782937
+<|M|> = 3.5271841
+sigma_E = 2.3704734
+sigma_M = 0.29993181
+r_counter = 305344
+E_out = -8
+  
+MCcycles = 430000
+T = 2.4
+<E> = -6.5787535
+<|M|> = 3.5273256
+sigma_E = 2.3698053
+sigma_M = 0.29986333
+r_counter = 305950
+E_out = -8
+  
+MCcycles = 431000
+T = 2.4
+<E> = -6.5790441
+<|M|> = 3.527471
+sigma_E = 2.3695041
+sigma_M = 0.29975681
+r_counter = 306602
+E_out = -8
+  
+MCcycles = 432000
+T = 2.4
+<E> = -6.5787778
+<|M|> = 3.5273565
+sigma_E = 2.3700689
+sigma_M = 0.29984879
+r_counter = 307384
+E_out = -8
+  
+MCcycles = 433000
+T = 2.4
+<E> = -6.5784942
+<|M|> = 3.5272425
+sigma_E = 2.3704331
+sigma_M = 0.29992185
+r_counter = 308158
+E_out = 0
+  
+MCcycles = 434000
+T = 2.4
+<E> = -6.5781198
+<|M|> = 3.5271106
+sigma_E = 2.3709144
+sigma_M = 0.29999483
+r_counter = 308920
+E_out = -8
+  
+MCcycles = 435000
+T = 2.4
+<E> = -6.5785747
+<|M|> = 3.5272414
+sigma_E = 2.3704002
+sigma_M = 0.29994781
+r_counter = 309530
+E_out = 0
+  
+MCcycles = 436000
+T = 2.4
+<E> = -6.5790642
+<|M|> = 3.5274174
+sigma_E = 2.3697675
+sigma_M = 0.29984762
+r_counter = 310164
+E_out = -8
+  
+MCcycles = 437000
+T = 2.4
+<E> = -6.5790938
+<|M|> = 3.5274416
+sigma_E = 2.369801
+sigma_M = 0.2998289
+r_counter = 310858
+E_out = -8
+  
+MCcycles = 438000
+T = 2.4
+<E> = -6.5788858
+<|M|> = 3.5273288
+sigma_E = 2.3701406
+sigma_M = 0.29992402
+r_counter = 311599
+E_out = 0
+  
+MCcycles = 439000
+T = 2.4
+<E> = -6.5796446
+<|M|> = 3.5275854
+sigma_E = 2.3690873
+sigma_M = 0.2997847
+r_counter = 312158
+E_out = -8
+  
+MCcycles = 440000
+T = 2.4
+<E> = -6.5796727
+<|M|> = 3.5275773
+sigma_E = 2.3691949
+sigma_M = 0.29981101
+r_counter = 312866
+E_out = -8
+  
+MCcycles = 441000
+T = 2.4
+<E> = -6.579737
+<|M|> = 3.5275737
+sigma_E = 2.3691826
+sigma_M = 0.299836
+r_counter = 313554
+E_out = -8
+  
+MCcycles = 442000
+T = 2.4
+<E> = -6.579276
+<|M|> = 3.5274253
+sigma_E = 2.3698474
+sigma_M = 0.29991264
+r_counter = 314360
+E_out = -8
+  
+MCcycles = 443000
+T = 2.4
+<E> = -6.5793409
+<|M|> = 3.5274628
+sigma_E = 2.3696892
+sigma_M = 0.29987691
+r_counter = 315028
+E_out = -8
+  
+MCcycles = 444000
+T = 2.4
+<E> = -6.5793153
+<|M|> = 3.5274775
+sigma_E = 2.369648
+sigma_M = 0.29984728
+r_counter = 315762
+E_out = -8
+  
+MCcycles = 445000
+T = 2.4
+<E> = -6.5797034
+<|M|> = 3.5276494
+sigma_E = 2.3690736
+sigma_M = 0.29972236
+r_counter = 316428
+E_out = -8
+  
+MCcycles = 446000
+T = 2.4
+<E> = -6.5795336
+<|M|> = 3.5275964
+sigma_E = 2.3692908
+sigma_M = 0.29974683
+r_counter = 317150
+E_out = -8
+  
+MCcycles = 447000
+T = 2.4
+<E> = -6.5796331
+<|M|> = 3.527651
+sigma_E = 2.3693039
+sigma_M = 0.29971154
+r_counter = 317830
+E_out = -8
+  
+MCcycles = 448000
+T = 2.4
+<E> = -6.580125
+<|M|> = 3.5278259
+sigma_E = 2.3686673
+sigma_M = 0.29961335
+r_counter = 318476
+E_out = -8
+  
+MCcycles = 449000
+T = 2.4
+<E> = -6.5802405
+<|M|> = 3.5278174
+sigma_E = 2.3685162
+sigma_M = 0.29965287
+r_counter = 319154
+E_out = -8
+  
+MCcycles = 450000
+T = 2.4
+<E> = -6.5805333
+<|M|> = 3.5279289
+sigma_E = 2.3681364
+sigma_M = 0.29958499
+r_counter = 319790
+E_out = -8
+  
+MCcycles = 451000
+T = 2.4
+<E> = -6.5805233
+<|M|> = 3.5279379
+sigma_E = 2.3681473
+sigma_M = 0.29957094
+r_counter = 320500
+E_out = -8
+  
+MCcycles = 452000
+T = 2.4
+<E> = -6.5805487
+<|M|> = 3.5279558
+sigma_E = 2.3681125
+sigma_M = 0.29955462
+r_counter = 321205
+E_out = 0
+  
+MCcycles = 453000
+T = 2.4
+<E> = -6.5802384
+<|M|> = 3.527894
+sigma_E = 2.3687933
+sigma_M = 0.29957259
+r_counter = 321968
+E_out = -8
+  
+MCcycles = 454000
+T = 2.4
+<E> = -6.5805815
+<|M|> = 3.5279868
+sigma_E = 2.368348
+sigma_M = 0.29954097
+r_counter = 322626
+E_out = -8
+  
+MCcycles = 455000
+T = 2.4
+<E> = -6.5801319
+<|M|> = 3.5278593
+sigma_E = 2.3691365
+sigma_M = 0.29960267
+r_counter = 323422
+E_out = -8
+  
+MCcycles = 456000
+T = 2.4
+<E> = -6.5799649
+<|M|> = 3.5278465
+sigma_E = 2.3694189
+sigma_M = 0.29958136
+r_counter = 324150
+E_out = -8
+  
+MCcycles = 457000
+T = 2.4
+<E> = -6.5807615
+<|M|> = 3.528105
+sigma_E = 2.368318
+sigma_M = 0.29944914
+r_counter = 324736
+E_out = -8
+  
+MCcycles = 458000
+T = 2.4
+<E> = -6.5800349
+<|M|> = 3.5278603
+sigma_E = 2.3693222
+sigma_M = 0.29958106
+r_counter = 325580
+E_out = -8
+  
+MCcycles = 459000
+T = 2.4
+<E> = -6.5799913
+<|M|> = 3.5278475
+sigma_E = 2.3693753
+sigma_M = 0.29958609
+r_counter = 326276
+E_out = -8
+  
+MCcycles = 460000
+T = 2.4
+<E> = -6.5800522
+<|M|> = 3.5278391
+sigma_E = 2.369224
+sigma_M = 0.29960733
+r_counter = 326986
+E_out = -8
+  
+MCcycles = 461000
+T = 2.4
+<E> = -6.5800781
+<|M|> = 3.5279046
+sigma_E = 2.3691181
+sigma_M = 0.29952659
+r_counter = 327716
+E_out = -8
+  
+MCcycles = 462000
+T = 2.4
+<E> = -6.5800173
+<|M|> = 3.5279048
+sigma_E = 2.3691244
+sigma_M = 0.29950663
+r_counter = 328446
+E_out = -8
+  
+MCcycles = 463000
+T = 2.4
+<E> = -6.5801296
+<|M|> = 3.527892
+sigma_E = 2.3689769
+sigma_M = 0.29955065
+r_counter = 329112
+E_out = -8
+  
+MCcycles = 464000
+T = 2.4
+<E> = -6.5799655
+<|M|> = 3.5278276
+sigma_E = 2.3691859
+sigma_M = 0.29959089
+r_counter = 329877
+E_out = 0
+  
+MCcycles = 465000
+T = 2.4
+<E> = -6.5802151
+<|M|> = 3.5279011
+sigma_E = 2.3688613
+sigma_M = 0.29956022
+r_counter = 330540
+E_out = -8
+  
+MCcycles = 466000
+T = 2.4
+<E> = -6.5804464
+<|M|> = 3.5279828
+sigma_E = 2.3685602
+sigma_M = 0.29951454
+r_counter = 331202
+E_out = -8
+  
+MCcycles = 467000
+T = 2.4
+<E> = -6.5808651
+<|M|> = 3.5281585
+sigma_E = 2.3680172
+sigma_M = 0.29939706
+r_counter = 331824
+E_out = -8
+  
+MCcycles = 468000
+T = 2.4
+<E> = -6.5813846
+<|M|> = 3.5283419
+sigma_E = 2.3672758
+sigma_M = 0.29929064
+r_counter = 332428
+E_out = -8
+  
+MCcycles = 469000
+T = 2.4
+<E> = -6.5814414
+<|M|> = 3.5283454
+sigma_E = 2.3671318
+sigma_M = 0.29929594
+r_counter = 333105
+E_out = 0
+  
+MCcycles = 470000
+T = 2.4
+<E> = -6.5818213
+<|M|> = 3.5284553
+sigma_E = 2.366571
+sigma_M = 0.29924757
+r_counter = 333744
+E_out = 0
+  
+MCcycles = 471000
+T = 2.4
+<E> = -6.5814692
+<|M|> = 3.5282972
+sigma_E = 2.3669553
+sigma_M = 0.29935502
+r_counter = 334558
+E_out = -8
+  
+MCcycles = 472000
+T = 2.4
+<E> = -6.5811186
+<|M|> = 3.5282119
+sigma_E = 2.3674736
+sigma_M = 0.29937941
+r_counter = 335339
+E_out = 0
+  
+MCcycles = 473000
+T = 2.4
+<E> = -6.5815137
+<|M|> = 3.5283087
+sigma_E = 2.3670968
+sigma_M = 0.29936414
+r_counter = 335978
+E_out = -8
+  
+MCcycles = 474000
+T = 2.4
+<E> = -6.5811646
+<|M|> = 3.5281435
+sigma_E = 2.3674776
+sigma_M = 0.29948131
+r_counter = 336760
+E_out = -8
+  
+MCcycles = 475000
+T = 2.4
+<E> = -6.5813726
+<|M|> = 3.5282232
+sigma_E = 2.3672067
+sigma_M = 0.29943244
+r_counter = 337434
+E_out = -8
+  
+MCcycles = 476000
+T = 2.4
+<E> = -6.5812437
+<|M|> = 3.5281555
+sigma_E = 2.3673709
+sigma_M = 0.29948564
+r_counter = 338156
+E_out = -8
+  
+MCcycles = 477000
+T = 2.4
+<E> = -6.5813166
+<|M|> = 3.5281426
+sigma_E = 2.3672746
+sigma_M = 0.29952003
+r_counter = 338840
+E_out = -8
+  
+MCcycles = 478000
+T = 2.4
+<E> = -6.581205
+<|M|> = 3.5281255
+sigma_E = 2.3674163
+sigma_M = 0.29951354
+r_counter = 339594
+E_out = -8
+  
+MCcycles = 479000
+T = 2.4
+<E> = -6.5808935
+<|M|> = 3.5280543
+sigma_E = 2.367816
+sigma_M = 0.29952558
+r_counter = 340374
+E_out = 0
+  
+MCcycles = 480000
+T = 2.4
+<E> = -6.58115
+<|M|> = 3.5281875
+sigma_E = 2.3674828
+sigma_M = 0.29942116
+r_counter = 341012
+E_out = -8
+  
+MCcycles = 481000
+T = 2.4
+<E> = -6.5808399
+<|M|> = 3.5280333
+sigma_E = 2.3678143
+sigma_M = 0.2995343
+r_counter = 341774
+E_out = -8
+  
+MCcycles = 482000
+T = 2.4
+<E> = -6.5802656
+<|M|> = 3.5278216
+sigma_E = 2.3685533
+sigma_M = 0.29965815
+r_counter = 342588
+E_out = -8
+  
+MCcycles = 483000
+T = 2.4
+<E> = -6.5801408
+<|M|> = 3.527735
+sigma_E = 2.3687122
+sigma_M = 0.29973626
+r_counter = 343343
+E_out = 0
+  
+MCcycles = 484000
+T = 2.4
+<E> = -6.5801818
+<|M|> = 3.5278099
+sigma_E = 2.3686572
+sigma_M = 0.29965169
+r_counter = 344042
+E_out = -8
+  
+MCcycles = 485000
+T = 2.4
+<E> = -6.5804206
+<|M|> = 3.5278887
+sigma_E = 2.368413
+sigma_M = 0.29961586
+r_counter = 344706
+E_out = 0
+  
+MCcycles = 486000
+T = 2.4
+<E> = -6.5802963
+<|M|> = 3.527823
+sigma_E = 2.3685713
+sigma_M = 0.29966758
+r_counter = 345460
+E_out = -8
+  
+MCcycles = 487000
+T = 2.4
+<E> = -6.5801725
+<|M|> = 3.5277906
+sigma_E = 2.3687288
+sigma_M = 0.29967756
+r_counter = 346204
+E_out = -8
+  
+MCcycles = 488000
+T = 2.4
+<E> = -6.5799508
+<|M|> = 3.5277459
+sigma_E = 2.368947
+sigma_M = 0.29967434
+r_counter = 346956
+E_out = -8
+  
+MCcycles = 489000
+T = 2.4
+<E> = -6.5798609
+<|M|> = 3.5277014
+sigma_E = 2.3691264
+sigma_M = 0.29971204
+r_counter = 347672
+E_out = -8
+  
+MCcycles = 490000
+T = 2.4
+<E> = -6.5797224
+<|M|> = 3.5276245
+sigma_E = 2.3692376
+sigma_M = 0.29977045
+r_counter = 348400
+E_out = -8
+  
+MCcycles = 491000
+T = 2.4
+<E> = -6.5798452
+<|M|> = 3.5276415
+sigma_E = 2.3690121
+sigma_M = 0.29977538
+r_counter = 349090
+E_out = -8
+  
+MCcycles = 492000
+T = 2.4
+<E> = -6.5793821
+<|M|> = 3.5275285
+sigma_E = 2.3696075
+sigma_M = 0.29980242
+r_counter = 349863
+E_out = 0
+  
+MCcycles = 493000
+T = 2.4
+<E> = -6.5793103
+<|M|> = 3.5275172
+sigma_E = 2.3697632
+sigma_M = 0.29980259
+r_counter = 350590
+E_out = -8
+  
+MCcycles = 494000
+T = 2.4
+<E> = -6.5788178
+<|M|> = 3.5273482
+sigma_E = 2.3704611
+sigma_M = 0.29989703
+r_counter = 351404
+E_out = -8
+  
+MCcycles = 495000
+T = 2.4
+<E> = -6.5784566
+<|M|> = 3.5272444
+sigma_E = 2.3709248
+sigma_M = 0.29993767
+r_counter = 352172
+E_out = -8
+  
+MCcycles = 496000
+T = 2.4
+<E> = -6.5784516
+<|M|> = 3.5272379
+sigma_E = 2.3709936
+sigma_M = 0.2999486
+r_counter = 352916
+E_out = -8
+  
+MCcycles = 497000
+T = 2.4
+<E> = -6.5782052
+<|M|> = 3.5271871
+sigma_E = 2.3713734
+sigma_M = 0.29995505
+r_counter = 353675
+E_out = 0
+  
+MCcycles = 498000
+T = 2.4
+<E> = -6.5781526
+<|M|> = 3.5271968
+sigma_E = 2.3713746
+sigma_M = 0.29992553
+r_counter = 354380
+E_out = -8
+  
+MCcycles = 499000
+T = 2.4
+<E> = -6.5782445
+<|M|> = 3.5272265
+sigma_E = 2.3713823
+sigma_M = 0.29991889
+r_counter = 355070
+E_out = -8
+  
+MCcycles = 500000
+T = 2.4
+<E> = -6.578336
+<|M|> = 3.527248
+sigma_E = 2.3711979
+sigma_M = 0.29991039
+r_counter = 355756
+E_out = -8
+  
+MCcycles = 501000
+T = 2.4
+<E> = -6.5787146
+<|M|> = 3.5273613
+sigma_E = 2.3707075
+sigma_M = 0.29986174
+r_counter = 356352
+E_out = 0
+  
+MCcycles = 502000
+T = 2.4
+<E> = -6.5782311
+<|M|> = 3.5271594
+sigma_E = 2.3713923
+sigma_M = 0.29999986
+r_counter = 357188
+E_out = -8
+  
+MCcycles = 503000
+T = 2.4
+<E> = -6.5778449
+<|M|> = 3.5269821
+sigma_E = 2.371824
+sigma_M = 0.30012316
+r_counter = 358018
+E_out = -8
+  
+MCcycles = 504000
+T = 2.4
+<E> = -6.5775556
+<|M|> = 3.5269325
+sigma_E = 2.3721947
+sigma_M = 0.3001133
+r_counter = 358804
+E_out = -8
+  
+MCcycles = 505000
+T = 2.4
+<E> = -6.5777901
+<|M|> = 3.5270099
+sigma_E = 2.3718901
+sigma_M = 0.30007405
+r_counter = 359448
+E_out = 0
+  
+MCcycles = 506000
+T = 2.4
+<E> = -6.5775968
+<|M|> = 3.5269684
+sigma_E = 2.3720737
+sigma_M = 0.30007411
+r_counter = 360230
+E_out = -8
+  
+MCcycles = 507000
+T = 2.4
+<E> = -6.5771834
+<|M|> = 3.52686
+sigma_E = 2.3726044
+sigma_M = 0.3001076
+r_counter = 361018
+E_out = -8
+  
+MCcycles = 508000
+T = 2.4
+<E> = -6.5772283
+<|M|> = 3.5268386
+sigma_E = 2.3724814
+sigma_M = 0.30014177
+r_counter = 361746
+E_out = -8
+  
+MCcycles = 509000
+T = 2.4
+<E> = -6.576723
+<|M|> = 3.5266876
+sigma_E = 2.3733192
+sigma_M = 0.30021782
+r_counter = 362584
+E_out = -8
+  
+MCcycles = 510000
+T = 2.4
+<E> = -6.576502
+<|M|> = 3.5266039
+sigma_E = 2.3735388
+sigma_M = 0.30026423
+r_counter = 363374
+E_out = -8
+  
+MCcycles = 511000
+T = 2.4
+<E> = -6.5765323
+<|M|> = 3.5265793
+sigma_E = 2.3734349
+sigma_M = 0.30029892
+r_counter = 364098
+E_out = -8
+  
+MCcycles = 512000
+T = 2.4
+<E> = -6.5763125
+<|M|> = 3.5264883
+sigma_E = 2.3736535
+sigma_M = 0.30035487
+r_counter = 364874
+E_out = -8
+  
+MCcycles = 513000
+T = 2.4
+<E> = -6.5761871
+<|M|> = 3.52646
+sigma_E = 2.3738754
+sigma_M = 0.30036298
+r_counter = 365632
+E_out = -8
+  
+MCcycles = 514000
+T = 2.4
+<E> = -6.5757821
+<|M|> = 3.5262763
+sigma_E = 2.3745818
+sigma_M = 0.30050541
+r_counter = 366468
+E_out = 0
+  
+MCcycles = 515000
+T = 2.4
+<E> = -6.5764039
+<|M|> = 3.5264544
+sigma_E = 2.3738406
+sigma_M = 0.3004396
+r_counter = 367054
+E_out = -8
+  
+MCcycles = 516000
+T = 2.4
+<E> = -6.5763411
+<|M|> = 3.5263915
+sigma_E = 2.373857
+sigma_M = 0.30049932
+r_counter = 367764
+E_out = -8
+  
+MCcycles = 517000
+T = 2.4
+<E> = -6.5768356
+<|M|> = 3.5265919
+sigma_E = 2.3731556
+sigma_M = 0.30036577
+r_counter = 368368
+E_out = -8
+  
+MCcycles = 518000
+T = 2.4
+<E> = -6.5771737
+<|M|> = 3.5267297
+sigma_E = 2.3727176
+sigma_M = 0.30027601
+r_counter = 368980
+E_out = 0
+  
+MCcycles = 519000
+T = 2.4
+<E> = -6.577341
+<|M|> = 3.5267399
+sigma_E = 2.3726847
+sigma_M = 0.30031643
+r_counter = 369643
+E_out = 0
+  
+MCcycles = 520000
+T = 2.4
+<E> = -6.5777077
+<|M|> = 3.5269038
+sigma_E = 2.3721481
+sigma_M = 0.30019693
+r_counter = 370254
+E_out = -8
+  
+MCcycles = 521000
+T = 2.4
+<E> = -6.5781651
+<|M|> = 3.5270672
+sigma_E = 2.3716175
+sigma_M = 0.30010859
+r_counter = 370888
+E_out = -8
+  
+MCcycles = 522000
+T = 2.4
+<E> = -6.5783142
+<|M|> = 3.5271111
+sigma_E = 2.3713614
+sigma_M = 0.30008636
+r_counter = 371526
+E_out = -8
+  
+MCcycles = 523000
+T = 2.4
+<E> = -6.5779885
+<|M|> = 3.527021
+sigma_E = 2.3718399
+sigma_M = 0.30012244
+r_counter = 372318
+E_out = -8
+  
+MCcycles = 524000
+T = 2.4
+<E> = -6.5783969
+<|M|> = 3.5271603
+sigma_E = 2.3713719
+sigma_M = 0.30005222
+r_counter = 372966
+E_out = -8
+  
+MCcycles = 525000
+T = 2.4
+<E> = -6.578499
+<|M|> = 3.5272076
+sigma_E = 2.3711766
+sigma_M = 0.30001398
+r_counter = 373645
+E_out = 0
+  
+MCcycles = 526000
+T = 2.4
+<E> = -6.5782966
+<|M|> = 3.5271863
+sigma_E = 2.3713743
+sigma_M = 0.29998633
+r_counter = 374437
+E_out = 0
+  
+MCcycles = 527000
+T = 2.4
+<E> = -6.5784137
+<|M|> = 3.5272448
+sigma_E = 2.3712209
+sigma_M = 0.29994157
+r_counter = 375088
+E_out = 0
+  
+MCcycles = 528000
+T = 2.4
+<E> = -6.5786667
+<|M|> = 3.5273258
+sigma_E = 2.3708923
+sigma_M = 0.29990234
+r_counter = 375736
+E_out = -8
+  
+MCcycles = 529000
+T = 2.4
+<E> = -6.5786465
+<|M|> = 3.5272741
+sigma_E = 2.3708554
+sigma_M = 0.29995864
+r_counter = 376454
+E_out = -8
+  
+MCcycles = 530000
+T = 2.4
+<E> = -6.5789887
+<|M|> = 3.5273962
+sigma_E = 2.370593
+sigma_M = 0.29990104
+r_counter = 377086
+E_out = -8
+  
+MCcycles = 531000
+T = 2.4
+<E> = -6.5789981
+<|M|> = 3.5274011
+sigma_E = 2.3705782
+sigma_M = 0.29989704
+r_counter = 377752
+E_out = -8
+  
+MCcycles = 532000
+T = 2.4
+<E> = -6.5786617
+<|M|> = 3.5273271
+sigma_E = 2.3711298
+sigma_M = 0.29991387
+r_counter = 378506
+E_out = -8
+  
+MCcycles = 533000
+T = 2.4
+<E> = -6.5785966
+<|M|> = 3.5273208
+sigma_E = 2.3712708
+sigma_M = 0.29990908
+r_counter = 379246
+E_out = -8
+  
+MCcycles = 534000
+T = 2.4
+<E> = -6.5788614
+<|M|> = 3.527397
+sigma_E = 2.3708666
+sigma_M = 0.29987509
+r_counter = 379908
+E_out = -8
+  
+MCcycles = 535000
+T = 2.4
+<E> = -6.579215
+<|M|> = 3.5275402
+sigma_E = 2.3704079
+sigma_M = 0.29978235
+r_counter = 380534
+E_out = -8
+  
+MCcycles = 536000
+T = 2.4
+<E> = -6.5795224
+<|M|> = 3.5276604
+sigma_E = 2.3699489
+sigma_M = 0.29970331
+r_counter = 381180
+E_out = -8
+  
+MCcycles = 537000
+T = 2.4
+<E> = -6.5798436
+<|M|> = 3.5278212
+sigma_E = 2.3694724
+sigma_M = 0.29957651
+r_counter = 381800
+E_out = -8
+  
+MCcycles = 538000
+T = 2.4
+<E> = -6.580119
+<|M|> = 3.5279368
+sigma_E = 2.3691146
+sigma_M = 0.29949912
+r_counter = 382443
+E_out = 0
+  
+MCcycles = 539000
+T = 2.4
+<E> = -6.5804082
+<|M|> = 3.5280557
+sigma_E = 2.3688577
+sigma_M = 0.29942845
+r_counter = 383104
+E_out = -8
+  
+MCcycles = 540000
+T = 2.4
+<E> = -6.580637
+<|M|> = 3.5281148
+sigma_E = 2.3685003
+sigma_M = 0.29940702
+r_counter = 383772
+E_out = -8
+  
+MCcycles = 541000
+T = 2.4
+<E> = -6.5811017
+<|M|> = 3.5282773
+sigma_E = 2.3679573
+sigma_M = 0.29932136
+r_counter = 384352
+E_out = -8
+  
+MCcycles = 542000
+T = 2.4
+<E> = -6.5811513
+<|M|> = 3.5282694
+sigma_E = 2.3679496
+sigma_M = 0.29934726
+r_counter = 385044
+E_out = 0
+  
+MCcycles = 543000
+T = 2.4
+<E> = -6.5811418
+<|M|> = 3.5282173
+sigma_E = 2.3680179
+sigma_M = 0.29941421
+r_counter = 385782
+E_out = -8
+  
+MCcycles = 544000
+T = 2.4
+<E> = -6.5815147
+<|M|> = 3.5283235
+sigma_E = 2.3676513
+sigma_M = 0.29938033
+r_counter = 386424
+E_out = -8
+  
+MCcycles = 545000
+T = 2.4
+<E> = -6.5814312
+<|M|> = 3.5283193
+sigma_E = 2.367756
+sigma_M = 0.29936464
+r_counter = 387166
+E_out = -8
+  
+MCcycles = 546000
+T = 2.4
+<E> = -6.5813333
+<|M|> = 3.5282857
+sigma_E = 2.3678792
+sigma_M = 0.2993824
+r_counter = 387869
+E_out = 0
+  
+MCcycles = 547000
+T = 2.4
+<E> = -6.5812797
+<|M|> = 3.5282633
+sigma_E = 2.3679453
+sigma_M = 0.29939719
+r_counter = 388620
+E_out = -8
+  
+MCcycles = 548000
+T = 2.4
+<E> = -6.5814891
+<|M|> = 3.5283467
+sigma_E = 2.3676136
+sigma_M = 0.29934017
+r_counter = 389260
+E_out = -8
+  
+MCcycles = 549000
+T = 2.4
+<E> = -6.5812168
+<|M|> = 3.5282004
+sigma_E = 2.3680204
+sigma_M = 0.29946057
+r_counter = 390014
+E_out = -8
+  
+MCcycles = 550000
+T = 2.4
+<E> = -6.5814691
+<|M|> = 3.52832
+sigma_E = 2.3676916
+sigma_M = 0.29937222
+r_counter = 390652
+E_out = -8
+  
+MCcycles = 551000
+T = 2.4
+<E> = -6.5808929
+<|M|> = 3.5281089
+sigma_E = 2.3684902
+sigma_M = 0.29949848
+r_counter = 391500
+E_out = -8
+  
+MCcycles = 552000
+T = 2.4
+<E> = -6.5811304
+<|M|> = 3.5281884
+sigma_E = 2.3682385
+sigma_M = 0.29946077
+r_counter = 392134
+E_out = -8
+  
+MCcycles = 553000
+T = 2.4
+<E> = -6.5810633
+<|M|> = 3.5281772
+sigma_E = 2.3683798
+sigma_M = 0.29946155
+r_counter = 392830
+E_out = -8
+  
+MCcycles = 554000
+T = 2.4
+<E> = -6.5809819
+<|M|> = 3.52813
+sigma_E = 2.3685969
+sigma_M = 0.29950795
+r_counter = 393554
+E_out = -8
+  
+MCcycles = 555000
+T = 2.4
+<E> = -6.5809009
+<|M|> = 3.5281225
+sigma_E = 2.3686403
+sigma_M = 0.29949327
+r_counter = 394250
+E_out = -8
+  
+MCcycles = 556000
+T = 2.4
+<E> = -6.5809496
+<|M|> = 3.5281978
+sigma_E = 2.368574
+sigma_M = 0.29941003
+r_counter = 394944
+E_out = -8
+  
+MCcycles = 557000
+T = 2.4
+<E> = -6.581544
+<|M|> = 3.5284237
+sigma_E = 2.3677461
+sigma_M = 0.2992693
+r_counter = 395518
+E_out = -8
+  
+MCcycles = 558000
+T = 2.4
+<E> = -6.5817204
+<|M|> = 3.5284982
+sigma_E = 2.3676297
+sigma_M = 0.29922617
+r_counter = 396186
+E_out = -8
+  
+MCcycles = 559000
+T = 2.4
+<E> = -6.5818962
+<|M|> = 3.5285796
+sigma_E = 2.367342
+sigma_M = 0.29916342
+r_counter = 396894
+E_out = -8
+  
+MCcycles = 560000
+T = 2.4
+<E> = -6.5817286
+<|M|> = 3.5285429
+sigma_E = 2.3676123
+sigma_M = 0.29917133
+r_counter = 397610
+E_out = -8
+  
+MCcycles = 561000
+T = 2.4
+<E> = -6.582303
+<|M|> = 3.5287344
+sigma_E = 2.3668672
+sigma_M = 0.29907255
+r_counter = 398172
+E_out = -8
+  
+MCcycles = 562000
+T = 2.4
+<E> = -6.5822918
+<|M|> = 3.5287367
+sigma_E = 2.3668782
+sigma_M = 0.29906668
+r_counter = 398870
+E_out = -8
+  
+MCcycles = 563000
+T = 2.4
+<E> = -6.5820675
+<|M|> = 3.5286501
+sigma_E = 2.3672212
+sigma_M = 0.29912339
+r_counter = 399625
+E_out = 0
+  
+MCcycles = 564000
+T = 2.4
+<E> = -6.5819149
+<|M|> = 3.5286135
+sigma_E = 2.3673579
+sigma_M = 0.29912776
+r_counter = 400408
+E_out = -8
+  
+MCcycles = 565000
+T = 2.4
+<E> = -6.5815929
+<|M|> = 3.5284743
+sigma_E = 2.3677135
+sigma_M = 0.29921943
+r_counter = 401202
+E_out = -8
+  
+MCcycles = 566000
+T = 2.4
+<E> = -6.5818233
+<|M|> = 3.5285618
+sigma_E = 2.3674128
+sigma_M = 0.2991662
+r_counter = 401864
+E_out = 0
+  
+MCcycles = 567000
+T = 2.4
+<E> = -6.5820811
+<|M|> = 3.5286984
+sigma_E = 2.3670767
+sigma_M = 0.29905777
+r_counter = 402500
+E_out = -8
+  
+MCcycles = 568000
+T = 2.4
+<E> = -6.5821831
+<|M|> = 3.5287359
+sigma_E = 2.3671108
+sigma_M = 0.2990462
+r_counter = 403187
+E_out = 0
+  
+MCcycles = 569000
+T = 2.4
+<E> = -6.5822285
+<|M|> = 3.5287346
+sigma_E = 2.3669924
+sigma_M = 0.29905544
+r_counter = 403884
+E_out = -8
+  
+MCcycles = 570000
+T = 2.4
+<E> = -6.5819088
+<|M|> = 3.528607
+sigma_E = 2.3674017
+sigma_M = 0.29913664
+r_counter = 404680
+E_out = -8
+  
+MCcycles = 571000
+T = 2.4
+<E> = -6.5823327
+<|M|> = 3.5287671
+sigma_E = 2.3667948
+sigma_M = 0.29903655
+r_counter = 405332
+E_out = -8
+  
+MCcycles = 572000
+T = 2.4
+<E> = -6.5824476
+<|M|> = 3.5287797
+sigma_E = 2.3666433
+sigma_M = 0.29904905
+r_counter = 406016
+E_out = -8
+  
+MCcycles = 573000
+T = 2.4
+<E> = -6.5816963
+<|M|> = 3.528548
+sigma_E = 2.3676098
+sigma_M = 0.29915402
+r_counter = 406878
+E_out = -8
+  
+MCcycles = 574000
+T = 2.4
+<E> = -6.5815052
+<|M|> = 3.5285192
+sigma_E = 2.3679089
+sigma_M = 0.29914597
+r_counter = 407634
+E_out = -8
+  
+MCcycles = 575000
+T = 2.4
+<E> = -6.5817183
+<|M|> = 3.5286087
+sigma_E = 2.3677418
+sigma_M = 0.29909278
+r_counter = 408294
+E_out = -8
+  
+MCcycles = 576000
+T = 2.4
+<E> = -6.5815139
+<|M|> = 3.5285694
+sigma_E = 2.3679465
+sigma_M = 0.29908761
+r_counter = 409018
+E_out = -8
+  
+MCcycles = 577000
+T = 2.4
+<E> = -6.58174
+<|M|> = 3.5286378
+sigma_E = 2.3677066
+sigma_M = 0.299061
+r_counter = 409656
+E_out = -8
+  
+MCcycles = 578000
+T = 2.4
+<E> = -6.581481
+<|M|> = 3.5285502
+sigma_E = 2.3682035
+sigma_M = 0.29911716
+r_counter = 410390
+E_out = -8
+  
+MCcycles = 579000
+T = 2.4
+<E> = -6.5816649
+<|M|> = 3.5286356
+sigma_E = 2.3679622
+sigma_M = 0.29905493
+r_counter = 411032
+E_out = -8
+  
+MCcycles = 580000
+T = 2.4
+<E> = -6.5818069
+<|M|> = 3.5286655
+sigma_E = 2.3678304
+sigma_M = 0.29905578
+r_counter = 411713
+E_out = 0
+  
+MCcycles = 581000
+T = 2.4
+<E> = -6.5815766
+<|M|> = 3.5286059
+sigma_E = 2.3681788
+sigma_M = 0.29907684
+r_counter = 412462
+E_out = -8
+  
+MCcycles = 582000
+T = 2.4
+<E> = -6.5813058
+<|M|> = 3.5284639
+sigma_E = 2.3685793
+sigma_M = 0.29919178
+r_counter = 413239
+E_out = 0
+  
+MCcycles = 583000
+T = 2.4
+<E> = -6.5812144
+<|M|> = 3.5284082
+sigma_E = 2.3688579
+sigma_M = 0.29924936
+r_counter = 413996
+E_out = -8
+  
+MCcycles = 584000
+T = 2.4
+<E> = -6.5808767
+<|M|> = 3.5283185
+sigma_E = 2.3692894
+sigma_M = 0.29927811
+r_counter = 414782
+E_out = -8
+  
+MCcycles = 585000
+T = 2.4
+<E> = -6.5813197
+<|M|> = 3.5284581
+sigma_E = 2.3686587
+sigma_M = 0.29920864
+r_counter = 415398
+E_out = -8
+  
+MCcycles = 586000
+T = 2.4
+<E> = -6.5816109
+<|M|> = 3.5285427
+sigma_E = 2.368224
+sigma_M = 0.2991709
+r_counter = 416044
+E_out = -8
+  
+MCcycles = 587000
+T = 2.4
+<E> = -6.5818739
+<|M|> = 3.5286405
+sigma_E = 2.3678804
+sigma_M = 0.29911265
+r_counter = 416684
+E_out = -8
+  
+MCcycles = 588000
+T = 2.4
+<E> = -6.5816327
+<|M|> = 3.5285816
+sigma_E = 2.3681333
+sigma_M = 0.29912315
+r_counter = 417444
+E_out = -8
+  
+MCcycles = 589000
+T = 2.4
+<E> = -6.5818812
+<|M|> = 3.5286825
+sigma_E = 2.3678629
+sigma_M = 0.29906088
+r_counter = 418064
+E_out = -8
+  
+MCcycles = 590000
+T = 2.4
+<E> = -6.5818169
+<|M|> = 3.5286644
+sigma_E = 2.367996
+sigma_M = 0.29907086
+r_counter = 418786
+E_out = -8
+  
+MCcycles = 591000
+T = 2.4
+<E> = -6.5818748
+<|M|> = 3.5286565
+sigma_E = 2.3679172
+sigma_M = 0.29909504
+r_counter = 419502
+E_out = -8
+  
+MCcycles = 592000
+T = 2.4
+<E> = -6.5819054
+<|M|> = 3.5286014
+sigma_E = 2.3678195
+sigma_M = 0.2991688
+r_counter = 420234
+E_out = -8
+  
+MCcycles = 593000
+T = 2.4
+<E> = -6.5818685
+<|M|> = 3.5285565
+sigma_E = 2.3679171
+sigma_M = 0.2992194
+r_counter = 420940
+E_out = -8
+  
+MCcycles = 594000
+T = 2.4
+<E> = -6.5819529
+<|M|> = 3.528596
+sigma_E = 2.3678041
+sigma_M = 0.29919035
+r_counter = 421643
+E_out = 0
+  
+MCcycles = 595000
+T = 2.4
+<E> = -6.5814857
+<|M|> = 3.5284303
+sigma_E = 2.368403
+sigma_M = 0.2992828
+r_counter = 422492
+E_out = -8
+  
+MCcycles = 596000
+T = 2.4
+<E> = -6.5819329
+<|M|> = 3.528604
+sigma_E = 2.3678218
+sigma_M = 0.29917465
+r_counter = 423080
+E_out = -8
+  
+MCcycles = 597000
+T = 2.4
+<E> = -6.5818291
+<|M|> = 3.5285226
+sigma_E = 2.367898
+sigma_M = 0.29924804
+r_counter = 423800
+E_out = -8
+  
+MCcycles = 598000
+T = 2.4
+<E> = -6.5820067
+<|M|> = 3.528602
+sigma_E = 2.3677184
+sigma_M = 0.29919515
+r_counter = 424470
+E_out = -8
+  
+MCcycles = 599000
+T = 2.4
+<E> = -6.5818898
+<|M|> = 3.5285175
+sigma_E = 2.3678653
+sigma_M = 0.29927248
+r_counter = 425176
+E_out = -8
+  
+MCcycles = 600000
+T = 2.4
+<E> = -6.5820267
+<|M|> = 3.52856
+sigma_E = 2.3676312
+sigma_M = 0.29924941
+r_counter = 425850
+E_out = -8
+  
+MCcycles = 601000
+T = 2.4
+<E> = -6.5820965
+<|M|> = 3.5285857
+sigma_E = 2.3675372
+sigma_M = 0.29923415
+r_counter = 426588
+E_out = -8
+  
+MCcycles = 602000
+T = 2.4
+<E> = -6.5823123
+<|M|> = 3.5286545
+sigma_E = 2.3672015
+sigma_M = 0.29919755
+r_counter = 427230
+E_out = -8
+  
+MCcycles = 603000
+T = 2.4
+<E> = -6.5822488
+<|M|> = 3.5286401
+sigma_E = 2.3672267
+sigma_M = 0.29919626
+r_counter = 427958
+E_out = 0
+  
+MCcycles = 604000
+T = 2.4
+<E> = -6.5819205
+<|M|> = 3.5285464
+sigma_E = 2.3677527
+sigma_M = 0.29923916
+r_counter = 428740
+E_out = -8
+  
+MCcycles = 605000
+T = 2.4
+<E> = -6.581686
+<|M|> = 3.5284793
+sigma_E = 2.3681046
+sigma_M = 0.29926831
+r_counter = 429506
+E_out = -8
+  
+MCcycles = 606000
+T = 2.4
+<E> = -6.5812277
+<|M|> = 3.5283465
+sigma_E = 2.3687977
+sigma_M = 0.299328
+r_counter = 430328
+E_out = -8
+  
+MCcycles = 607000
+T = 2.4
+<E> = -6.5809687
+<|M|> = 3.5282405
+sigma_E = 2.3691806
+sigma_M = 0.29940029
+r_counter = 431116
+E_out = -8
+  
+MCcycles = 608000
+T = 2.4
+<E> = -6.5812895
+<|M|> = 3.5283684
+sigma_E = 2.3687625
+sigma_M = 0.29931855
+r_counter = 431740
+E_out = 0
+  
+MCcycles = 609000
+T = 2.4
+<E> = -6.5811757
+<|M|> = 3.5283153
+sigma_E = 2.3689052
+sigma_M = 0.29935703
+r_counter = 432480
+E_out = -8
+  
+MCcycles = 610000
+T = 2.4
+<E> = -6.5816918
+<|M|> = 3.5285082
+sigma_E = 2.3682349
+sigma_M = 0.2992419
+r_counter = 433062
+E_out = -8
+  
+MCcycles = 611000
+T = 2.4
+<E> = -6.5813944
+<|M|> = 3.5283666
+sigma_E = 2.368667
+sigma_M = 0.29934957
+r_counter = 433862
+E_out = -8
+  
+MCcycles = 612000
+T = 2.4
+<E> = -6.5815686
+<|M|> = 3.5284052
+sigma_E = 2.3683857
+sigma_M = 0.29934077
+r_counter = 434514
+E_out = 0
+  
+MCcycles = 613000
+T = 2.4
+<E> = -6.581677
+<|M|> = 3.5284405
+sigma_E = 2.3682939
+sigma_M = 0.29932633
+r_counter = 435170
+E_out = -8
+  
+MCcycles = 614000
+T = 2.4
+<E> = -6.5820586
+<|M|> = 3.5285342
+sigma_E = 2.3677971
+sigma_M = 0.29930296
+r_counter = 435755
+E_out = 0
+  
+MCcycles = 615000
+T = 2.4
+<E> = -6.5817626
+<|M|> = 3.5284065
+sigma_E = 2.368123
+sigma_M = 0.29938689
+r_counter = 436548
+E_out = -8
+  
+MCcycles = 616000
+T = 2.4
+<E> = -6.5815325
+<|M|> = 3.5283312
+sigma_E = 2.368416
+sigma_M = 0.29942434
+r_counter = 437290
+E_out = -8
+  
+MCcycles = 617000
+T = 2.4
+<E> = -6.5812771
+<|M|> = 3.5282496
+sigma_E = 2.3687934
+sigma_M = 0.29946662
+r_counter = 438090
+E_out = -8
+  
+MCcycles = 618000
+T = 2.4
+<E> = -6.5813074
+<|M|> = 3.5282589
+sigma_E = 2.3686984
+sigma_M = 0.29945893
+r_counter = 438824
+E_out = -8
+  
+MCcycles = 619000
+T = 2.4
+<E> = -6.581454
+<|M|> = 3.5283166
+sigma_E = 2.3684536
+sigma_M = 0.29941909
+r_counter = 439486
+E_out = -8
+  
+MCcycles = 620000
+T = 2.4
+<E> = -6.5817161
+<|M|> = 3.5284129
+sigma_E = 2.3680597
+sigma_M = 0.29935947
+r_counter = 440148
+E_out = -8
+  
+MCcycles = 621000
+T = 2.4
+<E> = -6.5815008
+<|M|> = 3.5283414
+sigma_E = 2.3682822
+sigma_M = 0.29939259
+r_counter = 440908
+E_out = -8
+  
+MCcycles = 622000
+T = 2.4
+<E> = -6.5814405
+<|M|> = 3.5283505
+sigma_E = 2.3683049
+sigma_M = 0.29936257
+r_counter = 441596
+E_out = -8
+  
+MCcycles = 623000
+T = 2.4
+<E> = -6.581573
+<|M|> = 3.5284013
+sigma_E = 2.3681816
+sigma_M = 0.29933446
+r_counter = 442272
+E_out = -8
+  
+MCcycles = 624000
+T = 2.4
+<E> = -6.5818462
+<|M|> = 3.5284423
+sigma_E = 2.3679279
+sigma_M = 0.29935705
+r_counter = 442914
+E_out = -8
+  
+MCcycles = 625000
+T = 2.4
+<E> = -6.5812224
+<|M|> = 3.5282912
+sigma_E = 2.3687803
+sigma_M = 0.2993951
+r_counter = 443780
+E_out = -8
+  
+MCcycles = 626000
+T = 2.4
+<E> = -6.5813674
+<|M|> = 3.5283163
+sigma_E = 2.3685381
+sigma_M = 0.29939619
+r_counter = 444501
+E_out = 0
+  
+MCcycles = 627000
+T = 2.4
+<E> = -6.5813971
+<|M|> = 3.52837
+sigma_E = 2.368547
+sigma_M = 0.29933866
+r_counter = 445190
+E_out = -8
+  
+MCcycles = 628000
+T = 2.4
+<E> = -6.5811975
+<|M|> = 3.5283057
+sigma_E = 2.3688517
+sigma_M = 0.29937294
+r_counter = 445964
+E_out = -8
+  
+MCcycles = 629000
+T = 2.4
+<E> = -6.5817615
+<|M|> = 3.5284452
+sigma_E = 2.3682215
+sigma_M = 0.29934382
+r_counter = 446514
+E_out = -8
+  
+MCcycles = 630000
+T = 2.4
+<E> = -6.5818413
+<|M|> = 3.5284698
+sigma_E = 2.3681144
+sigma_M = 0.29933229
+r_counter = 447208
+E_out = -8
+  
+MCcycles = 631000
+T = 2.4
+<E> = -6.5816799
+<|M|> = 3.5284247
+sigma_E = 2.3683186
+sigma_M = 0.29934872
+r_counter = 447996
+E_out = -8
+  
+MCcycles = 632000
+T = 2.4
+<E> = -6.5816709
+<|M|> = 3.5284367
+sigma_E = 2.3683768
+sigma_M = 0.29933423
+r_counter = 448674
+E_out = -8
+  
+MCcycles = 633000
+T = 2.4
+<E> = -6.581346
+<|M|> = 3.5283191
+sigma_E = 2.3687414
+sigma_M = 0.29939824
+r_counter = 449476
+E_out = -8
+  
+MCcycles = 634000
+T = 2.4
+<E> = -6.5811104
+<|M|> = 3.5282555
+sigma_E = 2.3689909
+sigma_M = 0.29941634
+r_counter = 450228
+E_out = 0
+  
+MCcycles = 635000
+T = 2.4
+<E> = -6.5811906
+<|M|> = 3.5282961
+sigma_E = 2.3688835
+sigma_M = 0.29938487
+r_counter = 450930
+E_out = -8
+  
+MCcycles = 636000
+T = 2.4
+<E> = -6.5812075
+<|M|> = 3.528305
+sigma_E = 2.3688073
+sigma_M = 0.29937439
+r_counter = 451624
+E_out = -8
+  
+MCcycles = 637000
+T = 2.4
+<E> = -6.5808226
+<|M|> = 3.5281727
+sigma_E = 2.3694509
+sigma_M = 0.29945464
+r_counter = 452423
+E_out = 0
+  
+MCcycles = 638000
+T = 2.4
+<E> = -6.5810533
+<|M|> = 3.5282727
+sigma_E = 2.3691491
+sigma_M = 0.29938559
+r_counter = 453112
+E_out = -8
+  
+MCcycles = 639000
+T = 2.4
+<E> = -6.58082
+<|M|> = 3.5282003
+sigma_E = 2.3694961
+sigma_M = 0.29942169
+r_counter = 453884
+E_out = -8
+  
+MCcycles = 640000
+T = 2.4
+<E> = -6.5806375
+<|M|> = 3.5281094
+sigma_E = 2.3697275
+sigma_M = 0.29949075
+r_counter = 454654
+E_out = -8
+  
+MCcycles = 641000
+T = 2.4
+<E> = -6.5807301
+<|M|> = 3.528103
+sigma_E = 2.3696039
+sigma_M = 0.29952174
+r_counter = 455388
+E_out = -8
+  
+MCcycles = 642000
+T = 2.4
+<E> = -6.5807352
+<|M|> = 3.5280841
+sigma_E = 2.3695434
+sigma_M = 0.29954347
+r_counter = 456088
+E_out = -8
+  
+MCcycles = 643000
+T = 2.4
+<E> = -6.5808149
+<|M|> = 3.5281306
+sigma_E = 2.3694862
+sigma_M = 0.29950745
+r_counter = 456736
+E_out = -8
+  
+MCcycles = 644000
+T = 2.4
+<E> = -6.5809689
+<|M|> = 3.5281491
+sigma_E = 2.3692834
+sigma_M = 0.2995224
+r_counter = 457386
+E_out = -8
+  
+MCcycles = 645000
+T = 2.4
+<E> = -6.5808496
+<|M|> = 3.5281085
+sigma_E = 2.3694333
+sigma_M = 0.29954356
+r_counter = 458146
+E_out = -8
+  
+MCcycles = 646000
+T = 2.4
+<E> = -6.5809907
+<|M|> = 3.5281548
+sigma_E = 2.3692471
+sigma_M = 0.29952009
+r_counter = 458818
+E_out = -8
+  
+MCcycles = 647000
+T = 2.4
+<E> = -6.5813787
+<|M|> = 3.5282535
+sigma_E = 2.3687918
+sigma_M = 0.29949518
+r_counter = 459416
+E_out = -8
+  
+MCcycles = 648000
+T = 2.4
+<E> = -6.5813457
+<|M|> = 3.5282623
+sigma_E = 2.3688303
+sigma_M = 0.29947546
+r_counter = 460154
+E_out = -8
+  
+MCcycles = 649000
+T = 2.4
+<E> = -6.5817319
+<|M|> = 3.5284222
+sigma_E = 2.3682784
+sigma_M = 0.29936661
+r_counter = 460758
+E_out = -8
+  
+MCcycles = 650000
+T = 2.4
+<E> = -6.5818215
+<|M|> = 3.5284462
+sigma_E = 2.3681586
+sigma_M = 0.29935847
+r_counter = 461468
+E_out = -8
+  
+MCcycles = 651000
+T = 2.4
+<E> = -6.5820829
+<|M|> = 3.5285776
+sigma_E = 2.3678171
+sigma_M = 0.29925743
+r_counter = 462112
+E_out = -8
+  
+MCcycles = 652000
+T = 2.4
+<E> = -6.5817301
+<|M|> = 3.5284877
+sigma_E = 2.3683669
+sigma_M = 0.29928868
+r_counter = 462890
+E_out = -8
+  
+MCcycles = 653000
+T = 2.4
+<E> = -6.5817458
+<|M|> = 3.528487
+sigma_E = 2.3683914
+sigma_M = 0.29929636
+r_counter = 463580
+E_out = -8
+  
+MCcycles = 654000
+T = 2.4
+<E> = -6.5818716
+<|M|> = 3.5285474
+sigma_E = 2.3683227
+sigma_M = 0.29925727
+r_counter = 464230
+E_out = -8
+  
+MCcycles = 655000
+T = 2.4
+<E> = -6.5815695
+<|M|> = 3.5284489
+sigma_E = 2.3687084
+sigma_M = 0.29930606
+r_counter = 465034
+E_out = -8
+  
+MCcycles = 656000
+T = 2.4
+<E> = -6.5812073
+<|M|> = 3.5283293
+sigma_E = 2.3691715
+sigma_M = 0.29936644
+r_counter = 465872
+E_out = -8
+  
+MCcycles = 657000
+T = 2.4
+<E> = -6.5812481
+<|M|> = 3.5283349
+sigma_E = 2.3690658
+sigma_M = 0.29936626
+r_counter = 466566
+E_out = -8
+  
+MCcycles = 658000
+T = 2.4
+<E> = -6.5812401
+<|M|> = 3.5283647
+sigma_E = 2.3691692
+sigma_M = 0.2993323
+r_counter = 467268
+E_out = -8
+  
+MCcycles = 659000
+T = 2.4
+<E> = -6.580953
+<|M|> = 3.5282883
+sigma_E = 2.3695354
+sigma_M = 0.29935685
+r_counter = 468020
+E_out = -8
+  
+MCcycles = 660000
+T = 2.4
+<E> = -6.5809818
+<|M|> = 3.528303
+sigma_E = 2.3694938
+sigma_M = 0.29934519
+r_counter = 468754
+E_out = -8
+  
+MCcycles = 661000
+T = 2.4
+<E> = -6.5808654
+<|M|> = 3.528233
+sigma_E = 2.369785
+sigma_M = 0.29941343
+r_counter = 469466
+E_out = -8
+  
+MCcycles = 662000
+T = 2.4
+<E> = -6.5807734
+<|M|> = 3.5281964
+sigma_E = 2.3698991
+sigma_M = 0.29943644
+r_counter = 470184
+E_out = -8
+  
+MCcycles = 663000
+T = 2.4
+<E> = -6.5807421
+<|M|> = 3.5281689
+sigma_E = 2.369935
+sigma_M = 0.29946302
+r_counter = 470938
+E_out = -8
+  
+MCcycles = 664000
+T = 2.4
+<E> = -6.5810602
+<|M|> = 3.5282741
+sigma_E = 2.3695682
+sigma_M = 0.29941234
+r_counter = 471540
+E_out = -8
+  
+MCcycles = 665000
+T = 2.4
+<E> = -6.5805353
+<|M|> = 3.5280722
+sigma_E = 2.370289
+sigma_M = 0.29953908
+r_counter = 472388
+E_out = -8
+  
+MCcycles = 666000
+T = 2.4
+<E> = -6.5808408
+<|M|> = 3.5281351
+sigma_E = 2.3698902
+sigma_M = 0.29953559
+r_counter = 473020
+E_out = -8
+  
+MCcycles = 667000
+T = 2.4
+<E> = -6.5808096
+<|M|> = 3.5281319
+sigma_E = 2.3699259
+sigma_M = 0.29953153
+r_counter = 473730
+E_out = -8
+  
+MCcycles = 668000
+T = 2.4
+<E> = -6.5806467
+<|M|> = 3.5280659
+sigma_E = 2.3700836
+sigma_M = 0.29957104
+r_counter = 474499
+E_out = 0
+  
+MCcycles = 669000
+T = 2.4
+<E> = -6.5806158
+<|M|> = 3.5280209
+sigma_E = 2.3700711
+sigma_M = 0.29961686
+r_counter = 475220
+E_out = 0
+  
+MCcycles = 670000
+T = 2.4
+<E> = -6.5802746
+<|M|> = 3.5278806
+sigma_E = 2.3704591
+sigma_M = 0.29970567
+r_counter = 476040
+E_out = -8
+  
+MCcycles = 671000
+T = 2.4
+<E> = -6.5800894
+<|M|> = 3.5278271
+sigma_E = 2.3706937
+sigma_M = 0.29972668
+r_counter = 476792
+E_out = -8
+  
+MCcycles = 672000
+T = 2.4
+<E> = -6.5800476
+<|M|> = 3.5278095
+sigma_E = 2.3707433
+sigma_M = 0.29973821
+r_counter = 477498
+E_out = -8
+  
+MCcycles = 673000
+T = 2.4
+<E> = -6.5795186
+<|M|> = 3.5276137
+sigma_E = 2.3714214
+sigma_M = 0.2998532
+r_counter = 478378
+E_out = -8
+  
+MCcycles = 674000
+T = 2.4
+<E> = -6.5798457
+<|M|> = 3.52773
+sigma_E = 2.3709952
+sigma_M = 0.29978773
+r_counter = 479022
+E_out = -8
+  
+MCcycles = 675000
+T = 2.4
+<E> = -6.5797807
+<|M|> = 3.5276711
+sigma_E = 2.3710747
+sigma_M = 0.29984561
+r_counter = 479744
+E_out = -8
+  
+MCcycles = 676000
+T = 2.4
+<E> = -6.5799053
+<|M|> = 3.5276716
+sigma_E = 2.3709097
+sigma_M = 0.29987588
+r_counter = 480436
+E_out = -8
+  
+MCcycles = 677000
+T = 2.4
+<E> = -6.5797105
+<|M|> = 3.5276071
+sigma_E = 2.3712513
+sigma_M = 0.29991434
+r_counter = 481196
+E_out = -8
+  
+MCcycles = 678000
+T = 2.4
+<E> = -6.5801652
+<|M|> = 3.5277552
+sigma_E = 2.3706131
+sigma_M = 0.29983765
+r_counter = 481784
+E_out = -8
+  
+MCcycles = 679000
+T = 2.4
+<E> = -6.5800884
+<|M|> = 3.5277025
+sigma_E = 2.370708
+sigma_M = 0.29988473
+r_counter = 482526
+E_out = -8
+  
+MCcycles = 680000
+T = 2.4
+<E> = -6.5797529
+<|M|> = 3.5275941
+sigma_E = 2.3711834
+sigma_M = 0.29994052
+r_counter = 483328
+E_out = -8
+  
+MCcycles = 681000
+T = 2.4
+<E> = -6.5795947
+<|M|> = 3.5275565
+sigma_E = 2.3713361
+sigma_M = 0.29994525
+r_counter = 484034
+E_out = -8
+  
+MCcycles = 682000
+T = 2.4
+<E> = -6.5796716
+<|M|> = 3.5275718
+sigma_E = 2.3712797
+sigma_M = 0.29994778
+r_counter = 484740
+E_out = -8
+  
+MCcycles = 683000
+T = 2.4
+<E> = -6.5794553
+<|M|> = 3.5275286
+sigma_E = 2.3716479
+sigma_M = 0.29995403
+r_counter = 485480
+E_out = -8
+  
+MCcycles = 684000
+T = 2.4
+<E> = -6.579462
+<|M|> = 3.5275234
+sigma_E = 2.3715881
+sigma_M = 0.29995901
+r_counter = 486180
+E_out = -8
+  
+MCcycles = 685000
+T = 2.4
+<E> = -6.5795971
+<|M|> = 3.5275971
+sigma_E = 2.3714095
+sigma_M = 0.29989938
+r_counter = 486816
+E_out = -8
+  
+MCcycles = 686000
+T = 2.4
+<E> = -6.5797318
+<|M|> = 3.5276152
+sigma_E = 2.3712314
+sigma_M = 0.29990993
+r_counter = 487494
+E_out = -8
+  
+MCcycles = 687000
+T = 2.4
+<E> = -6.5797147
+<|M|> = 3.5276245
+sigma_E = 2.3712957
+sigma_M = 0.29989656
+r_counter = 488210
+E_out = -8
+  
+MCcycles = 688000
+T = 2.4
+<E> = -6.5800465
+<|M|> = 3.5277326
+sigma_E = 2.3708167
+sigma_M = 0.2998397
+r_counter = 488828
+E_out = -8
+  
+MCcycles = 689000
+T = 2.4
+<E> = -6.5797736
+<|M|> = 3.527672
+sigma_E = 2.371118
+sigma_M = 0.29984485
+r_counter = 489622
+E_out = -8
+  
+MCcycles = 690000
+T = 2.4
+<E> = -6.5800812
+<|M|> = 3.5277913
+sigma_E = 2.3706707
+sigma_M = 0.29976778
+r_counter = 490244
+E_out = -8
+  
+MCcycles = 691000
+T = 2.4
+<E> = -6.57989
+<|M|> = 3.5277106
+sigma_E = 2.3709131
+sigma_M = 0.29982178
+r_counter = 491040
+E_out = -8
+  
+MCcycles = 692000
+T = 2.4
+<E> = -6.5797688
+<|M|> = 3.5276503
+sigma_E = 2.3711115
+sigma_M = 0.29987028
+r_counter = 491790
+E_out = -8
+  
+MCcycles = 693000
+T = 2.4
+<E> = -6.5798903
+<|M|> = 3.5276941
+sigma_E = 2.3710429
+sigma_M = 0.29985083
+r_counter = 492480
+E_out = -8
+  
+MCcycles = 694000
+T = 2.4
+<E> = -6.5804611
+<|M|> = 3.5278934
+sigma_E = 2.3702561
+sigma_M = 0.29973849
+r_counter = 493026
+E_out = -8
+  
+MCcycles = 695000
+T = 2.4
+<E> = -6.5804086
+<|M|> = 3.5278647
+sigma_E = 2.3702735
+sigma_M = 0.29975841
+r_counter = 493780
+E_out = 0
+  
+MCcycles = 696000
+T = 2.4
+<E> = -6.5807011
+<|M|> = 3.5279799
+sigma_E = 2.3699379
+sigma_M = 0.29968862
+r_counter = 494416
+E_out = -8
+  
+MCcycles = 697000
+T = 2.4
+<E> = -6.5806026
+<|M|> = 3.5279397
+sigma_E = 2.370015
+sigma_M = 0.29971159
+r_counter = 495154
+E_out = -8
+  
+MCcycles = 698000
+T = 2.4
+<E> = -6.5807908
+<|M|> = 3.5279628
+sigma_E = 2.3697679
+sigma_M = 0.29972931
+r_counter = 495774
+E_out = -8
+  
+MCcycles = 699000
+T = 2.4
+<E> = -6.5807153
+<|M|> = 3.5279142
+sigma_E = 2.3698155
+sigma_M = 0.29976872
+r_counter = 496514
+E_out = -8
+  
+MCcycles = 700000
+T = 2.4
+<E> = -6.5810286
+<|M|> = 3.5280143
+sigma_E = 2.3694072
+sigma_M = 0.29972023
+r_counter = 497142
+E_out = -8
+  
+MCcycles = 701000
+T = 2.4
+<E> = -6.5808845
+<|M|> = 3.5279971
+sigma_E = 2.3696348
+sigma_M = 0.29970846
+r_counter = 497886
+E_out = -8
+  
+MCcycles = 702000
+T = 2.4
+<E> = -6.580661
+<|M|> = 3.5279259
+sigma_E = 2.3700558
+sigma_M = 0.2997509
+r_counter = 498624
+E_out = -8
+  
+MCcycles = 703000
+T = 2.4
+<E> = -6.5809844
+<|M|> = 3.5280341
+sigma_E = 2.3696342
+sigma_M = 0.2996947
+r_counter = 499205
+E_out = 0
+  
+MCcycles = 704000
+T = 2.4
+<E> = -6.5810909
+<|M|> = 3.5280682
+sigma_E = 2.369447
+sigma_M = 0.2996752
+r_counter = 499890
+E_out = -8
+  
+MCcycles = 705000
+T = 2.4
+<E> = -6.5808908
+<|M|> = 3.528
+sigma_E = 2.3697464
+sigma_M = 0.29971393
+r_counter = 500678
+E_out = -8
+  
+MCcycles = 706000
+T = 2.4
+<E> = -6.5810312
+<|M|> = 3.528017
+sigma_E = 2.3695157
+sigma_M = 0.29972444
+r_counter = 501362
+E_out = -8
+  
+MCcycles = 707000
+T = 2.4
+<E> = -6.5807525
+<|M|> = 3.5279151
+sigma_E = 2.3698259
+sigma_M = 0.29978043
+r_counter = 502140
+E_out = -8
+  
+MCcycles = 708000
+T = 2.4
+<E> = -6.5807797
+<|M|> = 3.5279605
+sigma_E = 2.3697867
+sigma_M = 0.29972969
+r_counter = 502820
+E_out = -8
+  
+MCcycles = 709000
+T = 2.4
+<E> = -6.5806939
+<|M|> = 3.5279351
+sigma_E = 2.3698481
+sigma_M = 0.29973721
+r_counter = 503538
+E_out = -8
+  
+MCcycles = 710000
+T = 2.4
+<E> = -6.5809352
+<|M|> = 3.5280028
+sigma_E = 2.369668
+sigma_M = 0.29972016
+r_counter = 504186
+E_out = 0
+  
+MCcycles = 711000
+T = 2.4
+<E> = -6.5806357
+<|M|> = 3.5278734
+sigma_E = 2.3700053
+sigma_M = 0.29980577
+r_counter = 504988
+E_out = -8
+  
+MCcycles = 712000
+T = 2.4
+<E> = -6.5808202
+<|M|> = 3.5279213
+sigma_E = 2.3697631
+sigma_M = 0.29979105
+r_counter = 505658
+E_out = -8
+  
+MCcycles = 713000
+T = 2.4
+<E> = -6.5808022
+<|M|> = 3.527899
+sigma_E = 2.369872
+sigma_M = 0.29982014
+r_counter = 506394
+E_out = -8
+  
+MCcycles = 714000
+T = 2.4
+<E> = -6.5806835
+<|M|> = 3.5278908
+sigma_E = 2.3700658
+sigma_M = 0.29980343
+r_counter = 507136
+E_out = -8
+  
+MCcycles = 715000
+T = 2.4
+<E> = -6.580565
+<|M|> = 3.5278406
+sigma_E = 2.3701696
+sigma_M = 0.2998342
+r_counter = 507900
+E_out = -8
+  
+MCcycles = 716000
+T = 2.4
+<E> = -6.5804246
+<|M|> = 3.5278101
+sigma_E = 2.3703467
+sigma_M = 0.29983738
+r_counter = 508642
+E_out = -8
+  
+MCcycles = 717000
+T = 2.4
+<E> = -6.5803849
+<|M|> = 3.5277713
+sigma_E = 2.370349
+sigma_M = 0.29987344
+r_counter = 509383
+E_out = 0
+  
+MCcycles = 718000
+T = 2.4
+<E> = -6.5804011
+<|M|> = 3.5277855
+sigma_E = 2.3702795
+sigma_M = 0.29985643
+r_counter = 510072
+E_out = -8
+  
+MCcycles = 719000
+T = 2.4
+<E> = -6.5806287
+<|M|> = 3.5278526
+sigma_E = 2.3699373
+sigma_M = 0.29982553
+r_counter = 510720
+E_out = -8
+  
+MCcycles = 720000
+T = 2.4
+<E> = -6.5804556
+<|M|> = 3.5277833
+sigma_E = 2.3701567
+sigma_M = 0.29986952
+r_counter = 511478
+E_out = -8
+  
+MCcycles = 721000
+T = 2.4
+<E> = -6.5805049
+<|M|> = 3.5277892
+sigma_E = 2.3700892
+sigma_M = 0.29987421
+r_counter = 512162
+E_out = -8
+  
+MCcycles = 722000
+T = 2.4
+<E> = -6.5806648
+<|M|> = 3.5278587
+sigma_E = 2.3698788
+sigma_M = 0.29982606
+r_counter = 512816
+E_out = -8
+  
+MCcycles = 723000
+T = 2.4
+<E> = -6.5808907
+<|M|> = 3.5279447
+sigma_E = 2.3695834
+sigma_M = 0.29977365
+r_counter = 513432
+E_out = -8
+  
+MCcycles = 724000
+T = 2.4
+<E> = -6.5808619
+<|M|> = 3.5279392
+sigma_E = 2.3695725
+sigma_M = 0.29977032
+r_counter = 514172
+E_out = -8
+  
+MCcycles = 725000
+T = 2.4
+<E> = -6.5808
+<|M|> = 3.5279172
+sigma_E = 2.3696044
+sigma_M = 0.29977964
+r_counter = 514874
+E_out = -8
+  
+MCcycles = 726000
+T = 2.4
+<E> = -6.5808926
+<|M|> = 3.5279587
+sigma_E = 2.3694812
+sigma_M = 0.29975017
+r_counter = 515574
+E_out = 0
+  
+MCcycles = 727000
+T = 2.4
+<E> = -6.5808418
+<|M|> = 3.5279532
+sigma_E = 2.3696309
+sigma_M = 0.29974963
+r_counter = 516316
+E_out = -8
+  
+MCcycles = 728000
+T = 2.4
+<E> = -6.5810989
+<|M|> = 3.5280495
+sigma_E = 2.3692513
+sigma_M = 0.2996893
+r_counter = 516910
+E_out = -8
+  
+MCcycles = 729000
+T = 2.4
+<E> = -6.5813553
+<|M|> = 3.5281591
+sigma_E = 2.3690045
+sigma_M = 0.29962001
+r_counter = 517522
+E_out = -8
+  
+MCcycles = 730000
+T = 2.4
+<E> = -6.5814356
+<|M|> = 3.5281863
+sigma_E = 2.368853
+sigma_M = 0.29960275
+r_counter = 518180
+E_out = -8
+  
+MCcycles = 731000
+T = 2.4
+<E> = -6.5813625
+<|M|> = 3.5281505
+sigma_E = 2.3689873
+sigma_M = 0.29963226
+r_counter = 518936
+E_out = 0
+  
+MCcycles = 732000
+T = 2.4
+<E> = -6.5813224
+<|M|> = 3.5281639
+sigma_E = 2.3690352
+sigma_M = 0.29960498
+r_counter = 519642
+E_out = -8
+  
+MCcycles = 733000
+T = 2.4
+<E> = -6.5809659
+<|M|> = 3.5280628
+sigma_E = 2.3694914
+sigma_M = 0.2996435
+r_counter = 520450
+E_out = -8
+  
+MCcycles = 734000
+T = 2.4
+<E> = -6.5811117
+<|M|> = 3.528109
+sigma_E = 2.3692994
+sigma_M = 0.29962127
+r_counter = 521142
+E_out = -8
+  
+MCcycles = 735000
+T = 2.4
+<E> = -6.5810939
+<|M|> = 3.5280898
+sigma_E = 2.3693621
+sigma_M = 0.29964356
+r_counter = 521892
+E_out = -8
+  
+MCcycles = 736000
+T = 2.4
+<E> = -6.5812935
+<|M|> = 3.5281495
+sigma_E = 2.3690571
+sigma_M = 0.29961508
+r_counter = 522524
+E_out = 0
+  
+MCcycles = 737000
+T = 2.4
+<E> = -6.581232
+<|M|> = 3.5281547
+sigma_E = 2.3691326
+sigma_M = 0.29959287
+r_counter = 523221
+E_out = 0
+  
+MCcycles = 738000
+T = 2.4
+<E> = -6.5809756
+<|M|> = 3.5280705
+sigma_E = 2.3694163
+sigma_M = 0.29963228
+r_counter = 524022
+E_out = -8
+  
+MCcycles = 739000
+T = 2.4
+<E> = -6.5810447
+<|M|> = 3.5281001
+sigma_E = 2.3693667
+sigma_M = 0.2996145
+r_counter = 524684
+E_out = -8
+  
+MCcycles = 740000
+T = 2.4
+<E> = -6.5810378
+<|M|> = 3.5281216
+sigma_E = 2.3693285
+sigma_M = 0.2995827
+r_counter = 525396
+E_out = -8
+  
+MCcycles = 741000
+T = 2.4
+<E> = -6.5810742
+<|M|> = 3.5281296
+sigma_E = 2.3692346
+sigma_M = 0.29957884
+r_counter = 526152
+E_out = 0
+  
+MCcycles = 742000
+T = 2.4
+<E> = -6.5812615
+<|M|> = 3.5282049
+sigma_E = 2.3690324
+sigma_M = 0.29953293
+r_counter = 526784
+E_out = -8
+  
+MCcycles = 743000
+T = 2.4
+<E> = -6.5816097
+<|M|> = 3.5282934
+sigma_E = 2.3685362
+sigma_M = 0.29950512
+r_counter = 527384
+E_out = -8
+  
+MCcycles = 744000
+T = 2.4
+<E> = -6.5813441
+<|M|> = 3.5282124
+sigma_E = 2.3688754
+sigma_M = 0.29954093
+r_counter = 528174
+E_out = -8
+  
+MCcycles = 745000
+T = 2.4
+<E> = -6.5811329
+<|M|> = 3.5281503
+sigma_E = 2.3691013
+sigma_M = 0.29956363
+r_counter = 528900
+E_out = 0
+  
+MCcycles = 746000
+T = 2.4
+<E> = -6.5810831
+<|M|> = 3.528126
+sigma_E = 2.3692049
+sigma_M = 0.2995844
+r_counter = 529608
+E_out = -8
+  
+MCcycles = 747000
+T = 2.4
+<E> = -6.5813548
+<|M|> = 3.5282222
+sigma_E = 2.3688507
+sigma_M = 0.29953046
+r_counter = 530240
+E_out = -8
+  
+MCcycles = 748000
+T = 2.4
+<E> = -6.5814866
+<|M|> = 3.5282995
+sigma_E = 2.3686769
+sigma_M = 0.29946556
+r_counter = 530878
+E_out = -8
+  
+MCcycles = 749000
+T = 2.4
+<E> = -6.5815007
+<|M|> = 3.5283017
+sigma_E = 2.3686552
+sigma_M = 0.29946597
+r_counter = 531566
+E_out = -8
+  
+MCcycles = 750000
+T = 2.4
+<E> = -6.5816427
+<|M|> = 3.5283653
+sigma_E = 2.3684683
+sigma_M = 0.29942085
+r_counter = 532222
+E_out = -8
+  
+MCcycles = 751000
+T = 2.4
+<E> = -6.5819121
+<|M|> = 3.5284581
+sigma_E = 2.3680743
+sigma_M = 0.29936811
+r_counter = 532826
+E_out = -8
+  
+MCcycles = 752000
+T = 2.4
+<E> = -6.5819894
+<|M|> = 3.5284601
+sigma_E = 2.3679285
+sigma_M = 0.29938195
+r_counter = 533552
+E_out = -8
+  
+MCcycles = 753000
+T = 2.4
+<E> = -6.5818114
+<|M|> = 3.5284223
+sigma_E = 2.3681547
+sigma_M = 0.29938503
+r_counter = 534286
+E_out = -8
+  
+MCcycles = 754000
+T = 2.4
+<E> = -6.5821645
+<|M|> = 3.5285279
+sigma_E = 2.3676955
+sigma_M = 0.29933964
+r_counter = 534908
+E_out = -8
+  
+MCcycles = 755000
+T = 2.4
+<E> = -6.5822411
+<|M|> = 3.5285669
+sigma_E = 2.3675508
+sigma_M = 0.29930658
+r_counter = 535585
+E_out = 0
+  
+MCcycles = 756000
+T = 2.4
+<E> = -6.5822011
+<|M|> = 3.5285847
+sigma_E = 2.3676838
+sigma_M = 0.29927919
+r_counter = 536324
+E_out = -8
+  
+MCcycles = 757000
+T = 2.4
+<E> = -6.5824465
+<|M|> = 3.5286473
+sigma_E = 2.3673634
+sigma_M = 0.29926115
+r_counter = 536952
+E_out = -8
+  
+MCcycles = 758000
+T = 2.4
+<E> = -6.5824591
+<|M|> = 3.528657
+sigma_E = 2.3673859
+sigma_M = 0.29925446
+r_counter = 537646
+E_out = -8
+  
+MCcycles = 759000
+T = 2.4
+<E> = -6.5826614
+<|M|> = 3.5287457
+sigma_E = 2.3671212
+sigma_M = 0.29919263
+r_counter = 538284
+E_out = -8
+  
+MCcycles = 760000
+T = 2.4
+<E> = -6.5826526
+<|M|> = 3.5287921
+sigma_E = 2.3671711
+sigma_M = 0.2991342
+r_counter = 539016
+E_out = -8
+  
+MCcycles = 761000
+T = 2.4
+<E> = -6.5828752
+<|M|> = 3.528862
+sigma_E = 2.3668381
+sigma_M = 0.29909858
+r_counter = 539696
+E_out = -8
+  
+MCcycles = 762000
+T = 2.4
+<E> = -6.5832021
+<|M|> = 3.5289554
+sigma_E = 2.3663704
+sigma_M = 0.29905943
+r_counter = 540364
+E_out = -8
+  
+MCcycles = 763000
+T = 2.4
+<E> = -6.583287
+<|M|> = 3.5289725
+sigma_E = 2.3662573
+sigma_M = 0.29905883
+r_counter = 541040
+E_out = -8
+  
+MCcycles = 764000
+T = 2.4
+<E> = -6.5834869
+<|M|> = 3.5290236
+sigma_E = 2.3659538
+sigma_M = 0.29904137
+r_counter = 541690
+E_out = -8
+  
+MCcycles = 765000
+T = 2.4
+<E> = -6.583519
+<|M|> = 3.5290353
+sigma_E = 2.3659091
+sigma_M = 0.29903434
+r_counter = 542388
+E_out = -8
+  
+MCcycles = 766000
+T = 2.4
+<E> = -6.5832063
+<|M|> = 3.5289608
+sigma_E = 2.3663514
+sigma_M = 0.29905272
+r_counter = 543212
+E_out = -8
+  
+MCcycles = 767000
+T = 2.4
+<E> = -6.5831343
+<|M|> = 3.5289361
+sigma_E = 2.366441
+sigma_M = 0.29906577
+r_counter = 543946
+E_out = -8
+  
+MCcycles = 768000
+T = 2.4
+<E> = -6.5829479
+<|M|> = 3.5288594
+sigma_E = 2.3666783
+sigma_M = 0.299116
+r_counter = 544722
+E_out = -8
+  
+MCcycles = 769000
+T = 2.4
+<E> = -6.5827308
+<|M|> = 3.5287984
+sigma_E = 2.366997
+sigma_M = 0.29914117
+r_counter = 545488
+E_out = -8
+  
+MCcycles = 770000
+T = 2.4
+<E> = -6.5829091
+<|M|> = 3.5288545
+sigma_E = 2.3668049
+sigma_M = 0.29911718
+r_counter = 546144
+E_out = 0
+  
+MCcycles = 771000
+T = 2.4
+<E> = -6.5827237
+<|M|> = 3.5287938
+sigma_E = 2.3670408
+sigma_M = 0.29914746
+r_counter = 546926
+E_out = -8
+  
+MCcycles = 772000
+T = 2.4
+<E> = -6.5827254
+<|M|> = 3.528785
+sigma_E = 2.3670767
+sigma_M = 0.29916138
+r_counter = 547646
+E_out = -8
+  
+MCcycles = 773000
+T = 2.4
+<E> = -6.5829133
+<|M|> = 3.5288331
+sigma_E = 2.3667891
+sigma_M = 0.29914469
+r_counter = 548320
+E_out = -8
+  
+MCcycles = 774000
+T = 2.4
+<E> = -6.5829767
+<|M|> = 3.528863
+sigma_E = 2.3667038
+sigma_M = 0.29912248
+r_counter = 549010
+E_out = -8
+  
+MCcycles = 775000
+T = 2.4
+<E> = -6.5828542
+<|M|> = 3.5288465
+sigma_E = 2.3668586
+sigma_M = 0.29911262
+r_counter = 549778
+E_out = -8
+  
+MCcycles = 776000
+T = 2.4
+<E> = -6.582433
+<|M|> = 3.5287088
+sigma_E = 2.3673579
+sigma_M = 0.29917862
+r_counter = 550620
+E_out = -8
+  
+MCcycles = 777000
+T = 2.4
+<E> = -6.5823423
+<|M|> = 3.5286795
+sigma_E = 2.3675128
+sigma_M = 0.29919527
+r_counter = 551382
+E_out = -8
+  
+MCcycles = 778000
+T = 2.4
+<E> = -6.582653
+<|M|> = 3.5287841
+sigma_E = 2.3671906
+sigma_M = 0.2991457
+r_counter = 552000
+E_out = -8
+  
+MCcycles = 779000
+T = 2.4
+<E> = -6.5824082
+<|M|> = 3.5286983
+sigma_E = 2.3675031
+sigma_M = 0.29919269
+r_counter = 552786
+E_out = -8
+  
+MCcycles = 780000
+T = 2.4
+<E> = -6.5822974
+<|M|> = 3.5287026
+sigma_E = 2.3676017
+sigma_M = 0.29915686
+r_counter = 553524
+E_out = -8
+  
+MCcycles = 781000
+T = 2.4
+<E> = -6.5824942
+<|M|> = 3.5288015
+sigma_E = 2.3673441
+sigma_M = 0.29908071
+r_counter = 554158
+E_out = -8
+  
+MCcycles = 782000
+T = 2.4
+<E> = -6.5823734
+<|M|> = 3.528734
+sigma_E = 2.3674558
+sigma_M = 0.2991331
+r_counter = 554911
+E_out = 0
+  
+MCcycles = 783000
+T = 2.4
+<E> = -6.5821405
+<|M|> = 3.5286539
+sigma_E = 2.3677532
+sigma_M = 0.29917596
+r_counter = 555692
+E_out = -8
+  
+MCcycles = 784000
+T = 2.4
+<E> = -6.5822755
+<|M|> = 3.5286913
+sigma_E = 2.3676164
+sigma_M = 0.29916474
+r_counter = 556338
+E_out = -8
+  
+MCcycles = 785000
+T = 2.4
+<E> = -6.5823592
+<|M|> = 3.5287261
+sigma_E = 2.3675049
+sigma_M = 0.29914147
+r_counter = 557026
+E_out = -8
+  
+MCcycles = 786000
+T = 2.4
+<E> = -6.5825751
+<|M|> = 3.5287634
+sigma_E = 2.3672635
+sigma_M = 0.29915067
+r_counter = 557706
+E_out = -8
+  
+MCcycles = 787000
+T = 2.4
+<E> = -6.5823939
+<|M|> = 3.5287217
+sigma_E = 2.367494
+sigma_M = 0.29915781
+r_counter = 558494
+E_out = 8
+  
+MCcycles = 788000
+T = 2.4
+<E> = -6.5823147
+<|M|> = 3.5286929
+sigma_E = 2.3676335
+sigma_M = 0.29917679
+r_counter = 559196
+E_out = -8
+  
+MCcycles = 789000
+T = 2.4
+<E> = -6.5822763
+<|M|> = 3.5286869
+sigma_E = 2.3676391
+sigma_M = 0.29917196
+r_counter = 559948
+E_out = -8
+  
+MCcycles = 790000
+T = 2.4
+<E> = -6.5827443
+<|M|> = 3.5288405
+sigma_E = 2.3669909
+sigma_M = 0.29909206
+r_counter = 560516
+E_out = -8
+  
+MCcycles = 791000
+T = 2.4
+<E> = -6.582847
+<|M|> = 3.5288799
+sigma_E = 2.3669358
+sigma_M = 0.29907278
+r_counter = 561186
+E_out = -8
+  
+MCcycles = 792000
+T = 2.4
+<E> = -6.5830808
+<|M|> = 3.5289697
+sigma_E = 2.3666305
+sigma_M = 0.29901746
+r_counter = 561820
+E_out = -8
+  
+MCcycles = 793000
+T = 2.4
+<E> = -6.5831324
+<|M|> = 3.5289987
+sigma_E = 2.36652
+sigma_M = 0.2989909
+r_counter = 562524
+E_out = -8
+  
+MCcycles = 794000
+T = 2.4
+<E> = -6.5829421
+<|M|> = 3.5289723
+sigma_E = 2.3668431
+sigma_M = 0.29898159
+r_counter = 563302
+E_out = 0
+  
+MCcycles = 795000
+T = 2.4
+<E> = -6.5830742
+<|M|> = 3.5290214
+sigma_E = 2.366669
+sigma_M = 0.29895233
+r_counter = 563990
+E_out = -8
+  
+MCcycles = 796000
+T = 2.4
+<E> = -6.5830251
+<|M|> = 3.5290075
+sigma_E = 2.3666888
+sigma_M = 0.29895484
+r_counter = 564736
+E_out = -8
+  
+MCcycles = 797000
+T = 2.4
+<E> = -6.5834178
+<|M|> = 3.5291418
+sigma_E = 2.366138
+sigma_M = 0.29888054
+r_counter = 565294
+E_out = -8
+  
+MCcycles = 798000
+T = 2.4
+<E> = -6.5835589
+<|M|> = 3.5291654
+sigma_E = 2.3659124
+sigma_M = 0.29888321
+r_counter = 565944
+E_out = -8
+  
+MCcycles = 799000
+T = 2.4
+<E> = -6.5834193
+<|M|> = 3.5291214
+sigma_E = 2.3661295
+sigma_M = 0.29890626
+r_counter = 566688
+E_out = -8
+  
+MCcycles = 800000
+T = 2.4
+<E> = -6.58382
+<|M|> = 3.5292725
+sigma_E = 2.3655686
+sigma_M = 0.29881266
+r_counter = 567280
+E_out = -8
+  
+MCcycles = 801000
+T = 2.4
+<E> = -6.5839101
+<|M|> = 3.5292884
+sigma_E = 2.3654489
+sigma_M = 0.29881489
+r_counter = 567936
+E_out = -8
+  
+MCcycles = 802000
+T = 2.4
+<E> = -6.5837905
+<|M|> = 3.5292793
+sigma_E = 2.3656001
+sigma_M = 0.29879628
+r_counter = 568694
+E_out = -8
+  
+MCcycles = 803000
+T = 2.4
+<E> = -6.5836214
+<|M|> = 3.529208
+sigma_E = 2.3658154
+sigma_M = 0.29884401
+r_counter = 569468
+E_out = -8
+  
+MCcycles = 804000
+T = 2.4
+<E> = -6.5838109
+<|M|> = 3.5292836
+sigma_E = 2.3656071
+sigma_M = 0.29879806
+r_counter = 570120
+E_out = -8
+  
+MCcycles = 805000
+T = 2.4
+<E> = -6.5835627
+<|M|> = 3.529205
+sigma_E = 2.3659245
+sigma_M = 0.29883521
+r_counter = 570932
+E_out = -8
+  
+MCcycles = 806000
+T = 2.4
+<E> = -6.583206
+<|M|> = 3.5290769
+sigma_E = 2.3664218
+sigma_M = 0.29891022
+r_counter = 571750
+E_out = -8
+  
+MCcycles = 807000
+T = 2.4
+<E> = -6.5834349
+<|M|> = 3.5291252
+sigma_E = 2.3660831
+sigma_M = 0.29890379
+r_counter = 572428
+E_out = -8
+  
+MCcycles = 808000
+T = 2.4
+<E> = -6.583703
+<|M|> = 3.5292129
+sigma_E = 2.365694
+sigma_M = 0.2988572
+r_counter = 573038
+E_out = -8
+  
+MCcycles = 809000
+T = 2.4
+<E> = -6.5837231
+<|M|> = 3.5292114
+sigma_E = 2.3656252
+sigma_M = 0.29886146
+r_counter = 573732
+E_out = -8
+  
+MCcycles = 810000
+T = 2.4
+<E> = -6.5837136
+<|M|> = 3.5292173
+sigma_E = 2.3655949
+sigma_M = 0.29884893
+r_counter = 574414
+E_out = -8
+  
+MCcycles = 811000
+T = 2.4
+<E> = -6.5837633
+<|M|> = 3.5292404
+sigma_E = 2.3655277
+sigma_M = 0.29883187
+r_counter = 575098
+E_out = -8
+  
+MCcycles = 812000
+T = 2.4
+<E> = -6.5835271
+<|M|> = 3.5291601
+sigma_E = 2.3658297
+sigma_M = 0.29887424
+r_counter = 575890
+E_out = -8
+  
+MCcycles = 813000
+T = 2.4
+<E> = -6.5833899
+<|M|> = 3.5290972
+sigma_E = 2.3659645
+sigma_M = 0.29891687
+r_counter = 576677
+E_out = 0
+  
+MCcycles = 814000
+T = 2.4
+<E> = -6.5836855
+<|M|> = 3.529199
+sigma_E = 2.3655797
+sigma_M = 0.29886179
+r_counter = 577270
+E_out = -8
+  
+MCcycles = 815000
+T = 2.4
+<E> = -6.5839117
+<|M|> = 3.529254
+sigma_E = 2.3652845
+sigma_M = 0.29884863
+r_counter = 577928
+E_out = -8
+  
+MCcycles = 816000
+T = 2.4
+<E> = -6.5840882
+<|M|> = 3.5293088
+sigma_E = 2.3650926
+sigma_M = 0.29882569
+r_counter = 578570
+E_out = -8
+  
+MCcycles = 817000
+T = 2.4
+<E> = -6.5841958
+<|M|> = 3.5293244
+sigma_E = 2.3649505
+sigma_M = 0.29883276
+r_counter = 579218
+E_out = -8
+  
+MCcycles = 818000
+T = 2.4
+<E> = -6.5845379
+<|M|> = 3.529445
+sigma_E = 2.3646229
+sigma_M = 0.29877286
+r_counter = 579780
+E_out = -8
+  
+MCcycles = 819000
+T = 2.4
+<E> = -6.5844005
+<|M|> = 3.5294066
+sigma_E = 2.3647582
+sigma_M = 0.29878442
+r_counter = 580562
+E_out = -8
+  
+MCcycles = 820000
+T = 2.4
+<E> = -6.5842927
+<|M|> = 3.5293488
+sigma_E = 2.3649334
+sigma_M = 0.29883283
+r_counter = 581340
+E_out = -8
+  
+MCcycles = 821000
+T = 2.4
+<E> = -6.5841754
+<|M|> = 3.529296
+sigma_E = 2.3651208
+sigma_M = 0.29887253
+r_counter = 582072
+E_out = -8
+  
+MCcycles = 822000
+T = 2.4
+<E> = -6.5840584
+<|M|> = 3.5292092
+sigma_E = 2.3652688
+sigma_M = 0.29895276
+r_counter = 582846
+E_out = -8
+  
+MCcycles = 823000
+T = 2.4
+<E> = -6.5838153
+<|M|> = 3.5291373
+sigma_E = 2.3655408
+sigma_M = 0.29898034
+r_counter = 583644
+E_out = -8
+  
+MCcycles = 824000
+T = 2.4
+<E> = -6.5837282
+<|M|> = 3.5290898
+sigma_E = 2.3656503
+sigma_M = 0.29901842
+r_counter = 584393
+E_out = 0
+  
+MCcycles = 825000
+T = 2.4
+<E> = -6.5832145
+<|M|> = 3.5288655
+sigma_E = 2.3664658
+sigma_M = 0.29918321
+r_counter = 585272
+E_out = 0
+  
+MCcycles = 826000
+T = 2.4
+<E> = -6.5831864
+<|M|> = 3.5288426
+sigma_E = 2.3664601
+sigma_M = 0.29920244
+r_counter = 586008
+E_out = -8
+  
+MCcycles = 827000
+T = 2.4
+<E> = -6.5831197
+<|M|> = 3.5287908
+sigma_E = 2.3665817
+sigma_M = 0.29925347
+r_counter = 586706
+E_out = -8
+  
+MCcycles = 828000
+T = 2.4
+<E> = -6.5828019
+<|M|> = 3.5286691
+sigma_E = 2.3669889
+sigma_M = 0.29932773
+r_counter = 587520
+E_out = -8
+  
+MCcycles = 829000
+T = 2.4
+<E> = -6.5829192
+<|M|> = 3.5287021
+sigma_E = 2.3668342
+sigma_M = 0.29931516
+r_counter = 588222
+E_out = -8
+  
+MCcycles = 830000
+T = 2.4
+<E> = -6.5828241
+<|M|> = 3.5286747
+sigma_E = 2.3669152
+sigma_M = 0.29932336
+r_counter = 588965
+E_out = 0
+  
+MCcycles = 831000
+T = 2.4
+<E> = -6.5827004
+<|M|> = 3.5286354
+sigma_E = 2.3670718
+sigma_M = 0.29934194
+r_counter = 589758
+E_out = -8
+  
+MCcycles = 832000
+T = 2.4
+<E> = -6.5826827
+<|M|> = 3.5285913
+sigma_E = 2.3671683
+sigma_M = 0.2993978
+r_counter = 590464
+E_out = -8
+  
+MCcycles = 833000
+T = 2.4
+<E> = -6.582521
+<|M|> = 3.5285282
+sigma_E = 2.3673354
+sigma_M = 0.29943459
+r_counter = 591251
+E_out = 0
+  
+MCcycles = 834000
+T = 2.4
+<E> = -6.5827914
+<|M|> = 3.5286331
+sigma_E = 2.3669447
+sigma_M = 0.29936698
+r_counter = 591838
+E_out = -8
+  
+MCcycles = 835000
+T = 2.4
+<E> = -6.5829174
+<|M|> = 3.5287042
+sigma_E = 2.3667405
+sigma_M = 0.29930599
+r_counter = 592482
+E_out = -8
+  
+MCcycles = 836000
+T = 2.4
+<E> = -6.5829665
+<|M|> = 3.5287177
+sigma_E = 2.3666356
+sigma_M = 0.29929861
+r_counter = 593186
+E_out = -8
+  
+MCcycles = 837000
+T = 2.4
+<E> = -6.5828722
+<|M|> = 3.5286667
+sigma_E = 2.3667161
+sigma_M = 0.29933697
+r_counter = 593950
+E_out = -8
+  
+MCcycles = 838000
+T = 2.4
+<E> = -6.5829117
+<|M|> = 3.528673
+sigma_E = 2.3666239
+sigma_M = 0.29933623
+r_counter = 594698
+E_out = -8
+  
+MCcycles = 839000
+T = 2.4
+<E> = -6.5831609
+<|M|> = 3.5287676
+sigma_E = 2.3662991
+sigma_M = 0.2992788
+r_counter = 595302
+E_out = -8
+  
+MCcycles = 840000
+T = 2.4
+<E> = -6.5831905
+<|M|> = 3.5288071
+sigma_E = 2.3662198
+sigma_M = 0.29923361
+r_counter = 595972
+E_out = -8
+  
+MCcycles = 841000
+T = 2.4
+<E> = -6.5831534
+<|M|> = 3.5288038
+sigma_E = 2.3662268
+sigma_M = 0.299226
+r_counter = 596692
+E_out = 0
+  
+MCcycles = 842000
+T = 2.4
+<E> = -6.5828504
+<|M|> = 3.5286983
+sigma_E = 2.3666913
+sigma_M = 0.29928816
+r_counter = 597462
+E_out = -8
+  
+MCcycles = 843000
+T = 2.4
+<E> = -6.5827758
+<|M|> = 3.5286595
+sigma_E = 2.3668226
+sigma_M = 0.29932075
+r_counter = 598194
+E_out = 0
+  
+MCcycles = 844000
+T = 2.4
+<E> = -6.5825024
+<|M|> = 3.528545
+sigma_E = 2.3671727
+sigma_M = 0.29939701
+r_counter = 599004
+E_out = -8
+  
+MCcycles = 845000
+T = 2.4
+<E> = -6.5825231
+<|M|> = 3.5285396
+sigma_E = 2.3671052
+sigma_M = 0.29940643
+r_counter = 599716
+E_out = -8
+  
+MCcycles = 846000
+T = 2.4
+<E> = -6.5825437
+<|M|> = 3.5285461
+sigma_E = 2.3670756
+sigma_M = 0.29940325
+r_counter = 600440
+E_out = -8
+  
+MCcycles = 847000
+T = 2.4
+<E> = -6.582621
+<|M|> = 3.5285927
+sigma_E = 2.3669729
+sigma_M = 0.2993635
+r_counter = 601144
+E_out = -8
+  
+MCcycles = 848000
+T = 2.4
+<E> = -6.5825094
+<|M|> = 3.528566
+sigma_E = 2.3671518
+sigma_M = 0.29937147
+r_counter = 601860
+E_out = -8
+  
+MCcycles = 849000
+T = 2.4
+<E> = -6.5825112
+<|M|> = 3.5285536
+sigma_E = 2.3671466
+sigma_M = 0.29938746
+r_counter = 602566
+E_out = -8
+  
+MCcycles = 850000
+T = 2.4
+<E> = -6.5825694
+<|M|> = 3.5285741
+sigma_E = 2.3670685
+sigma_M = 0.29937588
+r_counter = 603270
+E_out = -8
+  
+MCcycles = 851000
+T = 2.4
+<E> = -6.5826651
+<|M|> = 3.5285993
+sigma_E = 2.366942
+sigma_M = 0.29936779
+r_counter = 603970
+E_out = -8
+  
+MCcycles = 852000
+T = 2.4
+<E> = -6.5823286
+<|M|> = 3.5284906
+sigma_E = 2.367336
+sigma_M = 0.29941855
+r_counter = 604794
+E_out = -8
+  
+MCcycles = 853000
+T = 2.4
+<E> = -6.5825088
+<|M|> = 3.5285252
+sigma_E = 2.3672131
+sigma_M = 0.29942671
+r_counter = 605412
+E_out = -8
+  
+MCcycles = 854000
+T = 2.4
+<E> = -6.5827354
+<|M|> = 3.5286019
+sigma_E = 2.366955
+sigma_M = 0.29938857
+r_counter = 606066
+E_out = -8
+  
+MCcycles = 855000
+T = 2.4
+<E> = -6.5827368
+<|M|> = 3.5286058
+sigma_E = 2.3669501
+sigma_M = 0.29938373
+r_counter = 606776
+E_out = -8
+  
+MCcycles = 856000
+T = 2.4
+<E> = -6.5828598
+<|M|> = 3.5286379
+sigma_E = 2.3668256
+sigma_M = 0.29937616
+r_counter = 607452
+E_out = -8
+  
+MCcycles = 857000
+T = 2.4
+<E> = -6.5828238
+<|M|> = 3.5286161
+sigma_E = 2.3668691
+sigma_M = 0.29939446
+r_counter = 608214
+E_out = -8
+  
+MCcycles = 858000
+T = 2.4
+<E> = -6.5828811
+<|M|> = 3.5286247
+sigma_E = 2.3668666
+sigma_M = 0.29940238
+r_counter = 608922
+E_out = -8
+  
+MCcycles = 859000
+T = 2.4
+<E> = -6.5829104
+<|M|> = 3.5286356
+sigma_E = 2.3668257
+sigma_M = 0.2993957
+r_counter = 609632
+E_out = -8
+  
+MCcycles = 860000
+T = 2.4
+<E> = -6.5830419
+<|M|> = 3.528686
+sigma_E = 2.36669
+sigma_M = 0.29936695
+r_counter = 610260
+E_out = -8
+  
+MCcycles = 861000
+T = 2.4
+<E> = -6.5833217
+<|M|> = 3.5287828
+sigma_E = 2.3662882
+sigma_M = 0.29931205
+r_counter = 610854
+E_out = -8
+  
+MCcycles = 862000
+T = 2.4
+<E> = -6.5833875
+<|M|> = 3.5287819
+sigma_E = 2.3662001
+sigma_M = 0.29932944
+r_counter = 611554
+E_out = -8
+  
+MCcycles = 863000
+T = 2.4
+<E> = -6.5830545
+<|M|> = 3.5286651
+sigma_E = 2.3667384
+sigma_M = 0.2994006
+r_counter = 612368
+E_out = -8
+  
+MCcycles = 864000
+T = 2.4
+<E> = -6.5826204
+<|M|> = 3.5285255
+sigma_E = 2.3672958
+sigma_M = 0.29946845
+r_counter = 613210
+E_out = -8
+  
+MCcycles = 865000
+T = 2.4
+<E> = -6.5827792
+<|M|> = 3.5285919
+sigma_E = 2.3671245
+sigma_M = 0.29942626
+r_counter = 613808
+E_out = -8
+  
+MCcycles = 866000
+T = 2.4
+<E> = -6.5826697
+<|M|> = 3.5285589
+sigma_E = 2.3672626
+sigma_M = 0.29944044
+r_counter = 614558
+E_out = -8
+  
+MCcycles = 867000
+T = 2.4
+<E> = -6.5823945
+<|M|> = 3.5285006
+sigma_E = 2.3676148
+sigma_M = 0.29944514
+r_counter = 615370
+E_out = 0
+  
+MCcycles = 868000
+T = 2.4
+<E> = -6.5823502
+<|M|> = 3.5285069
+sigma_E = 2.3676687
+sigma_M = 0.29942587
+r_counter = 616100
+E_out = -8
+  
+MCcycles = 869000
+T = 2.4
+<E> = -6.5823797
+<|M|> = 3.5285247
+sigma_E = 2.367701
+sigma_M = 0.29941511
+r_counter = 616767
+E_out = 0
+  
+MCcycles = 870000
+T = 2.4
+<E> = -6.5824
+<|M|> = 3.5285333
+sigma_E = 2.3676715
+sigma_M = 0.29940911
+r_counter = 617460
+E_out = -8
+  
+MCcycles = 871000
+T = 2.4
+<E> = -6.5824478
+<|M|> = 3.5285695
+sigma_E = 2.3676066
+sigma_M = 0.29937517
+r_counter = 618116
+E_out = -8
+  
+MCcycles = 872000
+T = 2.4
+<E> = -6.5824495
+<|M|> = 3.5285734
+sigma_E = 2.3676744
+sigma_M = 0.29937502
+r_counter = 618826
+E_out = -8
+  
+MCcycles = 873000
+T = 2.4
+<E> = -6.5825796
+<|M|> = 3.5286094
+sigma_E = 2.3675031
+sigma_M = 0.29936181
+r_counter = 619478
+E_out = -8
+  
+MCcycles = 874000
+T = 2.4
+<E> = -6.5825721
+<|M|> = 3.5286201
+sigma_E = 2.3675094
+sigma_M = 0.29934614
+r_counter = 620176
+E_out = -8
+  
+MCcycles = 875000
+T = 2.4
+<E> = -6.5823909
+<|M|> = 3.5285211
+sigma_E = 2.3677401
+sigma_M = 0.29942578
+r_counter = 620956
+E_out = 0
+  
+MCcycles = 876000
+T = 2.4
+<E> = -6.5824201
+<|M|> = 3.528532
+sigma_E = 2.3676625
+sigma_M = 0.29941692
+r_counter = 621668
+E_out = -8
+  
+MCcycles = 877000
+T = 2.4
+<E> = -6.5823854
+<|M|> = 3.5285336
+sigma_E = 2.3676675
+sigma_M = 0.29940364
+r_counter = 622384
+E_out = -8
+  
+MCcycles = 878000
+T = 2.4
+<E> = -6.5825604
+<|M|> = 3.5286219
+sigma_E = 2.3674748
+sigma_M = 0.29933791
+r_counter = 623028
+E_out = -8
+  
+MCcycles = 879000
+T = 2.4
+<E> = -6.5826439
+<|M|> = 3.5286667
+sigma_E = 2.3673272
+sigma_M = 0.29929968
+r_counter = 623670
+E_out = -8
+  
+MCcycles = 880000
+T = 2.4
+<E> = -6.5824182
+<|M|> = 3.5285545
+sigma_E = 2.3675791
+sigma_M = 0.29938252
+r_counter = 624470
+E_out = -8
+  
+MCcycles = 881000
+T = 2.4
+<E> = -6.5825199
+<|M|> = 3.5285675
+sigma_E = 2.3674083
+sigma_M = 0.29938905
+r_counter = 625168
+E_out = -8
+  
+MCcycles = 882000
+T = 2.4
+<E> = -6.5824671
+<|M|> = 3.5285465
+sigma_E = 2.3675821
+sigma_M = 0.29940909
+r_counter = 625910
+E_out = -8
+  
+MCcycles = 883000
+T = 2.4
+<E> = -6.5826048
+<|M|> = 3.5286161
+sigma_E = 2.3673649
+sigma_M = 0.29935304
+r_counter = 626564
+E_out = -8
+  
+MCcycles = 884000
+T = 2.4
+<E> = -6.5825973
+<|M|> = 3.5286222
+sigma_E = 2.3673713
+sigma_M = 0.29934327
+r_counter = 627262
+E_out = -8
+  
+MCcycles = 885000
+T = 2.4
+<E> = -6.5824994
+<|M|> = 3.5285763
+sigma_E = 2.3675668
+sigma_M = 0.29938116
+r_counter = 628030
+E_out = -8
+  
+MCcycles = 886000
+T = 2.4
+<E> = -6.5824018
+<|M|> = 3.5285079
+sigma_E = 2.3676896
+sigma_M = 0.29944299
+r_counter = 628812
+E_out = -8
+  
+MCcycles = 887000
+T = 2.4
+<E> = -6.5823856
+<|M|> = 3.5285366
+sigma_E = 2.3677073
+sigma_M = 0.29940239
+r_counter = 629512
+E_out = -8
+  
+MCcycles = 888000
+T = 2.4
+<E> = -6.5823964
+<|M|> = 3.528536
+sigma_E = 2.3676901
+sigma_M = 0.29940566
+r_counter = 630210
+E_out = -8
+  
+MCcycles = 889000
+T = 2.4
+<E> = -6.5826052
+<|M|> = 3.5286074
+sigma_E = 2.3673813
+sigma_M = 0.29936515
+r_counter = 630870
+E_out = -8
+  
+MCcycles = 890000
+T = 2.4
+<E> = -6.5827865
+<|M|> = 3.5286472
+sigma_E = 2.3671079
+sigma_M = 0.29935776
+r_counter = 631558
+E_out = -8
+  
+MCcycles = 891000
+T = 2.4
+<E> = -6.5823569
+<|M|> = 3.5285185
+sigma_E = 2.3677314
+sigma_M = 0.29941732
+r_counter = 632410
+E_out = -8
+  
+MCcycles = 892000
+T = 2.4
+<E> = -6.5820269
+<|M|> = 3.528417
+sigma_E = 2.3681183
+sigma_M = 0.29946067
+r_counter = 633240
+E_out = -8
+  
+MCcycles = 893000
+T = 2.4
+<E> = -6.5817245
+<|M|> = 3.5282934
+sigma_E = 2.3684697
+sigma_M = 0.29953895
+r_counter = 634108
+E_out = -8
+  
+MCcycles = 894000
+T = 2.4
+<E> = -6.5818523
+<|M|> = 3.5283221
+sigma_E = 2.3683374
+sigma_M = 0.2995366
+r_counter = 634758
+E_out = -8
+  
+MCcycles = 895000
+T = 2.4
+<E> = -6.5821318
+<|M|> = 3.5284201
+sigma_E = 2.3679734
+sigma_M = 0.29948243
+r_counter = 635362
+E_out = -8
+  
+MCcycles = 896000
+T = 2.4
+<E> = -6.5818482
+<|M|> = 3.5283237
+sigma_E = 2.3684435
+sigma_M = 0.29953996
+r_counter = 636186
+E_out = -8
+  
+MCcycles = 897000
+T = 2.4
+<E> = -6.5819844
+<|M|> = 3.5283657
+sigma_E = 2.3682645
+sigma_M = 0.2995207
+r_counter = 636850
+E_out = -8
+  
+MCcycles = 898000
+T = 2.4
+<E> = -6.581755
+<|M|> = 3.528294
+sigma_E = 2.3685929
+sigma_M = 0.29955599
+r_counter = 637660
+E_out = -8
+  
+MCcycles = 899000
+T = 2.4
+<E> = -6.5816774
+<|M|> = 3.5282291
+sigma_E = 2.3686898
+sigma_M = 0.29961835
+r_counter = 638416
+E_out = -8
+  
+MCcycles = 900000
+T = 2.4
+<E> = -6.5814844
+<|M|> = 3.5281711
+sigma_E = 2.3689356
+sigma_M = 0.29964326
+r_counter = 639204
+E_out = -8
+  
+MCcycles = 901000
+T = 2.4
+<E> = -6.5813097
+<|M|> = 3.528111
+sigma_E = 2.3691224
+sigma_M = 0.29967314
+r_counter = 639954
+E_out = -8
+  
+MCcycles = 902000
+T = 2.4
+<E> = -6.5813481
+<|M|> = 3.5280931
+sigma_E = 2.3690341
+sigma_M = 0.29970292
+r_counter = 640660
+E_out = 0
+  
+MCcycles = 903000
+T = 2.4
+<E> = -6.581546
+<|M|> = 3.528155
+sigma_E = 2.3687401
+sigma_M = 0.2996717
+r_counter = 641294
+E_out = -8
+  
+MCcycles = 904000
+T = 2.4
+<E> = -6.5816991
+<|M|> = 3.5281947
+sigma_E = 2.3685747
+sigma_M = 0.29966188
+r_counter = 641958
+E_out = -8
+  
+MCcycles = 905000
+T = 2.4
+<E> = -6.5815425
+<|M|> = 3.5281392
+sigma_E = 2.3687383
+sigma_M = 0.29969044
+r_counter = 642754
+E_out = -8
+  
+MCcycles = 906000
+T = 2.4
+<E> = -6.581457
+<|M|> = 3.5281192
+sigma_E = 2.3688103
+sigma_M = 0.29969195
+r_counter = 643471
+E_out = 0
+  
+MCcycles = 907000
+T = 2.4
+<E> = -6.5813098
+<|M|> = 3.5280662
+sigma_E = 2.369103
+sigma_M = 0.29972865
+r_counter = 644254
+E_out = -8
+  
+MCcycles = 908000
+T = 2.4
+<E> = -6.5812863
+<|M|> = 3.5280551
+sigma_E = 2.3691653
+sigma_M = 0.2997388
+r_counter = 644974
+E_out = -8
+  
+MCcycles = 909000
+T = 2.4
+<E> = -6.5814829
+<|M|> = 3.5281276
+sigma_E = 2.3689083
+sigma_M = 0.29969605
+r_counter = 645631
+E_out = 0
+  
+MCcycles = 910000
+T = 2.4
+<E> = -6.5816615
+<|M|> = 3.528189
+sigma_E = 2.3686394
+sigma_M = 0.29966069
+r_counter = 646258
+E_out = -8
+  
+MCcycles = 911000
+T = 2.4
+<E> = -6.5818134
+<|M|> = 3.5282503
+sigma_E = 2.3684403
+sigma_M = 0.29962101
+r_counter = 646916
+E_out = -8
+  
+MCcycles = 912000
+T = 2.4
+<E> = -6.5816667
+<|M|> = 3.5282237
+sigma_E = 2.3685914
+sigma_M = 0.29961555
+r_counter = 647678
+E_out = -8
+  
+MCcycles = 913000
+T = 2.4
+<E> = -6.5817393
+<|M|> = 3.5282475
+sigma_E = 2.3684595
+sigma_M = 0.29960118
+r_counter = 648368
+E_out = -8
+  
+MCcycles = 914000
+T = 2.4
+<E> = -6.5817943
+<|M|> = 3.5282713
+sigma_E = 2.3683504
+sigma_M = 0.29958246
+r_counter = 649044
+E_out = -8
+  
+MCcycles = 915000
+T = 2.4
+<E> = -6.581823
+<|M|> = 3.5282907
+sigma_E = 2.3683104
+sigma_M = 0.29956494
+r_counter = 649746
+E_out = -8
+  
+MCcycles = 916000
+T = 2.4
+<E> = -6.5814585
+<|M|> = 3.5281594
+sigma_E = 2.3687778
+sigma_M = 0.29963964
+r_counter = 650580
+E_out = -8
+  
+MCcycles = 917000
+T = 2.4
+<E> = -6.5815747
+<|M|> = 3.5282137
+sigma_E = 2.3685899
+sigma_M = 0.29959762
+r_counter = 651232
+E_out = -8
+  
+MCcycles = 918000
+T = 2.4
+<E> = -6.5816558
+<|M|> = 3.52822
+sigma_E = 2.3684823
+sigma_M = 0.29960973
+r_counter = 651958
+E_out = -8
+  
+MCcycles = 919000
+T = 2.4
+<E> = -6.5815539
+<|M|> = 3.5281654
+sigma_E = 2.3685761
+sigma_M = 0.29965097
+r_counter = 652704
+E_out = -8
+  
+MCcycles = 920000
+T = 2.4
+<E> = -6.5815913
+<|M|> = 3.5281935
+sigma_E = 2.3684901
+sigma_M = 0.29962248
+r_counter = 653387
+E_out = 0
+  
+MCcycles = 921000
+T = 2.4
+<E> = -6.5817763
+<|M|> = 3.5282454
+sigma_E = 2.3682136
+sigma_M = 0.29960077
+r_counter = 654046
+E_out = -8
+  
+MCcycles = 922000
+T = 2.4
+<E> = -6.5817701
+<|M|> = 3.5282495
+sigma_E = 2.3682536
+sigma_M = 0.29959605
+r_counter = 654788
+E_out = -8
+  
+MCcycles = 923000
+T = 2.4
+<E> = -6.5815818
+<|M|> = 3.5281993
+sigma_E = 2.3685284
+sigma_M = 0.29961431
+r_counter = 655552
+E_out = -8
+  
+MCcycles = 924000
+T = 2.4
+<E> = -6.5815325
+<|M|> = 3.5282056
+sigma_E = 2.3685546
+sigma_M = 0.2995917
+r_counter = 656278
+E_out = -8
+  
+MCcycles = 925000
+T = 2.4
+<E> = -6.581267
+<|M|> = 3.5281297
+sigma_E = 2.3688597
+sigma_M = 0.29961894
+r_counter = 657104
+E_out = -8
+  
+MCcycles = 926000
+T = 2.4
+<E> = -6.5812613
+<|M|> = 3.5281274
+sigma_E = 2.3688643
+sigma_M = 0.29962025
+r_counter = 657840
+E_out = -8
+  
+MCcycles = 927000
+T = 2.4
+<E> = -6.5812298
+<|M|> = 3.5281316
+sigma_E = 2.3689022
+sigma_M = 0.2996069
+r_counter = 658556
+E_out = -8
+  
+MCcycles = 928000
+T = 2.4
+<E> = -6.5810862
+<|M|> = 3.5280905
+sigma_E = 2.3690502
+sigma_M = 0.29962062
+r_counter = 659314
+E_out = -8
+  
+MCcycles = 929000
+T = 2.4
+<E> = -6.5808568
+<|M|> = 3.5279914
+sigma_E = 2.3693435
+sigma_M = 0.2996884
+r_counter = 660154
+E_out = -8
+  
+MCcycles = 930000
+T = 2.4
+<E> = -6.5807226
+<|M|> = 3.5279677
+sigma_E = 2.3695484
+sigma_M = 0.29968671
+r_counter = 660909
+E_out = 0
+  
+MCcycles = 931000
+T = 2.4
+<E> = -6.580812
+<|M|> = 3.5279871
+sigma_E = 2.3694646
+sigma_M = 0.29968656
+r_counter = 661612
+E_out = 0
+  
+MCcycles = 932000
+T = 2.4
+<E> = -6.5809528
+<|M|> = 3.5280472
+sigma_E = 2.3692801
+sigma_M = 0.29964561
+r_counter = 662252
+E_out = -8
+  
+MCcycles = 933000
+T = 2.4
+<E> = -6.5810332
+<|M|> = 3.5280857
+sigma_E = 2.3692421
+sigma_M = 0.29962113
+r_counter = 662938
+E_out = -8
+  
+MCcycles = 934000
+T = 2.4
+<E> = -6.580985
+<|M|> = 3.5280642
+sigma_E = 2.3693357
+sigma_M = 0.29963822
+r_counter = 663690
+E_out = -8
+  
+MCcycles = 935000
+T = 2.4
+<E> = -6.5810652
+<|M|> = 3.5281305
+sigma_E = 2.3692635
+sigma_M = 0.2995765
+r_counter = 664316
+E_out = -8
+  
+MCcycles = 936000
+T = 2.4
+<E> = -6.581
+<|M|> = 3.5280705
+sigma_E = 2.3693106
+sigma_M = 0.29963367
+r_counter = 665054
+E_out = -8
+  
+MCcycles = 937000
+T = 2.4
+<E> = -6.5808581
+<|M|> = 3.5280384
+sigma_E = 2.3694909
+sigma_M = 0.29963857
+r_counter = 665786
+E_out = -8
+  
+MCcycles = 938000
+T = 2.4
+<E> = -6.5811855
+<|M|> = 3.5281407
+sigma_E = 2.3690313
+sigma_M = 0.29958881
+r_counter = 666356
+E_out = -8
+  
+MCcycles = 939000
+T = 2.4
+<E> = -6.5808136
+<|M|> = 3.5280213
+sigma_E = 2.3695766
+sigma_M = 0.29965088
+r_counter = 667224
+E_out = -8
+  
+MCcycles = 940000
+T = 2.4
+<E> = -6.580834
+<|M|> = 3.5280298
+sigma_E = 2.3695473
+sigma_M = 0.29964507
+r_counter = 667896
+E_out = -8
+  
+MCcycles = 941000
+T = 2.4
+<E> = -6.5807779
+<|M|> = 3.5279872
+sigma_E = 2.3695829
+sigma_M = 0.2996825
+r_counter = 668624
+E_out = 0
+  
+MCcycles = 942000
+T = 2.4
+<E> = -6.5810701
+<|M|> = 3.5280892
+sigma_E = 2.369169
+sigma_M = 0.29962441
+r_counter = 669246
+E_out = -8
+  
+MCcycles = 943000
+T = 2.4
+<E> = -6.5811241
+<|M|> = 3.5280997
+sigma_E = 2.3690965
+sigma_M = 0.29962445
+r_counter = 669922
+E_out = -8
+  
+MCcycles = 944000
+T = 2.4
+<E> = -6.5809407
+<|M|> = 3.5280593
+sigma_E = 2.3692965
+sigma_M = 0.29962732
+r_counter = 670708
+E_out = -8
+  
+MCcycles = 945000
+T = 2.4
+<E> = -6.5811302
+<|M|> = 3.5281206
+sigma_E = 2.369083
+sigma_M = 0.29959913
+r_counter = 671352
+E_out = -8
+  
+MCcycles = 946000
+T = 2.4
+<E> = -6.5809133
+<|M|> = 3.5280486
+sigma_E = 2.3693601
+sigma_M = 0.29963577
+r_counter = 672158
+E_out = -8
+  
+MCcycles = 947000
+T = 2.4
+<E> = -6.580773
+<|M|> = 3.5280169
+sigma_E = 2.3695046
+sigma_M = 0.2996385
+r_counter = 672942
+E_out = -8
+  
+MCcycles = 948000
+T = 2.4
+<E> = -6.5807342
+<|M|> = 3.5280084
+sigma_E = 2.3696194
+sigma_M = 0.29964354
+r_counter = 673658
+E_out = -8
+  
+MCcycles = 949000
+T = 2.4
+<E> = -6.580687
+<|M|> = 3.5279874
+sigma_E = 2.3697786
+sigma_M = 0.29966456
+r_counter = 674400
+E_out = -8
+  
+MCcycles = 950000
+T = 2.4
+<E> = -6.5804716
+<|M|> = 3.5279347
+sigma_E = 2.3700874
+sigma_M = 0.29967912
+r_counter = 675177
+E_out = 0
+  
+MCcycles = 951000
+T = 2.4
+<E> = -6.580408
+<|M|> = 3.527918
+sigma_E = 2.3702001
+sigma_M = 0.29968632
+r_counter = 675910
+E_out = -8
+  
+MCcycles = 952000
+T = 2.4
+<E> = -6.5805042
+<|M|> = 3.5279601
+sigma_E = 2.3700394
+sigma_M = 0.29965487
+r_counter = 676614
+E_out = -8
+  
+MCcycles = 953000
+T = 2.4
+<E> = -6.5807177
+<|M|> = 3.5280231
+sigma_E = 2.3697274
+sigma_M = 0.29962634
+r_counter = 677280
+E_out = -8
+  
+MCcycles = 954000
+T = 2.4
+<E> = -6.5807799
+<|M|> = 3.5280566
+sigma_E = 2.3696108
+sigma_M = 0.29959723
+r_counter = 677958
+E_out = -8
+  
+MCcycles = 955000
+T = 2.4
+<E> = -6.5809005
+<|M|> = 3.5281152
+sigma_E = 2.3694858
+sigma_M = 0.29955526
+r_counter = 678602
+E_out = -8
+  
+MCcycles = 956000
+T = 2.4
+<E> = -6.5807364
+<|M|> = 3.5280669
+sigma_E = 2.3696612
+sigma_M = 0.29957294
+r_counter = 679368
+E_out = -8
+  
+MCcycles = 957000
+T = 2.4
+<E> = -6.5807064
+<|M|> = 3.528046
+sigma_E = 2.3697306
+sigma_M = 0.29959385
+r_counter = 680062
+E_out = -8
+  
+MCcycles = 958000
+T = 2.4
+<E> = -6.5808518
+<|M|> = 3.5281169
+sigma_E = 2.3696069
+sigma_M = 0.29954453
+r_counter = 680686
+E_out = -8
+  
+MCcycles = 959000
+T = 2.4
+<E> = -6.5809135
+<|M|> = 3.528123
+sigma_E = 2.3695244
+sigma_M = 0.29955201
+r_counter = 681364
+E_out = -8
+  
+MCcycles = 960000
+T = 2.4
+<E> = -6.5811083
+<|M|> = 3.5281938
+sigma_E = 2.3692366
+sigma_M = 0.29950909
+r_counter = 681982
+E_out = -8
+  
+MCcycles = 961000
+T = 2.4
+<E> = -6.5809448
+<|M|> = 3.5281332
+sigma_E = 2.3694114
+sigma_M = 0.29954251
+r_counter = 682806
+E_out = -8
+  
+MCcycles = 962000
+T = 2.4
+<E> = -6.5808565
+<|M|> = 3.5281123
+sigma_E = 2.369589
+sigma_M = 0.29955087
+r_counter = 683523
+E_out = 0
+  
+MCcycles = 963000
+T = 2.4
+<E> = -6.5809512
+<|M|> = 3.5281246
+sigma_E = 2.3694308
+sigma_M = 0.29955666
+r_counter = 684171
+E_out = 0
+  
+MCcycles = 964000
+T = 2.4
+<E> = -6.5809295
+<|M|> = 3.5280913
+sigma_E = 2.3694228
+sigma_M = 0.2995911
+r_counter = 684916
+E_out = 0
+  
+MCcycles = 965000
+T = 2.4
+<E> = -6.5808912
+<|M|> = 3.5281181
+sigma_E = 2.3695025
+sigma_M = 0.29954949
+r_counter = 685634
+E_out = -8
+  
+MCcycles = 966000
+T = 2.4
+<E> = -6.5810435
+<|M|> = 3.5281698
+sigma_E = 2.36927
+sigma_M = 0.29952004
+r_counter = 686282
+E_out = -8
+  
+MCcycles = 967000
+T = 2.4
+<E> = -6.5811127
+<|M|> = 3.5282027
+sigma_E = 2.3692109
+sigma_M = 0.29949764
+r_counter = 686980
+E_out = -8
+  
+MCcycles = 968000
+T = 2.4
+<E> = -6.5813388
+<|M|> = 3.5282686
+sigma_E = 2.3688832
+sigma_M = 0.29946861
+r_counter = 687620
+E_out = -8
+  
+MCcycles = 969000
+T = 2.4
+<E> = -6.5815315
+<|M|> = 3.5283261
+sigma_E = 2.3685987
+sigma_M = 0.29944182
+r_counter = 688247
+E_out = 0
+  
+MCcycles = 970000
+T = 2.4
+<E> = -6.5811794
+<|M|> = 3.5282021
+sigma_E = 2.3690834
+sigma_M = 0.2995125
+r_counter = 689124
+E_out = -8
+  
+MCcycles = 971000
+T = 2.4
+<E> = -6.5813141
+<|M|> = 3.5282492
+sigma_E = 2.3688738
+sigma_M = 0.29948433
+r_counter = 689780
+E_out = -8
+  
+MCcycles = 972000
+T = 2.4
+<E> = -6.5813416
+<|M|> = 3.5282428
+sigma_E = 2.3688685
+sigma_M = 0.2995012
+r_counter = 690476
+E_out = -8
+  
+MCcycles = 973000
+T = 2.4
+<E> = -6.581221
+<|M|> = 3.5281973
+sigma_E = 2.3690214
+sigma_M = 0.29952836
+r_counter = 691249
+E_out = 0
+  
+MCcycles = 974000
+T = 2.4
+<E> = -6.581191
+<|M|> = 3.5281869
+sigma_E = 2.3690573
+sigma_M = 0.29953392
+r_counter = 691942
+E_out = -8
+  
+MCcycles = 975000
+T = 2.4
+<E> = -6.5815549
+<|M|> = 3.5283036
+sigma_E = 2.3685521
+sigma_M = 0.29947511
+r_counter = 692476
+E_out = -8
+  
+MCcycles = 976000
+T = 2.4
+<E> = -6.5815656
+<|M|> = 3.5283115
+sigma_E = 2.3686339
+sigma_M = 0.2994738
+r_counter = 693160
+E_out = -8
+  
+MCcycles = 977000
+T = 2.4
+<E> = -6.5815517
+<|M|> = 3.5282825
+sigma_E = 2.3686162
+sigma_M = 0.29950473
+r_counter = 693922
+E_out = -8
+  
+MCcycles = 978000
+T = 2.4
+<E> = -6.5815624
+<|M|> = 3.5282822
+sigma_E = 2.3685997
+sigma_M = 0.2995076
+r_counter = 694612
+E_out = -8
+  
+MCcycles = 979000
+T = 2.4
+<E> = -6.5815975
+<|M|> = 3.5283085
+sigma_E = 2.3685515
+sigma_M = 0.29948301
+r_counter = 695284
+E_out = -8
+  
+MCcycles = 980000
+T = 2.4
+<E> = -6.5819265
+<|M|> = 3.5284082
+sigma_E = 2.3681241
+sigma_M = 0.29943906
+r_counter = 695874
+E_out = -8
+  
+MCcycles = 981000
+T = 2.4
+<E> = -6.5817248
+<|M|> = 3.5283384
+sigma_E = 2.3684796
+sigma_M = 0.29948272
+r_counter = 696612
+E_out = -8
+  
+MCcycles = 982000
+T = 2.4
+<E> = -6.5818574
+<|M|> = 3.5283951
+sigma_E = 2.3683055
+sigma_M = 0.29944405
+r_counter = 697250
+E_out = -8
+  
+MCcycles = 983000
+T = 2.4
+<E> = -6.5819491
+<|M|> = 3.5284456
+sigma_E = 2.3681517
+sigma_M = 0.29940097
+r_counter = 697882
+E_out = -8
+  
+MCcycles = 984000
+T = 2.4
+<E> = -6.581935
+<|M|> = 3.5284248
+sigma_E = 2.3681672
+sigma_M = 0.29942352
+r_counter = 698612
+E_out = -8
+  
+MCcycles = 985000
+T = 2.4
+<E> = -6.5818315
+<|M|> = 3.5283878
+sigma_E = 2.368363
+sigma_M = 0.29944828
+r_counter = 699364
+E_out = -8
+  
+MCcycles = 986000
+T = 2.4
+<E> = -6.5816389
+<|M|> = 3.5283185
+sigma_E = 2.3685762
+sigma_M = 0.29948562
+r_counter = 700172
+E_out = -8
+  
+MCcycles = 987000
+T = 2.4
+<E> = -6.5817872
+<|M|> = 3.5283506
+sigma_E = 2.3684143
+sigma_M = 0.29948397
+r_counter = 700836
+E_out = -8
+  
+MCcycles = 988000
+T = 2.4
+<E> = -6.5819514
+<|M|> = 3.5284069
+sigma_E = 2.3681671
+sigma_M = 0.2994516
+r_counter = 701470
+E_out = -8
+  
+MCcycles = 989000
+T = 2.4
+<E> = -6.5818322
+<|M|> = 3.5283842
+sigma_E = 2.3683183
+sigma_M = 0.29945025
+r_counter = 702228
+E_out = -8
+  
+MCcycles = 990000
+T = 2.4
+<E> = -6.5820687
+<|M|> = 3.5284545
+sigma_E = 2.3680101
+sigma_M = 0.29942031
+r_counter = 702846
+E_out = -8
+  
+MCcycles = 991000
+T = 2.4
+<E> = -6.581998
+<|M|> = 3.5284339
+sigma_E = 2.3681309
+sigma_M = 0.29943057
+r_counter = 703566
+E_out = -8
+  
+MCcycles = 992000
+T = 2.4
+<E> = -6.5822903
+<|M|> = 3.5285242
+sigma_E = 2.3677506
+sigma_M = 0.29938933
+r_counter = 704150
+E_out = -8
+  
+MCcycles = 993000
+T = 2.4
+<E> = -6.5824532
+<|M|> = 3.528576
+sigma_E = 2.3675698
+sigma_M = 0.29936635
+r_counter = 704795
+E_out = 0
+  
+MCcycles = 994000
+T = 2.4
+<E> = -6.5824869
+<|M|> = 3.5285895
+sigma_E = 2.3674911
+sigma_M = 0.29935552
+r_counter = 705498
+E_out = -8
+  
+MCcycles = 995000
+T = 2.4
+<E> = -6.5821427
+<|M|> = 3.5284603
+sigma_E = 2.3679649
+sigma_M = 0.29943469
+r_counter = 706352
+E_out = -8
+  
+MCcycles = 996000
+T = 2.4
+<E> = -6.5822329
+<|M|> = 3.528506
+sigma_E = 2.3678777
+sigma_M = 0.29940127
+r_counter = 707014
+E_out = -8
+  
+MCcycles = 997000
+T = 2.4
+<E> = -6.5825316
+<|M|> = 3.5286098
+sigma_E = 2.3674892
+sigma_M = 0.29934452
+r_counter = 707616
+E_out = -8
+  
+MCcycles = 998000
+T = 2.4
+<E> = -6.5825411
+<|M|> = 3.5286353
+sigma_E = 2.367442
+sigma_M = 0.29931254
+r_counter = 708313
+E_out = 0
+  
+MCcycles = 999000
+T = 2.4
+<E> = -6.5824945
+<|M|> = 3.5286166
+sigma_E = 2.3674673
+sigma_M = 0.2993223
+r_counter = 709060
+E_out = -8
+  
+MCcycles = 1000000
+T = 2.4
+<E> = -6.582392
+<|M|> = 3.5286
+sigma_E = 2.3675649
+sigma_M = 0.29931551
+r_counter = 709830
+E_out = -8
+  

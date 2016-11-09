@@ -86,7 +86,8 @@ void Metropolis(int L, int MCcycles, double T, vec &ExpectationValues, char cons
 
     // initializing stuff
     mat SpinMatrix = zeros<mat>(L,L);
-    double E = 0.0; double M = 0.0;
+    int threshold = 300000;
+    double E = 0.0; double M = 0.0; vec E_out = zeros<mat>(MCcycles/1000.0 - threshold/1000.0);
 
     InitializeLattice(L,SpinMatrix,E,M, dir);
 
@@ -125,17 +126,23 @@ void Metropolis(int L, int MCcycles, double T, vec &ExpectationValues, char cons
         ExpectationValues(3) += M*M;
         ExpectationValues(4) += fabs(M);
 
+        if (cycles >= threshold)
+        {
+            E_out[cycles/1000.0 - threshold/1000.0] = E;
+        }
+
         if (cycles == N_counter)
         {
-         WriteToFile(L, cycles, T, r_counter, ExpectationValues, filename);
+         WriteToFile(L, cycles, T, r_counter, E_out, ExpectationValues, filename);
          N_counter += MCcycles/1000;
         }
     }
 
+    E_handler(E_out, "bla", MCcycles/1000.0 - threshold/1000.0, T, L);
     return;
 }
 
-void WriteToFile(int L, int MCcycles, double T, int r_counter, vec &ExpectationValues, string filename)
+void WriteToFile(int L, int MCcycles, double T, int r_counter, vec E_out, vec &ExpectationValues, string filename)
 {   
     // Currently print outs and write to file
     double norm = 1.0/((double)MCcycles);
@@ -175,6 +182,49 @@ void WriteToFile(int L, int MCcycles, double T, int r_counter, vec &ExpectationV
     m_file<<"sigma_E = "<<setprecision(8)<<E_variance<<endl;
     m_file<<"sigma_M = "<<setprecision(8)<<M_variance<<endl;
     m_file<<"r_counter = "<<setprecision(8)<<r_counter<<endl;
+    //m_file<<"E_out = "<<setprecision(8)<<E_out<<endl;
     m_file << "  " << endl;
+    return;
+}
+
+void E_handler(vec E_out, string filename, int length, double T, int L)
+{
+    vec E_values = zeros<mat>(E_out.max()-E_out.min() + 1);
+    vec E_counter = zeros<mat>(E_out.max()-E_out.min() + 1);
+
+    cout << E_values << endl;
+
+    for (int i = E_out.min(); i <= E_out.max(); i++)
+    {
+        cout << i << endl;
+        E_values[i - E_out.min()] = i;
+    }
+    cout << E_out.min() << "   " << E_out.max() << endl;
+    cout << E_values << endl;
+    for (int i = 0; i <= length; i++)
+    {
+        for (int j = i+1; j <= length; j++)  // start at i+1 to not count things twice
+        {
+            for (int k = 0; k <= (E_out.max() - E_out.min()); k++)
+            {
+                if (E_out[i] == E_out[j] && E_out[i] == E_values[k])
+                {
+                    E_counter[k] += 1;
+                }
+            }
+
+        }
+    }
+
+
+    //cout << E_counter << endl;
+    //cout<< E_values << endl;
+
+    //cout <<" hello" << endl;
+
+    ofstream m_file;
+    m_file.open("../benchmarks/task_e/test_T" + to_fixf(T,1) + "_L" + to_fixi(L,1) +".txt");
+    m_file<< "E_counter = " << E_counter << "E_values = " << E_values << endl;
+    m_file.close();
     return;
 }
