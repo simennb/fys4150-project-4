@@ -113,6 +113,23 @@ int main(int argc, char *argv[])
         return 0;
     }
 
+    else if (strcmp(argv[1], "d") == 0)
+    {
+        //Creating filename
+        string filename = "../benchmarks/task_d/eigenvalues_MC"+to_scieni(MC_cycles, 1) + "_dim"+to_string(L)+"_dir" + stringdir + "_T" + to_fixf(T, 1) +".xyz";
+        vec ExpectationValues = zeros<mat>(5);
+
+        ofstream m_file;
+        m_file.open(filename);
+
+        Metropolis(L, MC_cycles, T, ExpectationValues, stringdir, filename);
+
+        //WriteToFile(L, MC_cycles, T, ExpectationValues, filename);
+
+        m_file.close();
+        return 0;
+    }
+
     else
     {
         cout << "Wrong. Try again" << endl;
