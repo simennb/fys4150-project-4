@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from numpy import array
+from numpy import array, var
 import sys
 
 
@@ -71,10 +71,13 @@ def d_reader(filename, T, direction):
     AE_value = array(E_values)#_list)
 
     plt.figure(1)
-    plt.barh(AE_value, AE_counter/sum(AE_counter)) #, align = 'center')
+    plt.bar(AE_value, AE_counter/float(sum(AE_counter))) #, align = 'center')
     plt.grid(True)
     plt.savefig("../figures/task_d/EvaluesBAR_T=%1.1f_dir%s.png" %(T, direction))
     plt.show()
+
+    print var(AE_counter)
+    print var(AE_counter/float(sum(AE_counter)))
 
 if sys.argv[1] == "c" and sys.argv[2] == "up":
     plotter("../benchmarks/task_c/eigenvalues_MC1.0e+06_dim2_dirup_T1.0.xyz", "up", "c")
@@ -101,4 +104,4 @@ elif sys.argv[1] == "d" and sys.argv[2] == "rand" and sys.argv[3] == 20:
     plotter("../benchmarks/task_d/eigenvalues_MC1.0e+06_dim20_dirrand_T2.4.xyz", "rand", "d")
 
 elif sys.argv[1] == "d" and sys.argv[2] == "rand" and sys.argv[3] == "Evalues":
-    d_reader("../benchmarks/task_d/EnergyValues_T1.0_L20.0_dir_rand.txt", 1.0, "rand")
+    d_reader("../benchmarks/task_d/EnergyValues_T2.4_L20.0_dir_rand.txt", 2.4, "rand")
