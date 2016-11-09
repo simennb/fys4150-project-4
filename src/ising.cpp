@@ -138,7 +138,7 @@ void Metropolis(int L, int MCcycles, double T, vec &ExpectationValues, char cons
         }
     }
 
-    E_handler(E_out, "bla", MCcycles/1000.0 - threshold/1000.0, T, L);
+    E_handler(E_out, "bla", MCcycles/1000.0 - threshold/1000.0, T, L, dir);
     return;
 }
 
@@ -187,25 +187,26 @@ void WriteToFile(int L, int MCcycles, double T, int r_counter, vec E_out, vec &E
     return;
 }
 
-void E_handler(vec E_out, string filename, int length, double T, int L)
+void E_handler(vec E_out, string filename, int length, double T, int L, string stringdir)
 {
-    vec E_values = zeros<mat>(E_out.max()-E_out.min() + 1);
-    vec E_counter = zeros<mat>(E_out.max()-E_out.min() + 1);
+    int small_length = E_out.max() - E_out.min();
+    int Emin = E_out.min(); int Emax = E_out.max();
+    vec E_values = zeros<mat>(small_length + 1);
+    vec E_counter = zeros<mat>(small_length + 1);
 
-    cout << E_values << endl;
+    //cout << E_values << endl;
 
-    for (int i = E_out.min(); i <= E_out.max(); i++)
+    for (int i = Emin; i <= Emax; i++)
     {
-        cout << i << endl;
-        E_values[i - E_out.min()] = i;
+        E_values[i - Emin] = i;
     }
-    cout << E_out.min() << "   " << E_out.max() << endl;
-    cout << E_values << endl;
+    cout << Emin << "   " << Emax << endl;
+    //cout << E_values << endl;
     for (int i = 0; i <= length; i++)
     {
         for (int j = i+1; j <= length; j++)  // start at i+1 to not count things twice
         {
-            for (int k = 0; k <= (E_out.max() - E_out.min()); k++)
+            for (int k = 0; k <= small_length; k++)
             {
                 if (E_out[i] == E_out[j] && E_out[i] == E_values[k])
                 {
@@ -217,14 +218,12 @@ void E_handler(vec E_out, string filename, int length, double T, int L)
     }
 
 
-    //cout << E_counter << endl;
-    //cout<< E_values << endl;
-
-    //cout <<" hello" << endl;
-
-    ofstream m_file;
-    m_file.open("../benchmarks/task_e/test_T" + to_fixf(T,1) + "_L" + to_fixi(L,1) +".txt");
-    m_file<< "E_counter = " << E_counter << "E_values = " << E_values << endl;
-    m_file.close();
+    ofstream E_file;
+    E_file.open("../benchmarks/task_d/EnergyValues_T" + to_fixf(T,1) + "_L" + to_fixi(L,1) + "_dir_" + stringdir +".txt");
+    E_file<< "E_counter = " << endl;
+    E_file<< E_counter;
+    E_file<<"E_values = " <<endl;
+    E_file<<E_values;
+    E_file.close();
     return;
 }
