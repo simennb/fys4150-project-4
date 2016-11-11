@@ -3,7 +3,7 @@ from numpy import array, var
 import sys
 
 
-def plotter(filename, direction, task):
+def plotter(filename, direction, task, L):
     f = open(filename)
 
     #initialize the lists we need
@@ -32,7 +32,7 @@ def plotter(filename, direction, task):
         plt.xlabel('Monte Carlo Cycles')
         plt.ylabel('Eigenvalue')
         plt.legend(loc = 'best') 
-        plt.savefig("../figures/task_%s/%s_T=%1.1f_dir%s.png" %(task, variables_name[variables.index(i)], T[-1], direction))
+        plt.savefig("../figures/task_%s/%s_T=%1.1f_dir%s_L%d.png" %(task, variables_name[variables.index(i)], T[-1], direction, L))
         plt.grid(True)
         plt.show()
 
@@ -74,34 +74,49 @@ def d_reader(filename, T, direction):
     plt.bar(AE_value, AE_counter/float(sum(AE_counter))) #, align = 'center')
     plt.grid(True)
     plt.savefig("../figures/task_d/EvaluesBAR_T=%1.1f_dir%s.png" %(T, direction))
-    plt.show()
+    #plt.show()
 
-    print var(AE_counter)
-    print var(AE_counter/float(sum(AE_counter)))
+    #normalize counter, multiply by AE_values and find all the valuesi in percentage
+
+    AE_prob = AE_counter/float(sum(AE_counter))
+    #print AE_prob
+    #print array(E_counter_list)/float(sum(array(E_counter_list)))
+    
+    print var(AE_value)/20**2/2.3
+    print var(array(E_values_list))/20**2
+    
+    #print var(AE_counter)/20**2
+    #print AE_counter
+    #print AE_counter/float(sum(AE_counter))/20**2
 
 if sys.argv[1] == "c" and sys.argv[2] == "up":
-    plotter("../benchmarks/task_c/eigenvalues_MC1.0e+06_dim2_dirup_T1.0.xyz", "up", "c")
-    plotter("../benchmarks/task_c/eigenvalues_MC1.0e+06_dim2_dirup_T2.4.xyz", "up", "c")
+    plotter("../benchmarks/task_c/eigenvalues_MC1.0e+06_dim2_dirup_T1.0.xyz", "up", "c", 2)
+    plotter("../benchmarks/task_c/eigenvalues_MC1.0e+06_dim2_dirup_T2.4.xyz", "up", "c", 2)
 elif sys.argv[1] == "c" and sys.argv[2] == "rand":
-    plotter("../benchmarks/task_c/eigenvalues_MC1.0e+06_dim2_dirrand_T1.0.xyz", "rand", "c")
-    plotter("../benchmarks/task_c/eigenvalues_MC1.0e+06_dim2_dirrand_T2.4.xyz", "rand", "c")
+    plotter("../benchmarks/task_c/eigenvalues_MC1.0e+06_dim2_dirrand_T1.0.xyz", "rand", "c", 2)
+    plotter("../benchmarks/task_c/eigenvalues_MC1.0e+06_dim2_dirrand_T2.4.xyz", "rand", "c", 2)
 elif sys.argv[1] == "c" and sys.argv[2] == "down":
-    plotter("../benchmarks/task_c/eigenvalues_MC1.0e+06_dim2_dirdown_T1.0.xyz", "down", "c")
-    plotter("../benchmarks/task_c/eigenvalues_MC1.0e+06_dim2_dirdown_T2.4.xyz", "down", "c")
+    plotter("../benchmarks/task_c/eigenvalues_MC1.0e+06_dim2_dirdown_T1.0.xyz", "down", "c", 2)
+    plotter("../benchmarks/task_c/eigenvalues_MC1.0e+06_dim2_dirdown_T2.4.xyz", "down", "c", 2)
 
-if sys.argv[1] == "d" and sys.argv[2] == "up" and sys.argv[3] == 2:
-    plotter("../benchmarks/task_d/eigenvalues_MC1.0e+06_dim2_dirup_T1.0.xyz", "up", "d")
-    plotter("../benchmarks/task_d/eigenvalues_MC1.0e+06_dim2_dirup_T2.4.xyz", "up", "d")
-elif sys.argv[1] == "d" and sys.argv[2] == "rand" and sys.argv[3] == 2:
-    plotter("../benchmarks/task_d/eigenvalues_MC1.0e+06_dim2_dirrand_T1.0.xyz", "rand", "d")
-    plotter("../benchmarks/task_d/eigenvalues_MC1.0e+06_dim2_dirrand_T2.4.xyz", "rand", "d")
-elif sys.argv[1] == "d" and sys.argv[2] == "down" and sys.argv[3] == 2:
-    plotter("../benchmarks/task_d/eigenvalues_MC1.0e+06_dim2_dirdown_T1.0.xyz", "down", "d")
-    plotter("../benchmarks/task_d/eigenvalues_MC1.0e+06_dim2_dirdown_T2.4.xyz", "down", "d")
+if sys.argv[1] == "d" and sys.argv[2] == "up" and int(sys.argv[3]) == 2:
+    plotter("../benchmarks/task_d/eigenvalues_MC1.0e+06_dim2_dirup_T1.0.xyz", "up", "d", 2)
+    plotter("../benchmarks/task_d/eigenvalues_MC1.0e+06_dim2_dirup_T2.4.xyz", "up", "d", 2)
+elif sys.argv[1] == "d" and sys.argv[2] == "rand" and int(sys.argv[3]) == 2:
+    plotter("../benchmarks/task_d/eigenvalues_MC1.0e+06_dim2_dirrand_T1.0.xyz", "rand", "d", 2)
+    plotter("../benchmarks/task_d/eigenvalues_MC1.0e+06_dim2_dirrand_T2.4.xyz", "rand", "d", 2)
+elif sys.argv[1] == "d" and sys.argv[2] == "down" and int(sys.argv[3]) == 2:
+    plotter("../benchmarks/task_d/eigenvalues_MC1.0e+06_dim2_dirdown_T1.0.xyz", "down", "d", 2)
+    plotter("../benchmarks/task_d/eigenvalues_MC1.0e+06_dim2_dirdown_T2.4.xyz", "down", "d", 2)
 
-elif sys.argv[1] == "d" and sys.argv[2] == "rand" and sys.argv[3] == 20:
-    plotter("../benchmarks/task_d/eigenvalues_MC1.0e+06_dim20_dirrand_T1.0.xyz", "rand", "d")
-    plotter("../benchmarks/task_d/eigenvalues_MC1.0e+06_dim20_dirrand_T2.4.xyz", "rand", "d")
+elif sys.argv[1] == "d" and sys.argv[2] == "rand" and int(sys.argv[3]) == 20:
+    plotter("../benchmarks/task_d/eigenvalues_MC1.0e+06_dim20_dirrand_T1.0.xyz", "rand", "d", 20)
+    plotter("../benchmarks/task_d/eigenvalues_MC1.0e+06_dim20_dirrand_T2.4.xyz", "rand", "d", 20)
 
-elif sys.argv[1] == "d" and sys.argv[2] == "rand" and sys.argv[3] == "Evalues":
+elif sys.argv[1] == "d" and sys.argv[2] == "rand" and int(sys.argv[3]) == 3:
     d_reader("../benchmarks/task_d/EnergyValues_T2.4_L20.0_dir_rand.txt", 2.4, "rand")
+    d_reader("../benchmarks/task_d/EnergyValues_T1.0_L2.0_dir_rand.txt", 1.0, "rand")
+
+elif sys.argv[1] == "d" and sys.argv[2] == "down" and int(sys.argv[3]) == 3:
+    d_reader("../benchmarks/task_d/EnergyValues_T2.4_L20.0_dir_down.txt", 2.4, "down")
+    d_reader("../benchmarks/task_d/EnergyValues_T1.0_L2.0_dir_down.txt", 1.0, "down")
