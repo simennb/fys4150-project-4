@@ -84,6 +84,10 @@ void Metropolis(int L, int MCcycles, double T, vec &ExpectationValues, char cons
     std::mt19937_64 gen(rd());
     std::uniform_real_distribution<double> RandomNumberGenerator(0.0,1.0);
 
+    //Because Valgrind and Eiriks CPU doesn't play along, I use this when running Valgrind
+    //srand(100); //Set seed to 100
+    //cout << (double) rand()/RAND_MAX << endl; // Random double [0,1]
+
     // initializing stuff
     mat SpinMatrix = zeros<mat>(L,L);
     int threshold = 300000;
@@ -126,14 +130,13 @@ void Metropolis(int L, int MCcycles, double T, vec &ExpectationValues, char cons
         ExpectationValues(3) += M*M;
         ExpectationValues(4) += fabs(M);
 
-        if (cycles >= threshold)
-        {
-            E_out[cycles/1000.0 - threshold/1000.0] = E;
-        }
-
         if (cycles == N_counter)
         {
-         WriteToFile(L, cycles, T, r_counter, E_out, ExpectationValues, filename);
+            if (cycles >= threshold)
+            {
+                E_out[cycles/1000.0 - threshold/1000.0] = E;
+            }
+         //WriteToFile(L, cycles, T, r_counter, E_out, ExpectationValues, filename);
          N_counter += MCcycles/1000;
         }
     }
@@ -172,6 +175,8 @@ void WriteToFile(int L, int MCcycles, double T, int r_counter, vec E_out, vec &E
         }
     }
     */
+
+    /*
     ofstream m_file;
     m_file.open(filename, ios::app);
     //ofile<<setiosflags(ios::showpoint | ios::uppercase);
@@ -184,6 +189,7 @@ void WriteToFile(int L, int MCcycles, double T, int r_counter, vec E_out, vec &E
     m_file<<"r_counter = "<<setprecision(8)<<r_counter<<endl;
     //m_file<<"E_out = "<<setprecision(8)<<E_out<<endl;
     m_file << "  " << endl;
+    */
     return;
 }
 
@@ -213,7 +219,6 @@ void E_handler(vec E_out, string filename, int length, double T, int L, string s
                     E_counter[k] += 1;
                 }
             }
-
         }
     }
 
