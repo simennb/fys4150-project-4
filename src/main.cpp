@@ -62,6 +62,7 @@ int main(int argc, char *argv[])
         cout << "Monte Carlo Cycles is the number of Monte Carlo Cycles" << endl;
         cout << "Spin configuration is optional, set to up by default." << endl;
         cout << "Spin configuration can either be set to up, down or rand to set all spins to be either up, down or random" << endl;
+        exit(1);
     }
     // initialize some values
     int L = atoi(argv[2]);
@@ -93,7 +94,6 @@ int main(int argc, char *argv[])
 
         //WriteToFile(L, MC_cycles, T, ExpectationValues, filename);
 
-        return 0;
     }
 
     else if (strcmp(argv[1], "c") == 0)
@@ -111,7 +111,6 @@ int main(int argc, char *argv[])
         //WriteToFile(L, MC_cycles, T, ExpectationValues, filename);
 
         m_file.close();
-        return 0;
     }
 
     else if (strcmp(argv[1], "d") == 0)
@@ -128,12 +127,11 @@ int main(int argc, char *argv[])
         //WriteToFile(L, MC_cycles, T, ExpectationValues, filename);
 
         m_file.close();
-        return 0;
     }
 
     else
     {
         cout << "Wrong. Try again" << endl;
-        return 0;
     }
+    return 0;
 }
