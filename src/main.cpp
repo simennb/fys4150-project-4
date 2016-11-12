@@ -56,12 +56,13 @@ int main(int argc, char *argv[])
     if (argc < 5 || argc > 7)
     {
         cout << "Usage: " << argv[0] << ", task, L, Monte Carlo Cycles, T and spin direction as command line argument" << endl;
-        cout << "Task can be set to b, c" << endl;
+        cout << "Task can be set to b, c, d, e" << endl;
         cout << "L is the dimension of the spin lattice" << endl;
-        cout << "T is temperature" << endl;
         cout << "Monte Carlo Cycles is the number of Monte Carlo Cycles" << endl;
+        cout << "T is temperature" << endl;
         cout << "Spin configuration is optional, set to up by default." << endl;
         cout << "Spin configuration can either be set to up, down or rand to set all spins to be either up, down or random" << endl;
+        exit(1);
     }
     // initialize some values
     int L = atoi(argv[2]);
@@ -86,14 +87,13 @@ int main(int argc, char *argv[])
     if (strcmp(argv[1], "b") == 0)
     {
     // Task b)
-        //string filename = "../benchmarks/task_b/eigenvalues_MC"+to_scieni(MC_cycles, 1) + "_dim"+to_string(L)+"_dir" + stringdir + "_T" + to_fixf(T, 1) +".xyz";
+        string filename = "../benchmarks/task_b/eigenvalues_MC"+to_scieni(MC_cycles, 1) + "_dim"+to_string(L)+"_dir" + stringdir + "_T" + to_fixf(T, 1) +".xyz";
         vec ExpectationValues = zeros<mat>(5);
-        string filename = "Tull";
+//        string filename = "Tull";
         Metropolis(L, MC_cycles, T, ExpectationValues, stringdir, filename);
 
         //WriteToFile(L, MC_cycles, T, ExpectationValues, filename);
 
-        return 0;
     }
 
     else if (strcmp(argv[1], "c") == 0)
@@ -111,7 +111,6 @@ int main(int argc, char *argv[])
         //WriteToFile(L, MC_cycles, T, ExpectationValues, filename);
 
         m_file.close();
-        return 0;
     }
 
     else if (strcmp(argv[1], "d") == 0)
@@ -128,12 +127,11 @@ int main(int argc, char *argv[])
         //WriteToFile(L, MC_cycles, T, ExpectationValues, filename);
 
         m_file.close();
-        return 0;
     }
 
     else
     {
         cout << "Wrong. Try again" << endl;
-        return 0;
     }
+    return 0;
 }
