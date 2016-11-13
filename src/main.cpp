@@ -6,6 +6,7 @@
 #include <cmath>
 #include <armadillo>
 #include <time.h>
+#include <mpi.h>
 #include "ising.h"
 #include "functions.h"
 
@@ -64,7 +65,13 @@ int main(int argc, char *argv[])
         cout << "Spin configuration can either be set to up, down or rand to set all spins to be either up, down or random" << endl;
         exit(1);
     }
-    // initialize some values
+    // Initialize MPI
+    int numprocs, my_rank;
+    MPI_Init (&argc, &argv);
+    MPI_Comm_size (MPI_COMM_WORLD, &numprocs);
+    MPI_Comm_rank (MPI_COMM_WORLD, &my_rank);
+
+    // Initialize some values
     int L = atoi(argv[2]);
     int MC_cycles = atoi(argv[3]);  //1000000;
     double T = atof(argv[4]);
@@ -87,14 +94,27 @@ int main(int argc, char *argv[])
     if (strcmp(argv[1], "b") == 0)
     {
         // Creating filename and initializing file
-        string filename = "../benchmarks/task_b/eigenvalues_MC"+to_scieni(MC_cycles, 1) + "_dim"+to_string(L)+"_dir" + stringdir + "_T" + to_fixf(T, 1) +".xyz";
         ofstream m_file;
-        InitializeFile(filename, m_file);
-
+        if (my_rank == 0){
+            string filename = "../benchmarks/task_b/eigenvalues_MC"+to_scieni(MC_cycles, 1) + "_dim"+to_string(L)+"_dir" + stringdir + "_T" + to_fixf(T, 1) +".xyz";
+            InitializeFile(filename, m_file);
+        }
+        vec totExpectationValues = zeros<mat>(5);
         vec ExpectationValues = zeros<mat>(5);
 
-        Metropolis(L, MC_cycles, T, ExpectationValues, stringdir, m_file);
+        Metropolis(L, MC_cycles, T, ExpectationValues, stringdir, m_file, my_rank);
 
+        for (int i=0; i<5; i++){
+            MPI_Reduce(&ExpectationValues[i],&totExpectationValues[i],1,MPI_DOUBLE, MPI_SUM, 0, MPI_COMM_WORLD);
+        }
+
+        if (my_rank == 0){
+            cout<<"Hey, my rank is "<<my_rank<<endl;
+            cout<<"MC cycles = "<<MC_cycles<<endl;
+            cout<<"local_E = "<<ExpectationValues[0]/MC_cycles<<endl;
+            cout<<"total_E = "<<totExpectationValues[0]/MC_cycles/numprocs<<endl;
+            cout<<"on number of processors = "<<numprocs<<endl;
+        }
         //WriteToFile(L, MC_cycles, T, ExpectationValues, filename);
 
     }
@@ -109,7 +129,7 @@ int main(int argc, char *argv[])
         // Matrix to fill with expectation values
         vec ExpectationValues = zeros<mat>(5);
 
-        Metropolis(L, MC_cycles, T, ExpectationValues, stringdir, m_file);
+        Metropolis(L, MC_cycles, T, ExpectationValues, stringdir, m_file, my_rank);
 
         //WriteToFile(L, MC_cycles, T, ExpectationValues, filename);
 
@@ -155,7 +175,7 @@ int main(int argc, char *argv[])
             threshold = thresholdT1;
         }
 
-        MetropolisD(L, MC_cycles, T, ExpectationValues, stringdir, m_file, threshold);
+        MetropolisD(L, MC_cycles, T, ExpectationValues, stringdir, m_file, threshold, my_rank);
 
         m_file.close();
     }
@@ -186,7 +206,7 @@ int main(int argc, char *argv[])
             InitializeFile(filename, m_file);
             vec ExpectationValues = zeros<mat>(5);
 
-            MetropolisE(L, MC_cycles, T[i], ExpectationValues, stringdir);
+            MetropolisE(L, MC_cycles, T[i], ExpectationValues, stringdir, my_rank);
 
             m_file.close();
         }
@@ -197,5 +217,6 @@ int main(int argc, char *argv[])
     {
         cout << "Wrong. Try again" << endl;
     }
+    MPI_Finalize ();
     return 0;
 }
