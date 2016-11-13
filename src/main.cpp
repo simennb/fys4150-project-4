@@ -86,11 +86,15 @@ int main(int argc, char *argv[])
 
     if (strcmp(argv[1], "b") == 0)
     {
-    // Task b)
+        // Creating filename and initializing file
         string filename = "../benchmarks/task_b/eigenvalues_MC"+to_scieni(MC_cycles, 1) + "_dim"+to_string(L)+"_dir" + stringdir + "_T" + to_fixf(T, 1) +".xyz";
+        ofstream m_file;
+        InitializeFile(filename, m_file);
+
+        // Matrix to fill with expectation values
         vec ExpectationValues = zeros<mat>(5);
-//        string filename = "Tull";
-        Metropolis(L, MC_cycles, T, ExpectationValues, stringdir, filename);
+
+        Metropolis(L, MC_cycles, T, ExpectationValues, stringdir, m_file);
 
         //WriteToFile(L, MC_cycles, T, ExpectationValues, filename);
 
@@ -98,15 +102,15 @@ int main(int argc, char *argv[])
 
     else if (strcmp(argv[1], "c") == 0)
     {
-        //Creating filename
-        //string filename = "../benchmarks/task_c/eigenvalues_MC"+to_scieni(MC_cycles, 1) + "_dim"+to_string(L)+"_dir" + stringdir + "_T" + to_fixf(T, 1) +".xyz";
-        vec ExpectationValues = zeros<mat>(5);
-        string filename = "Tull";
-
+        //Creating filename and initializing file
+        string filename = "../benchmarks/task_c/eigenvalues_MC"+to_scieni(MC_cycles, 1) + "_dim"+to_string(L)+"_dir" + stringdir + "_T" + to_fixf(T, 1) +".xyz";
         ofstream m_file;
-        m_file.open(filename);
+        InitializeFile(filename, m_file);
 
-        Metropolis(L, MC_cycles, T, ExpectationValues, stringdir, filename);
+        // Matrix to fill with expectation values
+        vec ExpectationValues = zeros<mat>(5);
+
+        Metropolis(L, MC_cycles, T, ExpectationValues, stringdir, m_file);
 
         //WriteToFile(L, MC_cycles, T, ExpectationValues, filename);
 
@@ -115,16 +119,16 @@ int main(int argc, char *argv[])
 
     else if (strcmp(argv[1], "d") == 0)
     {
-        //Creating filename
+        //Creating filename and initializing file
         string filename = "../benchmarks/task_d/eigenvalues_MC"+to_scieni(MC_cycles, 1) + "_dim"+to_string(L)+"_dir" + stringdir + "_T" + to_fixf(T, 1) +".xyz";
+        ofstream m_file;
+        InitializeFile(filename, m_file);
+
+        // Matrix to fill with expectation values
         vec ExpectationValues = zeros<mat>(5);
 
-        ofstream m_file;
-        m_file.open(filename);
+        Metropolis(L, MC_cycles, T, ExpectationValues, stringdir, m_file);
 
-        Metropolis(L, MC_cycles, T, ExpectationValues, stringdir, filename);
-
-        //WriteToFile(L, MC_cycles, T, ExpectationValues, filename);
 
         m_file.close();
     }
