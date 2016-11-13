@@ -43,7 +43,7 @@ string to_fixf(double number, int precision)
 }
 
 
-void WriteToFile(int L, int MCcycles, double T, int r_counter, vec E_out, vec &ExpectationValues, string filename)
+void WriteToFile(int L, int MCcycles, double T, int r_counter, vec &ExpectationValues, string filename)
 {
     // Currently print outs and write to file
     double norm = 1.0/((double)MCcycles);
@@ -98,14 +98,12 @@ void E_handler(vec E_out, string filename, int length, double T, int L, string s
     vec E_values = zeros<mat>(small_length + 1);
     vec E_counter = zeros<mat>(small_length + 1);
 
-    //cout << E_values << endl;
-
     for (int i = Emin; i <= Emax; i++)
     {
         E_values[i - Emin] = i;
     }
     cout << Emin << "   " << Emax << endl;
-    //cout << E_values << endl;
+
     for (int i = 0; i <= length; i++)
     {
         for (int j = i+1; j <= length; j++)  // start at i+1 to not count things twice

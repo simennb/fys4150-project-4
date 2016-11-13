@@ -89,7 +89,7 @@ int main(int argc, char *argv[])
     // Task b)
         string filename = "../benchmarks/task_b/eigenvalues_MC"+to_scieni(MC_cycles, 1) + "_dim"+to_string(L)+"_dir" + stringdir + "_T" + to_fixf(T, 1) +".xyz";
         vec ExpectationValues = zeros<mat>(5);
-//        string filename = "Tull";
+
         Metropolis(L, MC_cycles, T, ExpectationValues, stringdir, filename);
 
         //WriteToFile(L, MC_cycles, T, ExpectationValues, filename);
@@ -99,9 +99,8 @@ int main(int argc, char *argv[])
     else if (strcmp(argv[1], "c") == 0)
     {
         //Creating filename
-        //string filename = "../benchmarks/task_c/eigenvalues_MC"+to_scieni(MC_cycles, 1) + "_dim"+to_string(L)+"_dir" + stringdir + "_T" + to_fixf(T, 1) +".xyz";
+        string filename = "../benchmarks/task_c/eigenvalues_MC"+to_scieni(MC_cycles, 1) + "_dim"+to_string(L)+"_dir" + stringdir + "_T" + to_fixf(T, 1) +".xyz";
         vec ExpectationValues = zeros<mat>(5);
-        string filename = "Tull";
 
         ofstream m_file;
         m_file.open(filename);
@@ -119,14 +118,75 @@ int main(int argc, char *argv[])
         string filename = "../benchmarks/task_d/eigenvalues_MC"+to_scieni(MC_cycles, 1) + "_dim"+to_string(L)+"_dir" + stringdir + "_T" + to_fixf(T, 1) +".xyz";
         vec ExpectationValues = zeros<mat>(5);
 
+        int thresholdT24 = 300000;
+        int thresholdT1 = 100000;
+        int threshold = 0;
+
+        if (L != 20)
+        {
+            cout << "L must be 20. The program will now stop." << endl;
+            exit(1);
+        }
+
+        if (T == 2.4 && MC_cycles <= thresholdT24 + 1000)
+        {
+            cout << "MCCycles must be bigger than " << (thresholdT24 + (int) 1000) << " when T = 2.4. The program will now stop." << endl;
+            exit(1);
+        }
+        else if (T == 2.4 && MC_cycles > thresholdT24+1000)
+        {
+            threshold = thresholdT24;
+        }
+        else if (T == 1.0 && MC_cycles <= thresholdT1)
+        {
+            cout << "MCCycles must be bigger than " << (thresholdT1+1000) << " when T = 1.0. The program will now stop." << endl;
+            exit(1);
+        }
+        else
+        {
+            threshold = thresholdT1;
+        }
+
         ofstream m_file;
         m_file.open(filename);
 
-        Metropolis(L, MC_cycles, T, ExpectationValues, stringdir, filename);
-
-        //WriteToFile(L, MC_cycles, T, ExpectationValues, filename);
+        MetropolisD(L, MC_cycles, T, ExpectationValues, stringdir, filename, threshold);
 
         m_file.close();
+    }
+
+    else if (strcmp(argv[1], "e") == 0)
+    {
+        double N = T;
+        double Tstart = 2.0;
+        double Tstop = 2.3;
+
+        vec T = linspace<vec>(Tstart, Tstop, N);
+        double dt = T[1] - T[0];
+
+        /* To put in after we are finished testing
+        if (dt > 0.05)
+        {
+            cout << "Your dt is too big. It should be 0.05 or smaller, yours is " << dt << endl;
+            exit(0);
+        }
+        */
+        cout << N << endl;
+        for (int i = 0; i < N; i++)
+        {
+            cout << T[i] << endl;
+            //Creating filename
+            string filename = "../benchmarks/task_e/eigenvalues_MC"+to_scieni(MC_cycles, 1) + "_dim"+to_string(L)+"_dir" + stringdir + "_T" + to_fixf(T[i], 1) +".xyz";
+            vec ExpectationValues = zeros<mat>(5);
+
+            ofstream m_file;
+            m_file.open(filename);
+
+            Metropolis(L, MC_cycles, T[i], ExpectationValues, stringdir, filename);
+
+            m_file.close();
+        }
+
     }
 
     else
