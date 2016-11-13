@@ -10,11 +10,11 @@
 using namespace std;
 using namespace arma;
 
-void InitializeLattice(int L, mat &SpinMatrix, double &E, double &M, string direction)
+void InitializeLattice(int L, mat &SpinMatrix, double &E, double &M, string direction, int my_rank)
 {
     // Initialize random number generator
     std::random_device rd;  // rd() returns a number, so for parallelization add or subtract rank
-    std::mt19937_64 gen(rd());
+    std::mt19937_64 gen(rd()- my_rank);  // to get
     std::uniform_real_distribution<double> RandomNumberGenerator(0.0,1.0);
 
     // Initialize spin matrix and magnetic moment
@@ -70,11 +70,11 @@ void InitializeLattice(int L, mat &SpinMatrix, double &E, double &M, string dire
     return;
 }
 
-void Metropolis(int L, int MCcycles, double T, vec &ExpectationValues, char const *dir, ofstream &m_file)
+void Metropolis(int L, int MCcycles, double T, vec &ExpectationValues, char const *dir, ofstream &m_file, int my_rank)
 {
     // Initialize random number generator
     std::random_device rd;  // rd() returns a number, so for parallelization add or subtract rank
-    std::mt19937_64 gen(rd());
+    std::mt19937_64 gen(rd()- my_rank);  // unique seed
     std::uniform_real_distribution<double> RandomNumberGenerator(0.0,1.0);
 
     //Because Valgrind and Eiriks CPU doesn't play along, I use this when running Valgrind
@@ -85,7 +85,7 @@ void Metropolis(int L, int MCcycles, double T, vec &ExpectationValues, char cons
     mat SpinMatrix = zeros<mat>(L,L);
     double E = 0.0; double M = 0.0;
 
-    InitializeLattice(L,SpinMatrix,E,M, dir);
+    InitializeLattice(L,SpinMatrix,E,M, dir, my_rank);
 
     vec EnergyDifference = zeros<mat>(17);
 
@@ -122,19 +122,19 @@ void Metropolis(int L, int MCcycles, double T, vec &ExpectationValues, char cons
         ExpectationValues(3) += M*M;
         ExpectationValues(4) += fabs(M);
 
-        if (cycles == N_counter)
+        if (cycles == N_counter && my_rank == 0)
         {
-         WriteToFile(L, cycles, T, r_counter, ExpectationValues, m_file);
-         N_counter += MCcycles/1000;
+            WriteToFile(L, cycles, T, r_counter, ExpectationValues, m_file);
+            N_counter += MCcycles/1000;
         }
     }
     return;
 }
-void MetropolisD(int L, int MCcycles, double T, vec &ExpectationValues, char const *dir, ofstream &m_file, int threshold)
+void MetropolisD(int L, int MCcycles, double T, vec &ExpectationValues, char const *dir, ofstream &m_file, int threshold, int my_rank)
 {
         // Initialize random number generator
         std::random_device rd;  // rd() returns a number, so for parallelization add or subtract rank
-        std::mt19937_64 gen(rd());
+        std::mt19937_64 gen(rd()- my_rank);  // unique seed
         std::uniform_real_distribution<double> RandomNumberGenerator(0.0,1.0);
 
         //Because Valgrind and Eiriks CPU doesn't play along, I use this when running Valgrind
@@ -145,7 +145,7 @@ void MetropolisD(int L, int MCcycles, double T, vec &ExpectationValues, char con
         mat SpinMatrix = zeros<mat>(L,L);
         double E = 0.0; double M = 0.0; vec E_out = zeros<mat>(MCcycles/1000.0 - threshold/1000.0);
 
-        InitializeLattice(L,SpinMatrix,E,M, dir);
+        InitializeLattice(L,SpinMatrix,E,M, dir, my_rank);
 
         vec EnergyDifference = zeros<mat>(17);
 
@@ -182,7 +182,7 @@ void MetropolisD(int L, int MCcycles, double T, vec &ExpectationValues, char con
             ExpectationValues(3) += M*M;
             ExpectationValues(4) += fabs(M);
 
-            if (cycles == N_counter)
+            if (cycles == N_counter && my_rank == 0)
             {
                 if (cycles >= threshold)
                 {
@@ -197,11 +197,11 @@ void MetropolisD(int L, int MCcycles, double T, vec &ExpectationValues, char con
     return;
 }
 
-void MetropolisE(int L, int MCcycles, double T, vec &ExpectationValues, char const *dir)
+void MetropolisE(int L, int MCcycles, double T, vec &ExpectationValues, char const *dir, int my_rank)
 {
     // Initialize random number generator
     std::random_device rd;  // rd() returns a number, so for parallelization add or subtract rank
-    std::mt19937_64 gen(rd());
+    std::mt19937_64 gen(rd() - my_rank);  // unique seed
     std::uniform_real_distribution<double> RandomNumberGenerator(0.0,1.0);
 
     //Because Valgrind and Eiriks CPU doesn't play along, I use this when running Valgrind
@@ -212,7 +212,7 @@ void MetropolisE(int L, int MCcycles, double T, vec &ExpectationValues, char con
     mat SpinMatrix = zeros<mat>(L,L);
     double E = 0.0; double M = 0.0;
 
-    InitializeLattice(L,SpinMatrix,E,M, dir);
+    InitializeLattice(L,SpinMatrix,E,M, dir, my_rank);
 
     vec EnergyDifference = zeros<mat>(17);
 
