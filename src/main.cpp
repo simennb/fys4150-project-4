@@ -177,19 +177,23 @@ int main(int argc, char *argv[])
         }
         */
         cout << N << endl;
+
+        string filename = "../benchmarks/task_e/eigenvalues_MC"+to_scieni(MC_cycles, 1) + "_dim"+to_string(L)+"_dir" + stringdir + "_dt" + to_fixf(dt, 5) + ".xyz";
+        ofstream m_file;
+        InitializeFile(filename, m_file);
+
         for (int i = 0; i < N; i++)
         {
             cout << T[i] << endl;
             //Creating filename and initializing file
-            string filename = "../benchmarks/task_e/eigenvalues_MC"+to_scieni(MC_cycles, 1) + "_dim"+to_string(L)+"_dir" + stringdir + "_T" + to_fixf(T[i], 1) +".xyz";
-            ofstream m_file;
-            InitializeFile(filename, m_file);
+
             vec ExpectationValues = zeros<mat>(5);
 
             MetropolisE(L, MC_cycles, T[i], ExpectationValues, stringdir);
 
-            m_file.close();
+            WriteToFile(L, MC_cycles, T[i], 1, ExpectationValues, m_file);
         }
+        m_file.close();
 
     }
 
