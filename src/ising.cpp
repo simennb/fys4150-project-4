@@ -70,7 +70,7 @@ void InitializeLattice(int L, mat &SpinMatrix, double &E, double &M, string dire
     return;
 }
 
-void Metropolis(int L, int MCcycles, double T, vec &ExpectationValues, char const *dir, ofstream &m_file)
+void Metropolis(int L, int MCcycles, double T, vec &ExpectationValues, char const *dir, string filename)
 {
     // Initialize random number generator
     std::random_device rd;  // rd() returns a number, so for parallelization add or subtract rank
@@ -81,7 +81,7 @@ void Metropolis(int L, int MCcycles, double T, vec &ExpectationValues, char cons
     //srand(100); //Set seed to 100
     //cout << (double) rand()/RAND_MAX << endl; // Random double [0,1]
 
-    // Initializing things
+    // initializing stuff
     mat SpinMatrix = zeros<mat>(L,L);
     int threshold = 300000;
     double E = 0.0; double M = 0.0; vec E_out = zeros<mat>(MCcycles/1000.0 - threshold/1000.0);
@@ -129,7 +129,7 @@ void Metropolis(int L, int MCcycles, double T, vec &ExpectationValues, char cons
             {
                 E_out[cycles/1000.0 - threshold/1000.0] = E;
             }
-         WriteToFile(L, cycles, T, r_counter, ExpectationValues, m_file);
+         //WriteToFile(L, cycles, T, r_counter, E_out, ExpectationValues, filename);
          N_counter += MCcycles/1000;
         }
     }
