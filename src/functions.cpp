@@ -42,10 +42,18 @@ string to_fixf(double number, int precision)
     return ss.str();
 }
 
-
-void WriteToFile(int L, int MCcycles, double T, int r_counter, vec &ExpectationValues, string filename)
+void InitializeFile(string filename, ofstream &m_file)
 {
-    // Currently print outs and write to file
+    m_file.open(filename.c_str(), ofstream::out);
+    if (!m_file.good()) {
+    cout << "Error opening file " << filename << ". Aborting!" << endl;
+    exit(1);
+    }
+    m_file<<" MCcycles   "<<"T        "<<"<E>         "<<"<|M|>       "<<"sigma_E      "<<"sigma_M     "<<"accepted"<<endl;
+}
+
+void WriteToFile(int L, int MCcycles, double T, int r_counter, vec &ExpectationValues, ofstream &m_file)
+{
     double norm = 1.0/((double)MCcycles);
     double E_exp    = ExpectationValues(0)*norm;
     double E2_exp   = ExpectationValues(1)*norm;
@@ -56,38 +64,14 @@ void WriteToFile(int L, int MCcycles, double T, int r_counter, vec &ExpectationV
     double E_variance = (E2_exp - E_exp*E_exp)/L/L;
     double M_variance = (M2_exp - Mabs_exp*Mabs_exp)/L/L;
 
-    /*cout<<"MCcycles = "<<setprecision(8)<<MCcycles<<endl;
-    cout<<"T = "<<setprecision(8)<<T<<endl;
-    cout<<"< E >   = "<<setprecision(8)<<E_exp<<endl;
-    cout<<"<|M|>   = "<<setprecision(8)<<Mabs_exp<<endl;
-    cout<<"sigma_E = "<<setprecision(8)<<E_variance<<endl;
-    cout<<"sigma_M = "<<setprecision(8)<<M_variance<<endl;
-    cout<<"r_counter = "<<setprecision(8)<<r_counter<<endl;
-
-    ofstream m_file;
-    if(!m_file.good()) {
-        m_file.open(filename.c_str(), ofstream::out);
-        if(!m_file.good()) {
-            cout << "Error opening file " << filename << ". Aborting!" << endl;
-            terminate();
-        }
-    }
-    */
-
-    /*
-    ofstream m_file;
-    m_file.open(filename, ios::app);
-    //ofile<<setiosflags(ios::showpoint | ios::uppercase);
-    m_file<<"MCcycles = "<<setprecision(8)<<MCcycles<<endl;
-    m_file<<"T = "<<setprecision(8)<<T<<endl;
-    m_file<<"<E> = "<<setprecision(8)<<E_exp<<endl;
-    m_file<<"<|M|> = "<<setprecision(8)<<Mabs_exp<<endl;
-    m_file<<"sigma_E = "<<setprecision(8)<<E_variance<<endl;
-    m_file<<"sigma_M = "<<setprecision(8)<<M_variance<<endl;
-    m_file<<"r_counter = "<<setprecision(8)<<r_counter<<endl;
-    //m_file<<"E_out = "<<setprecision(8)<<E_out<<endl;
-    m_file << "  " << endl;
-    */
+    // Writing to file
+    m_file<<setw(8)<<MCcycles;
+    m_file<<setw(5)<<setprecision(3)<<T;
+    m_file<<setw(13)<<setprecision(8)<<E_exp;
+    m_file<<setw(13)<<setprecision(8)<<Mabs_exp;
+    m_file<<setw(13)<<setprecision(8)<<E_variance;
+    m_file<<setw(13)<<setprecision(8)<<M_variance;
+    m_file<<setw(13)<<setprecision(8)<<r_counter<<endl;
     return;
 }
 
