@@ -6,7 +6,6 @@ CONFIG -= qt
 #QMAKE_CXXFLAGS += -std=c++11
 #QMAKE_CXXFLAGS -= -std=c++0x
 
-
 # MPI Settings
 QMAKE_CXX = mpicxx
 QMAKE_CXX_RELEASE = $$QMAKE_CXX

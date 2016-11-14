@@ -10,7 +10,7 @@ void Metropolis(int L, int MCcycles, double T, double *ExpectationValues, char c
 
 void MetropolisD(int L, int MCcycles, double T, double *ExpectationValues, char const *dir, std::ofstream &m_file, int threshold, int my_rank);
 
-void MetropolisE(int L, int MCcycles, double T, double *ExpectationValues, char const *dir, int my_rank);
+void MetropolisE(int L, int MCcycles, double T, double **ExpectationValues, char const *dir, int my_rank, int temp_index);
 
 // Function for periodic boundary conditions
 inline int periodic(int i, int limit, int add){
