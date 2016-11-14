@@ -134,6 +134,12 @@ void Metropolis(int L, int MCcycles, double T, double *ExpectationValues, char c
             N_counter += MCcycles/1000;
         }
     }
+
+    // Freeing memory
+    for (int i = 0; i < L; i++)delete [] SpinMatrix[i];
+    delete [] SpinMatrix;
+    delete [] EnergyDifference;
+
     return;
 }
 void MetropolisD(int L, int MCcycles, double T, double *ExpectationValues, char const *dir, ofstream &m_file, int threshold, int my_rank)
@@ -207,10 +213,17 @@ void MetropolisD(int L, int MCcycles, double T, double *ExpectationValues, char 
         }
 
     E_handler(E_out, "bla", length, T, L, dir);
+
+    // Freeing memory
+    for (int i = 0; i < L; i++)delete [] SpinMatrix[i];
+    delete [] SpinMatrix;
+    delete [] EnergyDifference;
+    delete [] E_out;
+
     return;
 }
 
-void MetropolisE(int L, int MCcycles, double T, double *ExpectationValues, char const *dir, int my_rank)
+void MetropolisE(int L, int MCcycles, double T, double **ExpectationValues, char const *dir, int my_rank, int temp_index)
 {
     // Initialize random number generator
     std::random_device rd;  // rd() returns a number, so for parallelization add or subtract rank
@@ -261,12 +274,17 @@ void MetropolisE(int L, int MCcycles, double T, double *ExpectationValues, char 
             }
         }
         // Update expectation values
-        ExpectationValues[0] += E;
-        ExpectationValues[1] += E*E;
-        ExpectationValues[2] += M;
-        ExpectationValues[3] += M*M;
-        ExpectationValues[4] += fabs(M);
+        ExpectationValues[temp_index][0] += E;
+        ExpectationValues[temp_index][1] += E*E;
+        ExpectationValues[temp_index][2] += M;
+        ExpectationValues[temp_index][3] += M*M;
+        ExpectationValues[temp_index][4] += fabs(M);
     }
+
+    // Freeing memory
+    for (int i = 0; i < L; i++)delete [] SpinMatrix[i];
+    delete [] SpinMatrix;
+    delete [] EnergyDifference;
+
     return;
 }
-

@@ -124,6 +124,9 @@ int main(int argc, char *argv[])
         }
         //WriteToFile(L, MC_cycles, T, ExpectationValues, filename);
 
+        delete [] ExpectationValues;
+        delete [] totExpectationValues;
+
     }
 
     else if (strcmp(argv[1], "c") == 0)
@@ -136,13 +139,15 @@ int main(int argc, char *argv[])
         // Matrix to fill with expectation values
         double *totExpectationValues = new double[5];
         double *ExpectationValues = new double[5];
-//        vec ExpectationValues = zeros<mat>(5);
 
         Metropolis(L, MC_cycles, T, ExpectationValues, stringdir, m_file, my_rank);
 
         //WriteToFile(L, MC_cycles, T, ExpectationValues, filename);
 
         m_file.close();
+
+        delete [] ExpectationValues;
+        delete [] totExpectationValues;
     }
 
     else if (strcmp(argv[1], "d") == 0)
@@ -153,7 +158,6 @@ int main(int argc, char *argv[])
         InitializeFile(filename, m_file);
 
         // Matrix to fill with expectation values
-//        vec ExpectationValues = zeros<mat>(5);
         double *totExpectationValues = new double[5];
         double *ExpectationValues = new double[5];
 
@@ -188,7 +192,11 @@ int main(int argc, char *argv[])
 
         MetropolisD(L, MC_cycles, T, ExpectationValues, stringdir, m_file, threshold, my_rank);
 
+        // Closing file and deleting arrays
         m_file.close();
+        delete [] ExpectationValues;
+        delete [] totExpectationValues;
+
     }
 
     else if (strcmp(argv[1], "e") == 0)
@@ -197,17 +205,12 @@ int main(int argc, char *argv[])
         double Tstart = 2.0;
         double Tstop = 2.3;
 
-        //vec Temp = linspace<vec>(Tstart, Tstop, N);
-        // I'll make my own linspace, with mexican hookers. (wait what?)
         double *T = new double[N];
         double dt = (Tstop-Tstart)/(N-1);
         for (int i=0; i<N; i++){
             T[i] = Tstart + i*dt;
         }
-        //double dt2 = Temp[1] - Temp[0];
-        //cout<<dt<<" "<<dt2<<endl;
 
-//      vec ExpectationValues = zeros<mat>(5);
         double **totExpectationValues = new double *[N];
         double **ExpectationValues = new double *[N];
         for (int i=0; i<N; i++){
@@ -227,22 +230,45 @@ int main(int argc, char *argv[])
         }
         */
 
-        cout << N << endl;
+ //       cout << N << endl;
 
         //Creating filename and initializing file
-        string filename = "../benchmarks/task_e/eigenvalues_MC"+to_scieni(MC_cycles, 1) + "_dim"+to_string(L)+"_dir" + stringdir + "_dt" + to_fixf(dt, 5) + ".xyz";
         ofstream m_file;
-        InitializeFile(filename, m_file);
-
-        for (int i = 0; i < N; i++)
-        {
-            cout << T[i] << endl;
-
-            MetropolisE(L, MC_cycles, T[i], ExpectationValues[i], stringdir, my_rank);
-
-            WriteToFile(L, MC_cycles, T[i], 1, ExpectationValues[i], m_file);
+        if (my_rank==0){
+            string filename = "../benchmarks/task_e/eigenvalues_MC"+to_scieni(MC_cycles, 1) + "_dim"+to_string(L)+"_dir" + stringdir + "_dt" + to_fixf(dt, 5) + ".xyz";
+            InitializeFile(filename, m_file);
         }
+
+        for (int temp_index = my_rank; temp_index < N; temp_index += numprocs-1)
+        {
+            cout << T[temp_index] << endl;
+
+            MetropolisE(L, MC_cycles, T[temp_index], ExpectationValues, stringdir, my_rank, temp_index);
+
+        }
+
+        // Reducing data
+        for (int i=0; i<N; i++){
+            MPI_Reduce(ExpectationValues[i],totExpectationValues[i],5,MPI_DOUBLE, MPI_SUM, 0, MPI_COMM_WORLD);
+        }
+        time_end = MPI_Wtime();
+        total_time = time_end - time_start;
+
+        if (my_rank==0){
+            cout<<"Time duration = "<<total_time<<endl;
+            for (int i=0; i<N; i++){
+                WriteToFile(L,MC_cycles,T[i],1,totExpectationValues[i],m_file);
+            }
+        }
+
+        // Closing file and freeing memory
         m_file.close();
+        for (int i = 0; i < N; i++){
+            delete [] ExpectationValues[i];
+            delete [] totExpectationValues[i];
+        }
+        delete [] ExpectationValues;
+        delete [] totExpectationValues;
 
     }
 
