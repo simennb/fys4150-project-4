@@ -5,12 +5,12 @@
 #include <string>
 #include <fstream>
 #include <random>
-#include <armadillo>
+//#include <armadillo>
 
 using namespace std;
-using namespace arma;
+//using namespace arma;
 
-void InitializeLattice(int L, mat &SpinMatrix, double &E, double &M, string direction, int my_rank)
+void InitializeLattice(int L, double **SpinMatrix, double &E, double &M, string direction, int my_rank)
 {
     // Initialize random number generator
     std::random_device rd;  // rd() returns a number, so for parallelization add or subtract rank
@@ -22,8 +22,8 @@ void InitializeLattice(int L, mat &SpinMatrix, double &E, double &M, string dire
     {
         for (int i=0; i<L; i++){
             for (int j=0; j<L; j++){
-                SpinMatrix(i,j) = 1;
-                M += (double) SpinMatrix(i,j);
+                SpinMatrix[i][j] = 1;
+                M += (double) SpinMatrix[i][j];
             }
         }
     }
@@ -34,13 +34,13 @@ void InitializeLattice(int L, mat &SpinMatrix, double &E, double &M, string dire
                 double RD = RandomNumberGenerator(gen);
                 if (RD >= 0.5)
                 {
-                    SpinMatrix(i,j) = 1;
+                    SpinMatrix[i][j] = 1;
                 }
                 else
                 {
-                    SpinMatrix(i,j) = -1;
+                    SpinMatrix[i][j] = -1;
                 }
-                M += (double) SpinMatrix(i,j);
+                M += (double) SpinMatrix[i][j];
             }
         }
     }
@@ -48,8 +48,8 @@ void InitializeLattice(int L, mat &SpinMatrix, double &E, double &M, string dire
     {
         for (int i=0; i<L; i++){
             for (int j=0; j<L; j++){
-                SpinMatrix(i,j) = -1;
-                M += (double) SpinMatrix(i,j);
+                SpinMatrix[i][j] = -1;
+                M += (double) SpinMatrix[i][j];
             }
         }
     }
@@ -62,15 +62,15 @@ void InitializeLattice(int L, mat &SpinMatrix, double &E, double &M, string dire
     // Initialize E
     for (int i=0; i<L; i++){
         for (int j=0; j<L; j++){
-            E -= (double) SpinMatrix(i,j) *
-                    (SpinMatrix(periodic(i,L,-1),j) +
-                     SpinMatrix(i,periodic(j,L,-1)));
+            E -= (double) SpinMatrix[i][j] *
+                    (SpinMatrix[periodic(i,L,-1)][j] +
+                     SpinMatrix[i][periodic(j,L,-1)]);
         }
     }
     return;
 }
 
-void Metropolis(int L, int MCcycles, double T, vec &ExpectationValues, char const *dir, ofstream &m_file, int my_rank)
+void Metropolis(int L, int MCcycles, double T, double *ExpectationValues, char const *dir, ofstream &m_file, int my_rank)
 {
     // Initialize random number generator
     std::random_device rd;  // rd() returns a number, so for parallelization add or subtract rank
@@ -82,17 +82,23 @@ void Metropolis(int L, int MCcycles, double T, vec &ExpectationValues, char cons
     //cout << (double) rand()/RAND_MAX << endl; // Random double [0,1]
 
     // initializing stuff
-    mat SpinMatrix = zeros<mat>(L,L);
+//    mat SpinMatrix = zeros<mat>(L,L);
+
+    double **SpinMatrix = new double *[L];
+    for (int i=0; i<L; i++) SpinMatrix[i] = new double [L];
+
     double E = 0.0; double M = 0.0;
 
     InitializeLattice(L,SpinMatrix,E,M, dir, my_rank);
 
-    vec EnergyDifference = zeros<mat>(17);
+//    vec EnergyDifference = zeros<mat>(17);
+    double *EnergyDifference = new double[17];
+    for (int i=0; i<17; i++) EnergyDifference[i] = 0;
 
     int r_counter = 0;
     int N_counter = 1000;
 
-    for( int de =-8; de <= 8; de+=4) EnergyDifference(de+8) = exp(-de/T);
+    for( int de =-8; de <= 8; de+=4) EnergyDifference[de+8] = exp(-de/T);
 
     // Start Monte Carlo cycles
     for (int cycles = 1; cycles <= MCcycles; cycles++){
@@ -101,26 +107,26 @@ void Metropolis(int L, int MCcycles, double T, vec &ExpectationValues, char cons
             for (int y= 0; y < L; y++){
                 int ix = (int) (RandomNumberGenerator(gen)*(double)L);
                 int iy = (int) (RandomNumberGenerator(gen)*(double)L);
-                int deltaE =  2*SpinMatrix(ix,iy)*
-                                (SpinMatrix( ix, periodic(iy,L,-1) )+
-                                 SpinMatrix( periodic(ix,L,-1), iy )+
-                                 SpinMatrix( ix, periodic(iy,L, 1) )+
-                                 SpinMatrix( periodic(ix,L,1), iy) );
-                if ( RandomNumberGenerator(gen) <= EnergyDifference(deltaE+8) )
+                int deltaE =  2*SpinMatrix[ix][iy]*
+                                (SpinMatrix[ ix][ periodic(iy,L,-1) ]+
+                                 SpinMatrix[ periodic(ix,L,-1)][ iy ]+
+                                 SpinMatrix[ ix][ periodic(iy,L, 1) ]+
+                                 SpinMatrix[ periodic(ix,L,1)][ iy] );
+                if ( RandomNumberGenerator(gen) <= EnergyDifference[deltaE+8] )
                 {
-                    SpinMatrix(ix,iy) *= -1.0;  // flip one spin and accept new spin config
-                    M += (double) 2*SpinMatrix(ix,iy);
+                    SpinMatrix[ix][iy] *= -1.0;  // flip one spin and accept new spin config
+                    M += (double) 2*SpinMatrix[ix][iy];
                     E += (double) deltaE;
                     r_counter += 1;
                 }
             }
         }
         // Update expectation values
-        ExpectationValues(0) += E;
-        ExpectationValues(1) += E*E;
-        ExpectationValues(2) += M;
-        ExpectationValues(3) += M*M;
-        ExpectationValues(4) += fabs(M);
+        ExpectationValues[0] += E;
+        ExpectationValues[1] += E*E;
+        ExpectationValues[2] += M;
+        ExpectationValues[3] += M*M;
+        ExpectationValues[4] += fabs(M);
 
         if (cycles == N_counter && my_rank == 0)
         {
@@ -130,7 +136,7 @@ void Metropolis(int L, int MCcycles, double T, vec &ExpectationValues, char cons
     }
     return;
 }
-void MetropolisD(int L, int MCcycles, double T, vec &ExpectationValues, char const *dir, ofstream &m_file, int threshold, int my_rank)
+void MetropolisD(int L, int MCcycles, double T, double *ExpectationValues, char const *dir, ofstream &m_file, int threshold, int my_rank)
 {
         // Initialize random number generator
         std::random_device rd;  // rd() returns a number, so for parallelization add or subtract rank
@@ -142,17 +148,24 @@ void MetropolisD(int L, int MCcycles, double T, vec &ExpectationValues, char con
         //cout << (double) rand()/RAND_MAX << endl; // Random double [0,1]
 
         // initializing stuff
-        mat SpinMatrix = zeros<mat>(L,L);
-        double E = 0.0; double M = 0.0; vec E_out = zeros<mat>(MCcycles/1000.0 - threshold/1000.0);
+//        mat SpinMatrix = zeros<mat>(L,L);
+        double **SpinMatrix = new double *[L];
+        for (int i=0; i<L; i++) SpinMatrix[i] = new double [L];
+
+        double E = 0.0; double M = 0.0;// vec E_out = zeros<mat>(MCcycles/1000.0 - threshold/1000.0);
+        int length = (int)(MCcycles/1000.0 - threshold/1000.0);
+        double *E_out = new double [length];
 
         InitializeLattice(L,SpinMatrix,E,M, dir, my_rank);
 
-        vec EnergyDifference = zeros<mat>(17);
+//        vec EnergyDifference = zeros<mat>(17);
+        double *EnergyDifference = new double[17];
+        for (int i=0; i<17; i++) EnergyDifference[i] = 0;
 
         int r_counter = 0;
         int N_counter = 1000;
 
-        for( int de =-8; de <= 8; de+=4) EnergyDifference(de+8) = exp(-de/T);
+        for( int de =-8; de <= 8; de+=4) EnergyDifference[de+8] = exp(-de/T);
 
         // Start Monte Carlo cycles
         for (int cycles = 1; cycles <= MCcycles; cycles++){
@@ -161,43 +174,43 @@ void MetropolisD(int L, int MCcycles, double T, vec &ExpectationValues, char con
                 for (int y= 0; y < L; y++){
                     int ix = (int) (RandomNumberGenerator(gen)*(double)L);
                     int iy = (int) (RandomNumberGenerator(gen)*(double)L);
-                    int deltaE =  2*SpinMatrix(ix,iy)*
-                                    (SpinMatrix( ix, periodic(iy,L,-1) )+
-                                     SpinMatrix( periodic(ix,L,-1), iy )+
-                                     SpinMatrix( ix, periodic(iy,L, 1) )+
-                                     SpinMatrix( periodic(ix,L,1), iy) );
-                    if ( RandomNumberGenerator(gen) <= EnergyDifference(deltaE+8) )
+                    int deltaE =  2*SpinMatrix[ix][iy]*
+                                    (SpinMatrix[ ix][ periodic(iy,L,-1) ]+
+                                     SpinMatrix[ periodic(ix,L,-1)][ iy ]+
+                                     SpinMatrix[ ix][ periodic(iy,L, 1) ]+
+                                     SpinMatrix[ periodic(ix,L,1)][ iy] );
+                    if ( RandomNumberGenerator(gen) <= EnergyDifference[deltaE+8] )
                     {
-                        SpinMatrix(ix,iy) *= -1.0;  // flip one spin and accept new spin config
-                        M += (double) 2*SpinMatrix(ix,iy);
+                        SpinMatrix[ix][iy] *= -1.0;  // flip one spin and accept new spin config
+                        M += (double) 2*SpinMatrix[ix][iy];
                         E += (double) deltaE;
                         r_counter += 1;
                     }
                 }
             }
             // Update expectation values
-            ExpectationValues(0) += E;
-            ExpectationValues(1) += E*E;
-            ExpectationValues(2) += M;
-            ExpectationValues(3) += M*M;
-            ExpectationValues(4) += fabs(M);
+            ExpectationValues[0] += E;
+            ExpectationValues[1] += E*E;
+            ExpectationValues[2] += M;
+            ExpectationValues[3] += M*M;
+            ExpectationValues[4] += fabs(M);
 
             if (cycles == N_counter && my_rank == 0)
             {
                 if (cycles >= threshold)
                 {
-                    E_out[cycles/1000.0 - threshold/1000.0] = E;
+                    E_out[(int)(cycles/1000.0 - threshold/1000.0)] = E;
                 }
              WriteToFile(L, cycles, T, r_counter, ExpectationValues, m_file);
              N_counter += MCcycles/1000;
             }
         }
 
-    E_handler(E_out, "bla", MCcycles/1000.0 - threshold/1000.0, T, L, dir);
+    E_handler(E_out, "bla", length, T, L, dir);
     return;
 }
 
-void MetropolisE(int L, int MCcycles, double T, vec &ExpectationValues, char const *dir, int my_rank)
+void MetropolisE(int L, int MCcycles, double T, double *ExpectationValues, char const *dir, int my_rank)
 {
     // Initialize random number generator
     std::random_device rd;  // rd() returns a number, so for parallelization add or subtract rank
@@ -209,17 +222,22 @@ void MetropolisE(int L, int MCcycles, double T, vec &ExpectationValues, char con
     //cout << (double) rand()/RAND_MAX << endl; // Random double [0,1]
 
     // initializing stuff
-    mat SpinMatrix = zeros<mat>(L,L);
+//    mat SpinMatrix = zeros<mat>(L,L);
+    double **SpinMatrix = new double *[L];
+    for (int i=0; i<L; i++) SpinMatrix[i] = new double [L];
+
     double E = 0.0; double M = 0.0;
 
     InitializeLattice(L,SpinMatrix,E,M, dir, my_rank);
 
-    vec EnergyDifference = zeros<mat>(17);
+//    vec EnergyDifference = zeros<mat>(17);
+    double *EnergyDifference = new double[17];
+    for (int i=0; i<17; i++) EnergyDifference[i] = 0;
 
     int r_counter = 0;
     int N_counter = 1000;
 
-    for( int de =-8; de <= 8; de+=4) EnergyDifference(de+8) = exp(-de/T);
+    for( int de =-8; de <= 8; de+=4) EnergyDifference[de+8] = exp(-de/T);
 
     // Start Monte Carlo cycles
     for (int cycles = 1; cycles <= MCcycles; cycles++){
@@ -228,26 +246,26 @@ void MetropolisE(int L, int MCcycles, double T, vec &ExpectationValues, char con
             for (int y= 0; y < L; y++){
                 int ix = (int) (RandomNumberGenerator(gen)*(double)L);
                 int iy = (int) (RandomNumberGenerator(gen)*(double)L);
-                int deltaE =  2*SpinMatrix(ix,iy)*
-                                (SpinMatrix( ix, periodic(iy,L,-1) )+
-                                 SpinMatrix( periodic(ix,L,-1), iy )+
-                                 SpinMatrix( ix, periodic(iy,L, 1) )+
-                                 SpinMatrix( periodic(ix,L,1), iy) );
-                if ( RandomNumberGenerator(gen) <= EnergyDifference(deltaE+8) )
+                int deltaE =  2*SpinMatrix[ix][iy]*
+                                (SpinMatrix[ ix][ periodic(iy,L,-1) ]+
+                                 SpinMatrix[ periodic(ix,L,-1)][ iy ]+
+                                 SpinMatrix[ ix][ periodic(iy,L, 1) ]+
+                                 SpinMatrix[ periodic(ix,L,1)][ iy] );
+                if ( RandomNumberGenerator(gen) <= EnergyDifference[deltaE+8] )
                 {
-                    SpinMatrix(ix,iy) *= -1.0;  // flip one spin and accept new spin config
-                    M += (double) 2*SpinMatrix(ix,iy);
+                    SpinMatrix[ix][iy] *= -1.0;  // flip one spin and accept new spin config
+                    M += (double) 2*SpinMatrix[ix][iy];
                     E += (double) deltaE;
                     r_counter += 1;
                 }
             }
         }
         // Update expectation values
-        ExpectationValues(0) += E;
-        ExpectationValues(1) += E*E;
-        ExpectationValues(2) += M;
-        ExpectationValues(3) += M*M;
-        ExpectationValues(4) += fabs(M);
+        ExpectationValues[0] += E;
+        ExpectationValues[1] += E*E;
+        ExpectationValues[2] += M;
+        ExpectationValues[3] += M*M;
+        ExpectationValues[4] += fabs(M);
     }
     return;
 }
