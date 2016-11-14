@@ -4,14 +4,14 @@
 #include <fstream>
 #include <algorithm>
 #include <cmath>
-#include <armadillo>
+//#include <armadillo>
 #include <time.h>
 #include <mpi.h>
 #include "ising.h"
 #include "functions.h"
 
 using namespace std;
-using namespace arma;
+//using namespace arma;
 
 /* TODO:
  *  - fix command line arguments DONE
@@ -67,9 +67,11 @@ int main(int argc, char *argv[])
     }
     // Initialize MPI
     int numprocs, my_rank;
+    double time_start, time_end, total_time;
     MPI_Init (&argc, &argv);
     MPI_Comm_size (MPI_COMM_WORLD, &numprocs);
     MPI_Comm_rank (MPI_COMM_WORLD, &my_rank);
+    time_start = MPI_Wtime();
 
     // Initialize some values
     int L = atoi(argv[2]);
@@ -99,14 +101,18 @@ int main(int argc, char *argv[])
             string filename = "../benchmarks/task_b/eigenvalues_MC"+to_scieni(MC_cycles, 1) + "_dim"+to_string(L)+"_dir" + stringdir + "_T" + to_fixf(T, 1) +".xyz";
             InitializeFile(filename, m_file);
         }
-        vec totExpectationValues = zeros<mat>(5);
-        vec ExpectationValues = zeros<mat>(5);
+        //vec totExpectationValues = zeros<mat>(5);
+        //vec ExpectationValues = zeros<mat>(5);
+        double *totExpectationValues = new double[5];
+        double *ExpectationValues = new double[5];
 
         Metropolis(L, MC_cycles, T, ExpectationValues, stringdir, m_file, my_rank);
 
         for (int i=0; i<5; i++){
             MPI_Reduce(&ExpectationValues[i],&totExpectationValues[i],1,MPI_DOUBLE, MPI_SUM, 0, MPI_COMM_WORLD);
         }
+        time_end = MPI_Wtime();
+        total_time = time_end - time_start;
 
         if (my_rank == 0){
             cout<<"Hey, my rank is "<<my_rank<<endl;
@@ -114,6 +120,7 @@ int main(int argc, char *argv[])
             cout<<"local_E = "<<ExpectationValues[0]/MC_cycles<<endl;
             cout<<"total_E = "<<totExpectationValues[0]/MC_cycles/numprocs<<endl;
             cout<<"on number of processors = "<<numprocs<<endl;
+            cout<<"time = "<<total_time<<endl;
         }
         //WriteToFile(L, MC_cycles, T, ExpectationValues, filename);
 
@@ -127,7 +134,9 @@ int main(int argc, char *argv[])
         InitializeFile(filename, m_file);
 
         // Matrix to fill with expectation values
-        vec ExpectationValues = zeros<mat>(5);
+        double *totExpectationValues = new double[5];
+        double *ExpectationValues = new double[5];
+//        vec ExpectationValues = zeros<mat>(5);
 
         Metropolis(L, MC_cycles, T, ExpectationValues, stringdir, m_file, my_rank);
 
@@ -144,7 +153,9 @@ int main(int argc, char *argv[])
         InitializeFile(filename, m_file);
 
         // Matrix to fill with expectation values
-        vec ExpectationValues = zeros<mat>(5);
+//        vec ExpectationValues = zeros<mat>(5);
+        double *totExpectationValues = new double[5];
+        double *ExpectationValues = new double[5];
 
         int thresholdT24 = 300000;
         int thresholdT1 = 100000;
@@ -182,12 +193,31 @@ int main(int argc, char *argv[])
 
     else if (strcmp(argv[1], "e") == 0)
     {
-        double N = T;
+        int N = T;
         double Tstart = 2.0;
         double Tstop = 2.3;
 
-        vec T = linspace<vec>(Tstart, Tstop, N);
-        double dt = T[1] - T[0];
+        //vec Temp = linspace<vec>(Tstart, Tstop, N);
+        // I'll make my own linspace, with mexican hookers. (wait what?)
+        double *T = new double[N];
+        double dt = (Tstop-Tstart)/(N-1);
+        for (int i=0; i<N; i++){
+            T[i] = Tstart + i*dt;
+        }
+        //double dt2 = Temp[1] - Temp[0];
+        //cout<<dt<<" "<<dt2<<endl;
+
+//      vec ExpectationValues = zeros<mat>(5);
+        double **totExpectationValues = new double *[N];
+        double **ExpectationValues = new double *[N];
+        for (int i=0; i<N; i++){
+            totExpectationValues[i] = new double [5];
+            ExpectationValues[i] = new double [5];
+            for (int j=0; j<5; j++){
+                totExpectationValues[i][j] = 0.0;
+                ExpectationValues[i][j] = 0.0;
+            }
+        }
 
         /* To put in after we are finished testing
         if (dt > 0.05)
@@ -196,6 +226,7 @@ int main(int argc, char *argv[])
             exit(0);
         }
         */
+
         cout << N << endl;
 
         string filename = "../benchmarks/task_e/eigenvalues_MC"+to_scieni(MC_cycles, 1) + "_dim"+to_string(L)+"_dir" + stringdir + "_dt" + to_fixf(dt, 5) + ".xyz";
@@ -206,10 +237,16 @@ int main(int argc, char *argv[])
         {
             cout << T[i] << endl;
             //Creating filename and initializing file
+<<<<<<< HEAD
 
             vec ExpectationValues = zeros<mat>(5);
+=======
+            string filename = "../benchmarks/task_e/eigenvalues_MC"+to_scieni(MC_cycles, 1) + "_dim"+to_string(L)+"_dir" + stringdir + "_T" + to_fixf(T[i], 1) +".xyz";
+            ofstream m_file;
+            InitializeFile(filename, m_file);
+>>>>>>> simenMPI
 
-            MetropolisE(L, MC_cycles, T[i], ExpectationValues, stringdir, my_rank);
+            MetropolisE(L, MC_cycles, T[i], ExpectationValues[i], stringdir, my_rank);
 
             WriteToFile(L, MC_cycles, T[i], 1, ExpectationValues, m_file);
         }
