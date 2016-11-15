@@ -255,7 +255,7 @@ int main(int argc, char *argv[])
         total_time = time_end - time_start;
 
         if (my_rank==0){
-            cout<<"Time duration = "<<total_time<<endl;
+            cout<<"Time duration "<<time_to_print(total_time)<<endl;
             for (int i=0; i<N; i++){
                 WriteToFile(L,MC_cycles,T[i],1,totExpectationValues[i],m_file);
             }
