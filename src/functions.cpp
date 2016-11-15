@@ -83,7 +83,7 @@ void WriteToFile(int L, int MCcycles, double T, int r_counter, double *Expectati
 
     // Writing to file
     m_file<<setw(8)<<MCcycles;
-    m_file<<setw(5)<<setprecision(3)<<T;
+    m_file<<setw(13)<<setprecision(8)<<T;
     m_file<<setw(13)<<setprecision(8)<<E_exp;
     m_file<<setw(13)<<setprecision(8)<<Mabs_exp;
     m_file<<setw(13)<<setprecision(8)<<E_variance;

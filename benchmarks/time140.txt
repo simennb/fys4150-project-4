@@ -1,0 +1,91 @@
+--------------------------------------------------------------------------
+[[42073,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: papsukal
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+papsukal.uio.no.61243hfi_wait_for_device: The /dev/hfi1_0 device failed to appear after 15.0 seconds: Connection timed out
+papsukal.uio.no.61244hfi_wait_for_device: The /dev/hfi1_0 device failed to appear after 15.0 seconds: Connection timed out
+papsukal.uio.no.61245hfi_wait_for_device: The /dev/hfi1_0 device failed to appear after 15.0 seconds: Connection timed out
+papsukal.uio.no.61285hfi_wait_for_device: The /dev/hfi1_0 device failed to appear after 15.0 seconds: Connection timed out
+papsukal.uio.no.61249hfi_wait_for_device: The /dev/hfi1_0 device failed to appear after 15.0 seconds: Connection timed out
+papsukal.uio.no.61253hfi_wait_for_device: The /dev/hfi1_0 device failed to appear after 15.0 seconds: Connection timed out
+papsukal.uio.no.61255hfi_wait_for_device: The /dev/hfi1_0 device failed to appear after 15.0 seconds: Connection timed out
+papsukal.uio.no.61257hfi_wait_for_device: The /dev/hfi1_0 device failed to appear after 15.0 seconds: Connection timed out
+papsukal.uio.no.61259hfi_wait_for_device: The /dev/hfi1_0 device failed to appear after 15.0 seconds: Connection timed out
+papsukal.uio.no.61265hfi_wait_for_device: The /dev/hfi1_0 device failed to appear after 15.0 seconds: Connection timed out
+papsukal.uio.no.61247hfi_wait_for_device: The /dev/hfi1_0 device failed to appear after 15.0 seconds: Connection timed out
+papsukal.uio.no.61251hfi_wait_for_device: The /dev/hfi1_0 device failed to appear after 15.0 seconds: Connection timed out
+papsukal.uio.no.61263hfi_wait_for_device: The /dev/hfi1_0 device failed to appear after 15.0 seconds: Connection timed out
+papsukal.uio.no.61279hfi_wait_for_device: The /dev/hfi1_0 device failed to appear after 15.0 seconds: Connection timed out
+papsukal.uio.no.61281hfi_wait_for_device: The /dev/hfi1_0 device failed to appear after 15.0 seconds: Connection timed out
+papsukal.uio.no.61283hfi_wait_for_device: The /dev/hfi1_0 device failed to appear after 15.0 seconds: Connection timed out
+papsukal.uio.no.61287hfi_wait_for_device: The /dev/hfi1_0 device failed to appear after 15.0 seconds: Connection timed out
+papsukal.uio.no.61275hfi_wait_for_device: The /dev/hfi1_0 device failed to appear after 15.0 seconds: Connection timed out
+papsukal.uio.no.61261hfi_wait_for_device: The /dev/hfi1_0 device failed to appear after 15.0 seconds: Connection timed out
+papsukal.uio.no.61273hfi_wait_for_device: The /dev/hfi1_0 device failed to appear after 15.0 seconds: Connection timed out
+papsukal.uio.no.61271hfi_wait_for_device: The /dev/hfi1_0 device failed to appear after 15.0 seconds: Connection timed out
+papsukal.uio.no.61289hfi_wait_for_device: The /dev/hfi1_0 device failed to appear after 15.0 seconds: Connection timed out
+papsukal.uio.no.61269hfi_wait_for_device: The /dev/hfi1_0 device failed to appear after 15.0 seconds: Connection timed out
+papsukal.uio.no.61246hfi_wait_for_device: The /dev/hfi1_0 device failed to appear after 15.0 seconds: Connection timed out
+papsukal.uio.no.61267hfi_wait_for_device: The /dev/hfi1_0 device failed to appear after 15.0 seconds: Connection timed out
+papsukal.uio.no.61277hfi_wait_for_device: The /dev/hfi1_0 device failed to appear after 15.0 seconds: Connection timed out
+papsukal.uio.no.61291hfi_wait_for_device: The /dev/hfi1_0 device failed to appear after 15.0 seconds: Connection timed out
+papsukal.uio.no.61293hfi_wait_for_device: The /dev/hfi1_0 device failed to appear after 15.0 seconds: Connection timed out
+papsukal.uio.no.61295hfi_wait_for_device: The /dev/hfi1_0 device failed to appear after 15.0 seconds: Connection timed out
+papsukal.uio.no.61297hfi_wait_for_device: The /dev/hfi1_0 device failed to appear after 15.0 seconds: Connection timed out
+2.00612
+2.01224
+2.01837
+2.02449
+2.03061
+2.03673
+2.04286
+2.04898
+2.0551
+2.06122
+2.06735
+2.07347
+2.07959
+2.08571
+2.09184
+2.09796
+2.10408
+2.1102
+2.11633
+2.12245
+2.12857
+2.13469
+2.14082
+2.14694
+2.15306
+2.15918
+2.16531
+2.17143
+2.17755
+2
+2.18367
+2.26327
+2.20204
+2.23878
+2.1898
+2.19592
+2.20816
+2.2449
+2.21429
+2.22653
+2.22041
+2.25102
+2.28776
+2.3
+2.27551
+2.26939
+2.29388
+2.25714
+2.23265
+2.28163
+Time duration = 5322.08

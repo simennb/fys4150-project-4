@@ -239,7 +239,7 @@ int main(int argc, char *argv[])
             InitializeFile(filename, m_file);
         }
 
-        for (int temp_index = my_rank; temp_index < N; temp_index += numprocs-1)
+        for (int temp_index = my_rank; temp_index < N; temp_index += numprocs)
         {
             cout << T[temp_index] << endl;
 

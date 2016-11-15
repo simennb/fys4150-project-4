@@ -1,0 +1,3 @@
+dim60, 1e6, 30 temp = 478.139 s on 30 cores
+dim80, 1e6, 30 temp = 857.701 s on 30 cores
+dim100,1e6, 30 temp = 1341.03 s on 30 cores
