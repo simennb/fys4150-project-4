@@ -11,7 +11,8 @@
 using namespace std;
 //using namespace arma;
 
-int max_value(double *array, int n){
+int max_value(double *array, int n)
+{
     double max_curr = array[0];
     for (int i=0; i<n; i++){
         if (array[i] > max_curr) max_curr = array[i];
@@ -19,12 +20,24 @@ int max_value(double *array, int n){
     return (int)max_curr;
 }
 
-int min_value(double *array, int n){
+int min_value(double *array, int n)
+{
     double min_curr = array[0];
     for (int i=0; i<n; i++){
         if (array[i] < min_curr) min_curr = array[i];
     }
     return (int)min_curr;
+}
+
+string time_to_print(double time)
+{
+    stringstream ss;
+    int hours = ((int)time)/3600;
+    time -= hours*60.0;
+    int minutes = ((int)time)/60;
+    double seconds = time - minutes*60.0;
+    ss <<hours<<":"<<minutes<<":"<<setprecision(3)<<seconds;
+    return ss.str();
 }
 
 string to_scieni(int number, int precision)
