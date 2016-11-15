@@ -33,7 +33,7 @@ string time_to_print(double time)
 {
     stringstream ss;
     int hours = ((int)time)/3600;
-    time -= hours*60.0;
+    time -= hours*3600.0;
     int minutes = ((int)time)/60;
     double seconds = time - minutes*60.0;
     ss <<hours<<":"<<minutes<<":"<<setprecision(3)<<seconds;
