@@ -136,10 +136,13 @@ void E_handler(double *E_out, string filename, int length, double T, int L, stri
 
     ofstream E_file;
     E_file.open("../benchmarks/task_d/EnergyValues_T" + to_fixf(T,1) + "_L" + to_fixi(L,1) + "_dir_" + stringdir +".txt");
-    E_file<< "E_counter = " << endl;
-    E_file<< E_counter;
-    E_file<<"E_values = " <<endl;
-    E_file<<E_values;
+
+    E_file<< "E_counter" << "E_values" << endl;
+    for (int k = 0; k <= small_length; k++)
+    {
+        E_file << setprecision(8) << E_counter[k] << setw(13) << E_values[k] << endl;
+    }
+
     E_file.close();
     return;
 }
