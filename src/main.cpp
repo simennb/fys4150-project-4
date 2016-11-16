@@ -13,19 +13,8 @@
 using namespace std;
 //using namespace arma;
 
-/* TODO:
- *  - fix command line arguments DONE
- *    - L, MC_cycles and task at the very least need to be read in DONE
- *    - might change a bit when parallelization is added, but thats a problem when we fix that ^^
- *  - structure for the different tasks, and actually what the tasks ask us to do     DONE
- *    - 2x InitializeLattice functions, one for only up spin start state, and one with random start state   DONE
- *  - parallelization with MPI!!!
- *  - fix so that WriteToFile actually writes to file   DONE
- *  - see if we change variable names a bit to make it less similar to Morten's example
- *  - compiler flags?
- *  - should time to see if we get improvements with parallelization (for a few runs at least), might not need to write to file
- *    just note it down somewhere before we add parallelization, and run with same parameters afterwards.
- *  - number of accepted configurations as func. of MC cycles, add counter to that in Metropolis(...), and write to file
+/* 
+ * 
  *
  *
  *                             !         !
