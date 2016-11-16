@@ -161,8 +161,8 @@ int main(int argc, char *argv[])
         double *totExpectationValues = new double[5];
         double *ExpectationValues = new double[5];
 
-        int thresholdT24 = 300000;
-        int thresholdT1 = 100000;
+        int thresholdT24 = 60000;
+        int thresholdT1 = 80000;
         int threshold = 0;
 
         if (L != 20)

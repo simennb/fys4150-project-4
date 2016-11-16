@@ -96,7 +96,7 @@ void Metropolis(int L, int MCcycles, double T, double *ExpectationValues, char c
     for (int i=0; i<17; i++) EnergyDifference[i] = 0;
 
     int r_counter = 0;
-    int N_counter = 1000;
+    int N_counter = 100;
 
     for( int de =-8; de <= 8; de+=4) EnergyDifference[de+8] = exp(-de/T);
 
@@ -131,7 +131,7 @@ void Metropolis(int L, int MCcycles, double T, double *ExpectationValues, char c
         if (cycles == N_counter && my_rank == 0)
         {
             WriteToFile(L, cycles, T, r_counter, ExpectationValues, m_file);
-            N_counter += MCcycles/1000;
+            N_counter += MCcycles/10000;
         }
     }
 
@@ -159,7 +159,7 @@ void MetropolisD(int L, int MCcycles, double T, double *ExpectationValues, char 
         for (int i=0; i<L; i++) SpinMatrix[i] = new double [L];
 
         double E = 0.0; double M = 0.0;// vec E_out = zeros<mat>(MCcycles/1000.0 - threshold/1000.0);
-        int length = (int)(MCcycles/1000.0 - threshold/1000.0);
+        int length = (int)(MCcycles/100.0 - threshold/100.0);
         double *E_out = new double [length];
 
         InitializeLattice(L,SpinMatrix,E,M, dir, my_rank);
@@ -169,7 +169,7 @@ void MetropolisD(int L, int MCcycles, double T, double *ExpectationValues, char 
         for (int i=0; i<17; i++) EnergyDifference[i] = 0;
 
         int r_counter = 0;
-        int N_counter = 1000;
+        int N_counter = 100;
 
         for( int de =-8; de <= 8; de+=4) EnergyDifference[de+8] = exp(-de/T);
 
@@ -205,14 +205,19 @@ void MetropolisD(int L, int MCcycles, double T, double *ExpectationValues, char 
             {
                 if (cycles >= threshold)
                 {
-                    E_out[(int)(cycles/1000.0 - threshold/1000.0)] = E;
+                    E_out[(int)(cycles/100.0 - threshold/100.0)] = E;
+
                 }
              WriteToFile(L, cycles, T, r_counter, ExpectationValues, m_file);
-             N_counter += MCcycles/1000;
+             N_counter += MCcycles/10000;
             }
         }
 
-    E_handler(E_out, "bla", length, T, L, dir);
+    if (my_rank == 0)
+    {
+        E_handler(E_out, "bla", length, T, L, dir);
+    }
+
 
     // Freeing memory
     for (int i = 0; i < L; i++)delete [] SpinMatrix[i];
