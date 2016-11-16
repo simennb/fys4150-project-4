@@ -1,0 +1,14 @@
+\begin{thebibliography}{1}
+
+\bibitem{cite:github}
+Simen~N. Bastnes.
+\newblock Project 4 github repository.
+\newblock \\\url{https://github.com/simennb/fys4150-project-4}, 2016.
+
+\bibitem{cite:lars_onsager}
+Lars Onsager.
+\newblock Crystal statistics. i. a two-dimensional model with an order-disorder
+  transition.
+\newblock {\em Phys. Rev.}, 65:117, 1944.
+
+\end{thebibliography}
