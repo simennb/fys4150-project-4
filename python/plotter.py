@@ -75,13 +75,75 @@ def the_plotter(temp, L, T):
         plt.show()
 
     if str(temp) == "acc" or str(temp) == "all":
-        plt.figure()
-        plt.plot(MCC, accepted, label = "Accepted")
-        plt.title('Accepted states at T = %d' %T[1])
+        T10r = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirrand_T1.0.xyz', 2)
+        T11r = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirrand_T1.1.xyz', 2)
+        T12r = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirrand_T1.2.xyz', 2)
+        T13r = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirrand_T1.3.xyz', 2)
+        T14r = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirrand_T1.4.xyz', 2)
+        T15r = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirrand_T1.5.xyz', 2)
+        T16r = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirrand_T1.6.xyz', 2)
+        T17r = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirrand_T1.7.xyz', 2)
+        T18r = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirrand_T1.8.xyz', 2)
+        T19r = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirrand_T1.9.xyz', 2)
+        T20r = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirrand_T2.0.xyz', 2)
+        T21r = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirrand_T2.1.xyz', 2)
+        T22r = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirrand_T2.2.xyz', 2)
+        T23r = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirrand_T2.3.xyz', 2)
+        T24r = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirrand_T2.4.xyz', 2)
+        T25r = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirrand_T2.5.xyz', 2)
+        T26r = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirrand_T2.6.xyz', 2)
+        T27r = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirrand_T2.7.xyz', 2)
+        T28r = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirrand_T2.8.xyz', 2)
+        T29r = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirrand_T2.9.xyz', 2)
+        T30r = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirrand_T3.0.xyz', 2)
+
+        T10u = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirup_T1.0.xyz', 2)
+        T11u = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirup_T1.1.xyz', 2)
+        T12u = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirup_T1.2.xyz', 2)
+        T13u = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirup_T1.3.xyz', 2)
+        T14u = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirup_T1.4.xyz', 2)
+        T15u = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirup_T1.5.xyz', 2)
+        T16u = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirup_T1.6.xyz', 2)
+        T17u = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirup_T1.7.xyz', 2)
+        T18u = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirup_T1.8.xyz', 2)
+        T19u = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirup_T1.9.xyz', 2)
+        T20u = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirup_T2.0.xyz', 2)
+        T21u = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirup_T2.1.xyz', 2)
+        T22u = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirup_T2.2.xyz', 2)
+        T23u = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirup_T2.3.xyz', 2)
+        T24u = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirup_T2.4.xyz', 2)
+        T25u = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirup_T2.5.xyz', 2)
+        T26u = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirup_T2.6.xyz', 2)
+        T27u = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirup_T2.7.xyz', 2)
+        T28u = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirup_T2.8.xyz', 2)
+        T29u = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirup_T2.9.xyz', 2)
+        T30u = reader('../benchmarks/task_b/eigenvalues_MC1.0e+06_dim2_dirup_T3.0.xyz', 2)
+
+        valuesr = [T10r, T11r, T12r, T13r, T14r, T15r, T16r, T17r, T18r, T19r, T20r, T21r, T22r, T23r, T24r, T25r, T26r, T27r, T28r, T29r, T30r]
+
+        valuesu = [T10u, T11u, T12u, T13u, T14u, T15u, T16u, T17u, T18u, T19u, T20u, T21u, T22u, T23u, T24u, T25u, T26u, T27u, T28u, T29u, T30u]
+
+        xlist = []
+        ylist = []
+
+        xlistu = []
+        ylistu = []
+        
+        plt.figure(figsize = (10,8))
+        for i in valuesr:
+            xlist.append(i[1][-1])
+            ylist.append(i[-1][-1])
+        for i in valuesu:
+            xlistu.append(i[1][-1])
+            ylistu.append(i[-1][-1])
+            
+        plt.plot(xlist, ylist, '-g', label = "Random", lw = 2)
+        plt.plot(xlistu, ylistu, '--b', label = "Up", lw = 2)
+        plt.title('Total Accepted States for 1000000 Monte Carlo Cycles')
         plt.legend(loc = 'best')
-        #plt.ylim(-1.99, -2.002)
-        plt.xlim(-5000, 500000)
-        plt.savefig("../figures/task_b/accepted_T%s.png" %(T[1]))
+        plt.xlabel("Temperatures", fontsize = 16)
+        plt.ylabel("Numbers of total Accepted", fontsize = 16)
+        plt.savefig("../figures/task_c/accepted.png")
         plt.show()
 
 def Z(beta, J):
@@ -302,39 +364,74 @@ def the_plotterc(temp):
     ####        Accepted         ####
     #################################
     if str(temp) == "acc" or str(temp) == "all":
+        T10r = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirrand_T1.0.xyz', 20)
+        T11r = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirrand_T1.1.xyz', 20)
+        T12r = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirrand_T1.2.xyz', 20)
+        T13r = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirrand_T1.3.xyz', 20)
+        T14r = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirrand_T1.4.xyz', 20)
+        T15r = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirrand_T1.5.xyz', 20)
+        T16r = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirrand_T1.6.xyz', 20)
+        T17r = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirrand_T1.7.xyz', 20)
+        T18r = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirrand_T1.8.xyz', 20)
+        T19r = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirrand_T1.9.xyz', 20)
+        T20r = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirrand_T2.0.xyz', 20)
+        T21r = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirrand_T2.1.xyz', 20)
+        T22r = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirrand_T2.2.xyz', 20)
+        T23r = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirrand_T2.3.xyz', 20)
+        T24r = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirrand_T2.4.xyz', 20)
+        T25r = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirrand_T2.5.xyz', 20)
+        T26r = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirrand_T2.6.xyz', 20)
+        #T27r = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirrand_T2.7.xyz', 20)
+        T28r = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirrand_T2.8.xyz', 20)
+        T29r = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirrand_T2.9.xyz', 20)
+        T30r = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirrand_T3.0.xyz', 20)
+
+        #T10u = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirup_T1.0.xyz', 20)
+        #T11u = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirup_T1.1.xyz', 20)
+        #T12u = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirup_T1.2.xyz', 20)
+        #T13u = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirup_T1.3.xyz', 20)
+        #T14u = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirup_T1.4.xyz', 20)
+        #T15u = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirup_T1.5.xyz', 20)
+        #T16u = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirup_T1.6.xyz', 20)
+        #T17u = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirup_T1.7.xyz', 20)
+        #T18u = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirup_T1.8.xyz', 20)
+        #T19u = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirup_T1.9.xyz', 20)
+        #T20u = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirup_T2.0.xyz', 20)
+        #T21u = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirup_T2.1.xyz', 20)
+        #T22u = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirup_T2.2.xyz', 20)
+        #T23u = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirup_T2.3.xyz', 20)
+        #T24u = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirup_T2.4.xyz', 20)
+        #T25u = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirup_T2.5.xyz', 20)
+        ##T26u = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirup_T2.6.xyz', 20)
+        #T27u = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirup_T2.7.xyz', 20)
+        #T28u = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirup_T2.8.xyz', 20)
+        #T29u = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirup_T2.9.xyz', 20)
+        #T30u = reader('../benchmarks/task_c/eigenvalues_MC1.0e+06_dim20_dirup_T3.0.xyz', 20)
+
+        valuesr = [T10r, T11r, T12r, T13r, T14r, T15r, T16r, T17r, T18r, T19r, T20r, T21r, T22r, T23r, T24r, T25r, T26r, T28r, T29r, T30r]
+
+        #valuesu = [T10u, T11u, T12u, T13u, T14u, T15u, T16u, T17u, T18u, T19u, T20u, T21u, T22u, T23u, T24u, T25u, T26u, T27u, T28u, T29u, T30u]
+
+        xlist = []
+        ylist = []
+
+        xlistu = []
+        ylistu = []
+        
         plt.figure(figsize = (10,8))
-        plt.subplot(2,1,1)
-
-        counter = 0
-        for i in values1:
-            counter += 1
-            if counter == 1:
-                plt.plot(i[0], i[6], label = 'Random')
-            else:
-                plt.plot(i[0], i[6], label = 'Up')
-        
-        plt.title('T = 1')
+        for i in valuesr:
+            xlist.append(i[1][-1])
+            ylist.append(i[-1][-1])
+        #for i in valuesu:
+        #    xlistu.append(i[1][-1])
+        #    ylistu.append(i[-1][-1])
+            
+        plt.plot(xlist, ylist, '-g', label = "Random", lw = 2)
+        #plt.plot(xlistu, ylistu, '--b', label = "Up", lw = 2)
+        plt.title('Total Accepted States for 1000000 Monte Carlo Cycles')
         plt.legend(loc = 'best')
-        plt.ylabel('Accepted', fontsize = 16)
-        #plt.ylim(-1.999, -1.98)
-        #plt.xlim(-5000, 100000)
-
-        plt.subplot(2, 1, 2)
-
-        counter = 0
-        for i in values2:
-            counter += 1
-            if counter == 1:
-                plt.plot(i[0], i[6], label = 'Random')
-            else:
-                plt.plot(i[0], i[6], label = 'Up')
-        
-        plt.title('T = 2.4')
-        plt.legend(loc = 'best')
-        #plt.ylim(-2.01, -1.96)
-        #plt.xlim(-5000, 100000)
-        plt.ylabel('Accepted', fontsize = 16)
-        plt.xlabel('Monte Carlo cycles', fontsize = 16)
+        plt.xlabel("Temperatures", fontsize = 16)
+        plt.ylabel("Numbers of total Accepted", fontsize = 16)
         plt.savefig("../figures/task_c/accepted.png")
         plt.show()
 
@@ -386,25 +483,47 @@ def d_solver():
     E24upE = Energy_arr(E24up)
     E24randE = Energy_arr(E24rand)
 
-    E1upE2 = Energy_arr(E1up)
-    print len(E1upE2)
 
-    print np.var(E24randE)/20**2
+    values = [[E1randE, E24randE], [E1upE, E24upE]]
+    jcounter = 0
+    icounter = 0
+    for i in values:
+        plt.figure(figsize= (10,8))
+        for j in i:
+            if icounter == 0:
+                if jcounter == 0:
+                    plt.subplot(211)
+                    plt.title('T = 1.0')
+                    n, bins, patch = plt.hist(j, bins = 20, normed = 1, label = 'Random')
+                    plt.ylabel('Probability', fontsize = 16)
+                    print np.var(j)/20**2
+                    print T1rand[4][-1]
 
-    print len(E1upE)
-    
-    n, bins, patch = plt.hist(E24upE, bins = 20, normed = 1)
-    amp = np.max(n)
-
-    x = np.linspace(bins[0], bins[-1], 1001)
-    print T24up[2][-1], T24up[4][-1]
-    analytical = amp*gaussian(x - T24up[2][-1], T24up[4][-1])
-
-    print analytical
-    plt.plot(x, analytical, 'g--', label = 'analytical')
-    plt.legend(loc = 'best')
-
-    plt.show()
+                else:
+                    plt.subplot(212)
+                    plt.title('T = 2.4')
+                    n, bins, patch = plt.hist(j, bins = 40, normed = 1, label = 'Random')
+                    plt.ylabel('Probability', fontsize = 16)
+                    print np.var(j)/20**2
+                    print T24rand[4][-1]
+            """
+            else:
+                if jcounter == 0:
+                    plt.subplot(211)
+                    n, bins, patch = plt.hist(j, bins = 20, normed = 1, label = 'Up')
+                    plt.ylabel('Probability', fontsize = 16)
+                else:
+                    plt.subplot(212)
+                    n, bins, patch = plt.hist(j, bins = 40, normed = 1, label = 'Up')
+                    plt.ylabel('Probability', fontsize = 16)
+           """
+            jcounter += 1
+        icounter += 1
+            
+        plt.xlabel('Energies', fontsize = 16)
+        #plt.legend(loc = 'best')
+        plt.savefig('../figures/task_d/hist%d.png' %icounter)
+        plt.show()
 
     """
     plt.figure(figsize = (10, 8))
@@ -477,23 +596,26 @@ def binsizer(fixerupper, binsize = 10.0):
 
 
 def the_plottere(temp):
-    L20  = reader('../benchmarks/task_e/eigenvalues_MC1.0e+06_dim20_dirrand_dt0.03333.xyz', 20)
+    #L20  = reader('../benchmarks/task_e/eigenvalues_MC1.0e+06_dim20_dirrand_dt0.03333.xyz', 20)
     L40  = reader('../benchmarks/task_e/eigenvalues_MC1.0e+06_dim40_dirrand_dt0.01034.xyz', 40)
     L60  = reader('../benchmarks/task_e/eigenvalues_MC1.0e+06_dim60_dirrand_dt0.01034.xyz', 60)
     L80  = reader('../benchmarks/task_e/eigenvalues_MC1.0e+06_dim80_dirrand_dt0.01034.xyz', 80)
     L100 = reader('../benchmarks/task_e/eigenvalues_MC1.0e+06_dim100_dirrand_dt0.01034.xyz', 100)
     L140 = reader('../benchmarks/task_e/eigenvalues_MC1.0e+06_dim140_dirrand_dt0.00612.xyz', 140)
 
-    values = [L20, L40, L60, L80, L100, L140]
+    values = [L40, L60, L80, L100, L140]
+
+    f1 = 20
+    f2 = 22
     
     #################################
     ####           E             ####
     #################################
     if str(temp) == "E" or str(temp) == "all":
         plt.figure(figsize = (10,8))
-        plt.title('Unknown')
+        plt.title('Energy eigenvalue', fontsize = f1)
 
-        counter = 20
+        counter = 40
         for i in values:
             plt.plot(i[1], i[2], label = 'L%d' %counter)
 
@@ -503,8 +625,8 @@ def the_plottere(temp):
                 counter += 20
         
         plt.legend(loc = 'best')
-        plt.ylabel('<E>', fontsize = 16)
-        plt.xlabel('Temperature', fontsize = 16)
+        plt.ylabel('<E>', fontsize = f1)
+        plt.xlabel('Temperature', fontsize = f1)
         plt.legend(loc='best' )
         plt.savefig("../figures/task_e/energyeig.png")
         plt.show()
@@ -514,9 +636,9 @@ def the_plottere(temp):
     #################################
     if str(temp) == "M" or str(temp) == "all":
         plt.figure(figsize = (10,8))
-        plt.title('Unknown')
+        plt.title('Magnetic eigenvalue', fontsize = f1)
 
-        counter = 20
+        counter = 40
         for i in values:
             plt.plot(i[1], i[3], label = 'L%d' %counter)
 
@@ -526,8 +648,8 @@ def the_plottere(temp):
                 counter += 20
         
         plt.legend(loc = 'best')
-        plt.ylabel('<M>', fontsize = 16)
-        plt.xlabel('Temperature', fontsize = 16)
+        plt.ylabel('<M>', fontsize = f1)
+        plt.xlabel('Temperature', fontsize = f1)
         plt.legend(loc='best' )
         plt.savefig("../figures/task_e/Mageig.png")
         plt.show()
@@ -538,20 +660,22 @@ def the_plottere(temp):
     #################################
     if str(temp) == "sE" or str(temp) == "all":
         plt.figure(figsize = (10,8))
-        plt.title('Unknown')
+        plt.title('Heat Capacity', fontsize = f1)
 
-        counter = 20
+        counter = 40
         for i in values:
-            plt.plot(i[1], i[4], label = 'L%d' %counter)
+            plt.plot(i[1], i[4]/i[1]**2, label = 'L%d' %counter)
+
+            print counter, i[1][np.argmax(i[4]/i[1])]
 
             if counter == 100:
                 counter += 40
             else:
                 counter += 20
-        
+
         plt.legend(loc = 'best')
-        plt.ylabel(r'$\sigma_E^2$', fontsize = 20)
-        plt.xlabel('Temperature', fontsize = 16)
+        plt.ylabel(r'$C_v$', fontsize = f2)
+        plt.xlabel('Temperature', fontsize = f1)
         plt.legend(loc='best')
         plt.savefig("../figures/task_e/sigmaE.png")
         plt.show()
@@ -562,22 +686,26 @@ def the_plottere(temp):
     #################################
     if str(temp) == "sM" or str(temp) == "all":
         plt.figure(figsize = (10,8))
-        plt.title('Unknown')
+        plt.title('Susceptibility', fontsize = f1)
 
-        counter = 20
+        counter = 40
         for i in values:
-            plt.plot(i[1], i[6], label = 'L%d' %counter)
+            plt.plot(i[1], i[5]/i[1], label = 'L%d' %counter)
+
+            print counter, i[1][np.argmax(i[5]/i[1])]
 
             if counter == 100:
                 counter += 40
             else:
                 counter += 20
-        
+            print i[1]
+
+                
         plt.legend(loc = 'best')
-        plt.ylabel('Accepted', fontsize = 16)
-        plt.xlabel('Temperature', fontsize = 16)
+        plt.ylabel(r'$\chi$', fontsize = f2)
+        plt.xlabel('Temperature', fontsize = f1)
         plt.legend(loc='best' )
-        plt.savefig("../figures/task_e/accepted.png")
+        plt.savefig("../figures/task_e/suscept.png")
         plt.show()
 
 
